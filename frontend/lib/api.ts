@@ -654,6 +654,57 @@ export async function deleteMedicationPlan(planId: string, userId?: string): Pro
   }
 }
 
+export interface UserKeyStatus {
+  has_key: boolean;
+  key_hint?: string;
+  updated_at?: string;
+  fallback_allowed: boolean;
+}
+
+export async function fetchUserGeminiKeyStatus(): Promise<UserKeyStatus> {
+  try {
+    const headers = await getAuthHeaders();
+    const res = await fetch(`${API_BASE_URL}/api/user/keys/gemini`, { headers });
+    if (res.ok) {
+      return await res.json();
+    }
+  } catch (err) {
+    console.warn("Failed to fetch user Gemini key status", err);
+  }
+  return { has_key: false, fallback_allowed: false };
+}
+
+export async function saveUserGeminiKey(apiKey: string): Promise<{ success: boolean; error?: string; key_hint?: string }> {
+  try {
+    const headers = await getAuthHeaders();
+    const res = await fetch(`${API_BASE_URL}/api/user/keys/gemini`, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ api_key: apiKey.trim() }),
+    });
+    const data = await res.json();
+    if (res.ok) {
+      return { success: true, key_hint: data.key_hint };
+    }
+    return { success: false, error: data.detail || "فشل التحقق من مفتاح API." };
+  } catch (err: any) {
+    return { success: false, error: err.message || "حدث خطأ أثناء الاتصال بالخادم." };
+  }
+}
+
+export async function deleteUserGeminiKey(): Promise<boolean> {
+  try {
+    const headers = await getAuthHeaders();
+    const res = await fetch(`${API_BASE_URL}/api/user/keys/gemini`, {
+      method: "DELETE",
+      headers,
+    });
+    return res.ok;
+  } catch (err) {
+    return false;
+  }
+}
+
 function mockChatResponse(query: string): ChatResponse {
   const isArabic = /[\u0600-\u06FF]/.test(query);
 

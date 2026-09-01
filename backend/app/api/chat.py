@@ -5,6 +5,8 @@ from typing import Optional, List, Dict, Any
 from app.auth.supabase_auth import get_optional_user, AuthenticatedUser
 from app.safety.models import SafetyResult, ConfirmationContext
 from app.orchestrator.orchestrator import TamargiOrchestrator, OrchestrationTrace
+from app.security.rate_limiter import check_user_rate_limit
+from app.security.key_resolver import resolve_user_gemini_api_key
 
 router = APIRouter()
 
@@ -67,12 +69,19 @@ def handle_chat(
     conv_id = request.conversation_id or "default_conv"
     input_type = request.input_type or "text"
 
+    # Enforce authenticated user rate limit
+    check_user_rate_limit(authoritative_user_id, endpoint="chat")
+
+    # Authoritatively resolve user's decrypted BYOK key or fallback
+    user_gemini_key, key_source = resolve_user_gemini_api_key(authoritative_user_id)
+
     # Route through Central Agentic Orchestrator
     result = TamargiOrchestrator.orchestrate(
         query=original_query,
         conversation_id=conv_id,
         user_id=authoritative_user_id,
-        input_type=input_type
+        input_type=input_type,
+        user_gemini_key=user_gemini_key
     )
 
     formatted_sources = [

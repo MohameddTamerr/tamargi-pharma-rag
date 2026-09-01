@@ -11,7 +11,7 @@ import uvicorn
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import health, chat, voice, conversations, video, patient, plans
+from app.api import health, chat, voice, conversations, video, patient, plans, user_keys
 from app.rag.loader import rag_loader
 from app.rag.reranker import reranker_instance
 from app.config import settings
@@ -46,6 +46,7 @@ app.add_middleware(
 
 # Include Routers
 app.include_router(health.router, prefix="/api", tags=["Health"])
+app.include_router(user_keys.router, prefix="/api", tags=["User API Keys"])
 app.include_router(chat.router, prefix="/api", tags=["Chat"])
 app.include_router(voice.router, prefix="/api", tags=["Voice"])
 app.include_router(video.router, prefix="/api/video", tags=["Video"])

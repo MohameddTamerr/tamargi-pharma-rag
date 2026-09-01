@@ -48,7 +48,11 @@ def tool_safety_engine(
 from app.normalization.medication_resolver import extract_all_medications
 from app.normalization.query_translator import build_canonical_retrieval_query
 
-def tool_hybrid_rag(query_text: str, lang: Optional[str] = None) -> Tuple[List[Dict[str, Any]], List[Any], str]:
+def tool_hybrid_rag(
+    query_text: str,
+    lang: Optional[str] = None,
+    gemini_api_key: Optional[str] = None
+) -> Tuple[List[Dict[str, Any]], List[Any], str]:
     """
     Executes Hybrid RAG: language normalization -> expansion -> canonical English entity translation -> retrieval -> grounded answer.
     """
@@ -72,7 +76,7 @@ def tool_hybrid_rag(query_text: str, lang: Optional[str] = None) -> Tuple[List[D
 
     results = retrieve(retrieval_query, target_medications=med_names)
     sources = build_sources_list(results)
-    answer = generate_grounded_answer(query_text, results, user_language=lang)
+    answer = generate_grounded_answer(query_text, results, user_language=lang, api_key=gemini_api_key)
 
     return results, sources, answer
 
@@ -80,7 +84,8 @@ def tool_drug_comparison_retrieval(
     med_a: str,
     med_b: str,
     query_text: str,
-    lang: Optional[str] = None
+    lang: Optional[str] = None,
+    gemini_api_key: Optional[str] = None
 ) -> Tuple[List[Dict[str, Any]], List[Any], str]:
     """
     Executes separate dual retrieval for Drug A and Drug B, merges candidate pools,
@@ -108,7 +113,7 @@ def tool_drug_comparison_retrieval(
     sources = build_sources_list(reranked)
 
     # 5. Generate comparative grounded answer
-    answer = generate_grounded_answer(query_text, reranked, user_language=lang)
+    answer = generate_grounded_answer(query_text, reranked, user_language=lang, api_key=gemini_api_key)
 
     return reranked, sources, answer
 

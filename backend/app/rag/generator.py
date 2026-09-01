@@ -1,19 +1,31 @@
 import os
 import time
+from typing import Optional
 from google import genai
 from google.genai import types
 from app.config import settings
 from app.rag.grounding import STRICT_GROUNDING_PROMPT, build_evidence
 
-def get_genai_client():
-    api_key = settings.GEMINI_API_KEY or os.environ.get("GEMINI_API_KEY", "")
-    if not api_key:
-        print("[WARNING] GEMINI_API_KEY is not set.")
-    return genai.Client(api_key=api_key)
+def get_genai_client(api_key: Optional[str] = None):
+    effective_key = (api_key or "").strip()
+    if not effective_key:
+        if settings.ALLOW_PROJECT_GEMINI_FALLBACK:
+            effective_key = settings.GEMINI_API_KEY or os.environ.get("GEMINI_API_KEY", "")
+        else:
+            effective_key = os.environ.get("GEMINI_API_KEY", "")
+    if not effective_key:
+        print("[WARNING] No active Gemini API key provided.")
+    return genai.Client(api_key=effective_key)
 
-def generate_grounded_answer(query: str, results: list[dict], user_language: str = "en") -> str:
+def generate_grounded_answer(
+    query: str,
+    results: list[dict],
+    user_language: str = "en",
+    api_key: Optional[str] = None
+) -> str:
     """
     Sends user question and formatted retrieved evidence to Gemini with strict grounding prompt.
+    Supports user-provided BYOK Gemini API key.
     """
     evidence = build_evidence(results)
 
@@ -24,11 +36,19 @@ def generate_grounded_answer(query: str, results: list[dict], user_language: str
         f"Retrieved evidence:\n{evidence}"
     )
 
-    if not settings.GEMINI_API_KEY and "GEMINI_API_KEY" not in os.environ:
-        # Safe fallback if key is missing during offline testing
-        return "System Warning: GEMINI_API_KEY is not configured on the backend server."
+    effective_key = (api_key or "").strip()
+    if not effective_key:
+        if settings.ALLOW_PROJECT_GEMINI_FALLBACK:
+            effective_key = settings.GEMINI_API_KEY or os.environ.get("GEMINI_API_KEY", "")
+        else:
+            effective_key = os.environ.get("GEMINI_API_KEY", "")
 
-    client = get_genai_client()
+    if not effective_key:
+        if user_language in ("ar", "egyptian"):
+            return "يرجى إضافة مفتاح Gemini API الخاص بك من صفحة الملف الطبي والإعدادات لتفعيل الإجابات الذكية المدعومة بالأدلة."
+        return "Please configure your Gemini API key in Settings to enable AI-grounded responses."
+
+    client = get_genai_client(api_key=effective_key)
 
     for attempt in range(3):
         try:

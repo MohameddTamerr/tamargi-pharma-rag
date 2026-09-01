@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 import ChatMessage, { Message } from "./ChatMessage";
 import ChatInput from "./ChatInput";
 import ThinkingState from "./ThinkingState";
@@ -11,7 +12,9 @@ import {
   sendChatMessage,
   submitFeedback,
   fetchConversationMessages,
-  generateMedicationPlanPreview
+  generateMedicationPlanPreview,
+  fetchUserGeminiKeyStatus,
+  UserKeyStatus
 } from "@/lib/api";
 import { useAuth } from "@/lib/auth-context";
 import {
@@ -23,7 +26,8 @@ import {
   FileSpreadsheet,
   ShieldCheck,
   Info,
-  CheckCircle2
+  CheckCircle2,
+  Key
 } from "lucide-react";
 
 interface ChatProps {
@@ -58,6 +62,17 @@ function ChatContent({ conversationId: propConvId, onOpenContext }: ChatProps) {
   const [isPlanModalOpen, setIsPlanModalOpen] = useState(false);
   const [planPreviewData, setPlanPreviewData] = useState<any>(null);
   const [planNotice, setPlanNotice] = useState<string | null>(null);
+  const [keyStatus, setKeyStatus] = useState<UserKeyStatus | null>(null);
+
+  useEffect(() => {
+    async function checkKey() {
+      if (userId) {
+        const s = await fetchUserGeminiKeyStatus();
+        setKeyStatus(s);
+      }
+    }
+    checkKey();
+  }, [userId]);
 
   // Load conversation messages when activeConvId changes
   useEffect(() => {
@@ -261,6 +276,22 @@ function ChatContent({ conversationId: propConvId, onOpenContext }: ChatProps) {
         isSpeaking={isSpeaking}
         onStopSpeaking={handleStopSpeaking}
       />
+
+      {/* Missing BYOK API Key Top Warning Banner */}
+      {keyStatus && !keyStatus.has_key && !keyStatus.fallback_allowed && (
+        <div className="bg-amber-50 dark:bg-amber-950/70 border-b border-amber-200 dark:border-amber-900/60 p-2.5 px-4 flex items-center justify-between text-xs text-amber-900 dark:text-amber-200 z-20 shrink-0">
+          <div className="flex items-center gap-2">
+            <Key className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
+            <span>مطلوب مفتاح Gemini API: يرجى إضافة مفتاحك لتشغيل الإجابات السريرية الذكية.</span>
+          </div>
+          <Link
+            href="/profile#byok-key"
+            className="font-bold underline text-teal-700 dark:text-teal-400 hover:text-teal-900 dark:hover:text-teal-300 shrink-0"
+          >
+            إضافة المفتاح ←
+          </Link>
+        </div>
+      )}
 
       {/* Plan Generation Notice Toast */}
       {planNotice && (

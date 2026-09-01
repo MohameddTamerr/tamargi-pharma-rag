@@ -59,7 +59,8 @@ class TamargiOrchestrator:
         query: str,
         conversation_id: Optional[str] = "default_conv",
         user_id: Optional[str] = "guest_user",
-        input_type: Optional[str] = "text"
+        input_type: Optional[str] = "text",
+        user_gemini_key: Optional[str] = None
     ) -> OrchestrationResult:
         original_query = query.strip()
         conv_id = conversation_id or "default_conv"
@@ -87,7 +88,10 @@ class TamargiOrchestrator:
                 tools_called.append("hybrid_rag")
 
                 prof = tool_patient_profile(uid)
-                resumed_rag, resumed_sources, resumed_rag_ans = tool_hybrid_rag(pending_item.original_question)
+                resumed_rag, resumed_sources, resumed_rag_ans = tool_hybrid_rag(
+                    pending_item.original_question,
+                    gemini_api_key=user_gemini_key
+                )
 
                 safety_eval = tool_safety_engine(
                     medication=pending_item.medication_context,
@@ -177,7 +181,13 @@ class TamargiOrchestrator:
             # Dual separate retrieval for Drug A and Drug B
             tools_called.append("comparison_retrieval")
             med_a, med_b = entities.medications[0], entities.medications[1]
-            reranked, sources, primary_answer = tool_drug_comparison_retrieval(med_a, med_b, original_query, lang)
+            reranked, sources, primary_answer = tool_drug_comparison_retrieval(
+                med_a,
+                med_b,
+                original_query,
+                lang,
+                gemini_api_key=user_gemini_key
+            )
 
         elif primary_intent == IntentType.MEDICATION_PLAN_REQUEST:
             # Medication Plan Request Flow
@@ -187,7 +197,11 @@ class TamargiOrchestrator:
             tools_called.append("medication_plan_generator")
 
             prof = tool_patient_profile(uid)
-            rag_chunks, sources, primary_answer = tool_hybrid_rag(original_query, lang)
+            rag_chunks, sources, primary_answer = tool_hybrid_rag(
+                original_query,
+                lang,
+                gemini_api_key=user_gemini_key
+            )
 
             # Evaluate safety for all mentioned medications
             safety_evals: List[SafetyResult] = []
@@ -235,7 +249,11 @@ class TamargiOrchestrator:
             tools_called.append("hybrid_rag")
 
             prof = tool_patient_profile(uid)
-            rag_chunks, sources, primary_answer = tool_hybrid_rag(original_query, lang)
+            rag_chunks, sources, primary_answer = tool_hybrid_rag(
+                original_query,
+                lang,
+                gemini_api_key=user_gemini_key
+            )
 
             safety_eval = None
             for med in entities.medications:
@@ -293,18 +311,30 @@ class TamargiOrchestrator:
             tools_called.append("verified_video")
             tools_called.append("hybrid_rag")
 
-            rag_chunks, sources, primary_answer = tool_hybrid_rag(original_query, lang)
+            rag_chunks, sources, primary_answer = tool_hybrid_rag(
+                original_query,
+                lang,
+                gemini_api_key=user_gemini_key
+            )
             video_result = tool_verified_video(original_query)
 
         elif primary_intent == IntentType.SYMPTOM_QUESTION:
             # Symptom Guidance Flow (No diagnosis fabrication)
             tools_called.append("hybrid_rag")
-            rag_chunks, sources, primary_answer = tool_hybrid_rag(original_query, lang)
+            rag_chunks, sources, primary_answer = tool_hybrid_rag(
+                original_query,
+                lang,
+                gemini_api_key=user_gemini_key
+            )
 
         else:
             # General Medication / Health Question (Zero patient profile interference)
             tools_called.append("hybrid_rag")
-            rag_chunks, sources, primary_answer = tool_hybrid_rag(original_query, lang)
+            rag_chunks, sources, primary_answer = tool_hybrid_rag(
+                original_query,
+                lang,
+                gemini_api_key=user_gemini_key
+            )
 
         # -------------------------------------------------------------
         # 5. Fallback Video Check if Device Mentioned

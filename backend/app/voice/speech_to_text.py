@@ -22,25 +22,38 @@ def normalize_mime_type(mime_type: str) -> str:
         return "audio/mp3"
     return mime_base
 
-def transcribe_audio_bytes(audio_bytes: bytes, mime_type: str = "audio/webm") -> dict:
+from typing import Optional
+
+def transcribe_audio_bytes(
+    audio_bytes: bytes,
+    mime_type: str = "audio/webm",
+    api_key: Optional[str] = None
+) -> dict:
     """
     Transcribes spoken audio bytes using Gemini multimodal audio capabilities.
     Smartly detects language (Egyptian Arabic, Standard Arabic, English, or mixed bilingual speech).
+    Supports user-supplied BYOK Gemini API key.
     """
-    api_key = settings.GEMINI_API_KEY or os.environ.get("GEMINI_API_KEY", "")
-    if not api_key:
-        print("[Warning] GEMINI_API_KEY not configured for voice transcription.")
+    effective_key = (api_key or "").strip()
+    if not effective_key:
+        if settings.ALLOW_PROJECT_GEMINI_FALLBACK:
+            effective_key = settings.GEMINI_API_KEY or os.environ.get("GEMINI_API_KEY", "")
+        else:
+            effective_key = os.environ.get("GEMINI_API_KEY", "")
+
+    if not effective_key:
+        print("[Warning] No active Gemini API key configured for voice transcription.")
         return {
             "transcript": "",
             "language": "ar",
             "language_label": "عربي",
             "confidence": 0.0,
             "success": False,
-            "error": "GEMINI_API_KEY not configured on server."
+            "error": "Gemini API key is required. Please configure your key in Settings."
         }
 
     clean_mime = normalize_mime_type(mime_type)
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(api_key=effective_key)
 
     prompt = """You are an expert multilingual medical speech-to-text transcriber for Tamargi.ai.
 Your task:

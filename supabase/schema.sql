@@ -114,6 +114,19 @@ CREATE TABLE IF NOT EXISTS public.unanswered_queries (
     resolution_note TEXT
 );
 
+-- 10. User API Keys (Secure BYOK encrypted credentials)
+CREATE TABLE IF NOT EXISTS public.user_api_keys (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_id UUID NOT NULL REFERENCES public.profiles(id) ON DELETE CASCADE,
+    provider TEXT NOT NULL DEFAULT 'gemini' CHECK (provider IN ('gemini')),
+    encrypted_key TEXT NOT NULL,
+    key_hint TEXT NOT NULL,
+    is_valid BOOLEAN DEFAULT true,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    UNIQUE(user_id, provider)
+);
+
 -- Indexing for performance and analytics
 CREATE INDEX IF NOT EXISTS idx_conversations_user ON public.conversations(user_id);
 CREATE INDEX IF NOT EXISTS idx_messages_conversation ON public.messages(conversation_id);
@@ -122,6 +135,7 @@ CREATE INDEX IF NOT EXISTS idx_feedback_message ON public.feedback(message_id);
 CREATE INDEX IF NOT EXISTS idx_patient_conditions_user ON public.patient_conditions(user_id);
 CREATE INDEX IF NOT EXISTS idx_patient_allergies_user ON public.patient_allergies(user_id);
 CREATE INDEX IF NOT EXISTS idx_patient_medications_user ON public.patient_medications(user_id);
+CREATE INDEX IF NOT EXISTS idx_user_api_keys_user ON public.user_api_keys(user_id);
 CREATE INDEX IF NOT EXISTS idx_unanswered_queries_created ON public.unanswered_queries(created_at);
 CREATE INDEX IF NOT EXISTS idx_unanswered_queries_user ON public.unanswered_queries(user_id);
 CREATE INDEX IF NOT EXISTS idx_unanswered_queries_lang ON public.unanswered_queries(language_detected);
@@ -137,6 +151,17 @@ ALTER TABLE public.patient_conditions ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.patient_allergies ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.patient_medications ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.unanswered_queries ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.user_api_keys ENABLE ROW LEVEL SECURITY;
+
+-- RLS Policies: user_api_keys (Strict user isolation for BYOK)
+CREATE POLICY "Users can view their own api keys" ON public.user_api_keys
+    FOR SELECT USING (auth.uid() = user_id);
+CREATE POLICY "Users can insert their own api keys" ON public.user_api_keys
+    FOR INSERT WITH CHECK (auth.uid() = user_id);
+CREATE POLICY "Users can update their own api keys" ON public.user_api_keys
+    FOR UPDATE USING (auth.uid() = user_id);
+CREATE POLICY "Users can delete their own api keys" ON public.user_api_keys
+    FOR DELETE USING (auth.uid() = user_id);
 
 -- RLS Policies: Profiles
 CREATE POLICY "Users can view their own profile" ON public.profiles

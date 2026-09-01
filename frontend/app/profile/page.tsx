@@ -15,7 +15,12 @@ import {
   Scale,
   Stethoscope,
   ShieldCheck,
-  Info
+  Info,
+  Key,
+  Lock,
+  ExternalLink,
+  Eye,
+  EyeOff
 } from "lucide-react";
 import {
   fetchPatientProfile,
@@ -28,7 +33,11 @@ import {
   deletePatientMedication,
   addPatientHistory,
   deletePatientHistory,
-  PatientProfileData
+  PatientProfileData,
+  fetchUserGeminiKeyStatus,
+  saveUserGeminiKey,
+  deleteUserGeminiKey,
+  UserKeyStatus
 } from "@/lib/api";
 import { useAuth } from "@/lib/auth-context";
 import ProtectedRoute from "@/components/ProtectedRoute";
@@ -71,6 +80,20 @@ function ProfileContent() {
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
 
+  // BYOK Gemini API Key state
+  const [keyStatus, setKeyStatus] = useState<UserKeyStatus | null>(null);
+  const [apiKeyInput, setApiKeyInput] = useState("");
+  const [showApiKey, setShowApiKey] = useState(false);
+  const [savingKey, setSavingKey] = useState(false);
+  const [keySuccessMsg, setKeySuccessMsg] = useState("");
+  const [keyErrorMsg, setKeyErrorMsg] = useState("");
+
+  const loadKeyStatus = async () => {
+    if (!userId) return;
+    const status = await fetchUserGeminiKeyStatus();
+    setKeyStatus(status);
+  };
+
   const loadData = async () => {
     if (!userId) return;
     setLoading(true);
@@ -90,7 +113,46 @@ function ProfileContent() {
 
   useEffect(() => {
     loadData();
+    loadKeyStatus();
   }, [userId]);
+
+  const handleSaveKey = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setKeyErrorMsg("");
+    setKeySuccessMsg("");
+
+    if (!apiKeyInput.trim()) {
+      setKeyErrorMsg("يرجى إدخال مفتاح Gemini API صالح.");
+      return;
+    }
+
+    setSavingKey(true);
+    const res = await saveUserGeminiKey(apiKeyInput.trim());
+    setSavingKey(false);
+
+    if (res.success) {
+      setKeySuccessMsg("تم التحقق من مفتاح Gemini API وتشفيره وحفظه بنجاح!");
+      setApiKeyInput("");
+      loadKeyStatus();
+      setTimeout(() => setKeySuccessMsg(""), 4000);
+    } else {
+      setKeyErrorMsg(res.error || "فشل التحقق من المفتاح. يرجى التأكد من نسخه بشكل صحيح.");
+    }
+  };
+
+  const handleDeleteKey = async () => {
+    if (!confirm("هل أنت متأكد من رغبتك في حذف مفتاح Gemini API الخاص بك؟")) return;
+    setSavingKey(true);
+    const ok = await deleteUserGeminiKey();
+    setSavingKey(false);
+    if (ok) {
+      setKeySuccessMsg("تم حذف مفتاح Gemini API بنجاح.");
+      loadKeyStatus();
+      setTimeout(() => setKeySuccessMsg(""), 4000);
+    } else {
+      setKeyErrorMsg("فشل حذف المفتاح.");
+    }
+  };
 
   const handleSaveDemographics = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -192,6 +254,117 @@ function ProfileContent() {
             <span>تم حفظ التعديلات في ملفك الطبي بنجاح!</span>
           </div>
         )}
+
+        {/* BYOK: Gemini API Key Settings Card */}
+        <div id="byok-key" className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-teal-200 dark:border-teal-800/60 shadow-xs space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 dark:border-slate-800 pb-3">
+            <div className="flex items-center gap-2.5">
+              <div className="w-8 h-8 rounded-xl bg-teal-50 dark:bg-teal-950 text-teal-700 dark:text-teal-400 flex items-center justify-center">
+                <Key className="w-4 h-4" />
+              </div>
+              <div>
+                <h3 className="text-sm font-extrabold text-slate-900 dark:text-slate-100">
+                  مفتاح الذكاء الاصطناعي (Gemini API Key - BYOK)
+                </h3>
+                <span className="text-[11px] text-slate-500 dark:text-slate-400 block">
+                  استخدم مفتاحك الخاص من Google لتشغيل الإجابات السريرية المخصصة دون قيود
+                </span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              {keyStatus?.has_key ? (
+                <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 text-[11px] font-bold">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                  <span>مفعل ({keyStatus.key_hint})</span>
+                </span>
+              ) : (
+                <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-amber-50 dark:bg-amber-950/80 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800 text-[11px] font-bold">
+                  <Lock className="w-3.5 h-3.5 text-amber-600" />
+                  <span>غير مهيأ (مطلوب للذكاء الاصطناعي)</span>
+                </span>
+              )}
+            </div>
+          </div>
+
+          {/* Alerts */}
+          {keySuccessMsg && (
+            <div className="p-3 rounded-2xl bg-emerald-50 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-900 text-xs font-bold flex items-center gap-2">
+              <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+              <span>{keySuccessMsg}</span>
+            </div>
+          )}
+
+          {keyErrorMsg && (
+            <div className="p-3 rounded-2xl bg-rose-50 dark:bg-rose-950 text-rose-800 dark:text-rose-300 border border-rose-200 dark:border-rose-900 text-xs font-bold flex items-center gap-2">
+              <AlertTriangle className="w-4 h-4 text-rose-600 shrink-0" />
+              <span>{keyErrorMsg}</span>
+            </div>
+          )}
+
+          <form onSubmit={handleSaveKey} className="space-y-3 text-xs">
+            <div className="space-y-1.5">
+              <label className="font-bold text-slate-700 dark:text-slate-300 flex items-center justify-between">
+                <span>{keyStatus?.has_key ? "تحديث أو استبدال المفتاح:" : "أدخل مفتاح Gemini API:"}</span>
+                <a
+                  href="https://aistudio.google.com/app/apikey"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-teal-700 dark:text-teal-400 hover:underline flex items-center gap-1 text-[11px] font-medium"
+                >
+                  <span>احصل على مفتاح مجاني من Google AI Studio</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </label>
+
+              <div className="relative">
+                <input
+                  type={showApiKey ? "text" : "password"}
+                  value={apiKeyInput}
+                  onChange={(e) => setApiKeyInput(e.target.value)}
+                  placeholder={keyStatus?.has_key ? "أدخل مفتاحاً جديداً لاستبدال الحالي..." : "AIzaSy..."}
+                  className="w-full pl-10 pr-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-slate-100 text-sm font-mono min-h-[44px]"
+                  autoComplete="off"
+                  spellCheck={false}
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowApiKey(!showApiKey)}
+                  className="absolute left-2.5 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
+                  tabIndex={-1}
+                >
+                  {showApiKey ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
+              </div>
+              <p className="text-[11px] text-slate-500 dark:text-slate-400">
+                🔒 يتم تشفير المفتاح فوراً باستخدام مفتاح تشفير عسكري على الخادم (AES/Fernet) ولا يتم حفظه بصيغة نصية مجردة إطلاقاً.
+              </p>
+            </div>
+
+            <div className="flex items-center gap-3 pt-1">
+              <button
+                type="submit"
+                disabled={savingKey || !apiKeyInput.trim()}
+                className="flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-teal-700 hover:bg-teal-800 disabled:bg-slate-300 dark:disabled:bg-slate-800 text-white font-bold text-xs shadow-xs min-h-[44px] transition-colors"
+              >
+                <Save className="w-4 h-4" />
+                <span>{savingKey ? "جاري التحقق والحفظ..." : "حفظ وتفعيل المفتاح"}</span>
+              </button>
+
+              {keyStatus?.has_key && (
+                <button
+                  type="button"
+                  onClick={handleDeleteKey}
+                  disabled={savingKey}
+                  className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-rose-50 dark:bg-rose-950/40 hover:bg-rose-100 dark:hover:bg-rose-900/60 text-rose-700 dark:text-rose-300 font-bold text-xs border border-rose-200 dark:border-rose-900 min-h-[44px] transition-colors"
+                >
+                  <Trash2 className="w-4 h-4" />
+                  <span>حذف المفتاح</span>
+                </button>
+              )}
+            </div>
+          </form>
+        </div>
 
         {/* Section 1: Demographics */}
         <div className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xs space-y-4">

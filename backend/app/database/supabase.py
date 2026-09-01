@@ -153,3 +153,84 @@ def log_unanswered_query(
     except Exception as e:
         print(f"[Supabase Error] Failed to log unanswered query: {e}")
         return False
+
+# In-memory storage for user API keys (used for mock tests / offline fallback)
+IN_MEMORY_USER_API_KEYS: dict[str, dict] = {}
+
+def save_user_gemini_key(user_id: str, encrypted_key: str, key_hint: str) -> bool:
+    """
+    Saves or updates an encrypted Gemini API key for an authenticated user.
+    """
+    now_iso = datetime.now().isoformat()
+    record = {
+        "user_id": user_id,
+        "provider": "gemini",
+        "encrypted_key": encrypted_key,
+        "key_hint": key_hint,
+        "is_valid": True,
+        "updated_at": now_iso
+    }
+    
+    # Store in memory for testing / offline fallback
+    IN_MEMORY_USER_API_KEYS[user_id] = record
+
+    client = get_supabase_client()
+    if not client:
+        return True
+
+    try:
+        # Upsert based on (user_id, provider)
+        client.table("user_api_keys").upsert(
+            record,
+            on_conflict="user_id,provider"
+        ).execute()
+        return True
+    except Exception as e:
+        print(f"[Supabase Error] Failed to save user API key: {e}")
+        return False
+
+def get_user_gemini_key_record(user_id: str) -> dict | None:
+    """
+    Retrieves the encrypted Gemini API key record for a user.
+    Returns None if no key configured.
+    """
+    client = get_supabase_client()
+    if not client:
+        return IN_MEMORY_USER_API_KEYS.get(user_id)
+
+    try:
+        res = client.table("user_api_keys") \
+            .select("user_id, provider, encrypted_key, key_hint, is_valid, updated_at") \
+            .eq("user_id", user_id) \
+            .eq("provider", "gemini") \
+            .execute()
+        
+        if res.data and len(res.data) > 0:
+            return res.data[0]
+        return IN_MEMORY_USER_API_KEYS.get(user_id)
+    except Exception as e:
+        print(f"[Supabase Error] Failed to get user API key: {e}")
+        return IN_MEMORY_USER_API_KEYS.get(user_id)
+
+def delete_user_gemini_key(user_id: str) -> bool:
+    """
+    Deletes the Gemini API key for an authenticated user.
+    """
+    if user_id in IN_MEMORY_USER_API_KEYS:
+        del IN_MEMORY_USER_API_KEYS[user_id]
+
+    client = get_supabase_client()
+    if not client:
+        return True
+
+    try:
+        client.table("user_api_keys") \
+            .delete() \
+            .eq("user_id", user_id) \
+            .eq("provider", "gemini") \
+            .execute()
+        return True
+    except Exception as e:
+        print(f"[Supabase Error] Failed to delete user API key: {e}")
+        return False
+

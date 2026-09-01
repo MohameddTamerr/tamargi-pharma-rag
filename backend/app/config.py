@@ -45,6 +45,12 @@ class Settings(BaseSettings):
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
     GEMINI_MODEL: str = "gemini-3.5-flash-lite"
     
+    # BYOK (Bring Your Own Key) Security & Rate Limits
+    BYOK_ENCRYPTION_KEY: str = os.getenv("BYOK_ENCRYPTION_KEY", "tamargi-pharma-rag-default-encryption-secret-key-32b")
+    ALLOW_PROJECT_GEMINI_FALLBACK: bool = os.getenv("ALLOW_PROJECT_GEMINI_FALLBACK", "false").lower() in ("true", "1", "yes")
+    CHAT_RATE_LIMIT_PER_MINUTE: int = int(os.getenv("CHAT_RATE_LIMIT_PER_MINUTE", "15"))
+    CHAT_DAILY_LIMIT: int = int(os.getenv("CHAT_DAILY_LIMIT", "200"))
+    
     # Supabase
     SUPABASE_URL: Optional[str] = os.getenv("SUPABASE_URL", "")
     SUPABASE_SERVICE_ROLE_KEY: Optional[str] = os.getenv("SUPABASE_SERVICE_ROLE_KEY", "")
