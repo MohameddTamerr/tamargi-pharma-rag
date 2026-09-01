@@ -1,5 +1,6 @@
 import os
 import re
+from pathlib import Path
 import pandas as pd
 from typing import Dict, List, Optional, Tuple, Set, Any
 from pydantic import BaseModel, Field
@@ -17,23 +18,37 @@ class MedicationResolutionResult(BaseModel):
     confidence: float = 1.0
     raw_term: str
 
+from app.config import PROCESSED_DIR, ALIASES_FILE, BASE_DIR
+
 # In-Memory Cache for verified aliases
 ALIAS_TABLE: List[Dict[str, Any]] = []
 
 def load_alias_dataset():
     """Loads the verified medication aliases dataset."""
     global ALIAS_TABLE
-    csv_path = os.path.join(
-        os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))),
-        "data", "processed", "medication_aliases.csv"
-    )
-    if os.path.exists(csv_path):
+    candidate_paths = [
+        ALIASES_FILE,
+        PROCESSED_DIR / "medication_aliases.csv",
+        BASE_DIR / "data" / "processed" / "medication_aliases.csv",
+        BASE_DIR.parent / "data" / "processed" / "medication_aliases.csv",
+    ]
+    csv_path = None
+    for p in candidate_paths:
+        if p and Path(p).exists():
+            csv_path = Path(p).resolve()
+            break
+
+    if csv_path and csv_path.exists():
         try:
             df = pd.read_csv(csv_path)
             ALIAS_TABLE = df[df["active"] == True].to_dict(orient="records")
+            print(f"[MedicationResolver] Loaded {len(ALIAS_TABLE)} active aliases from {csv_path.name}")
         except Exception as e:
             print(f"[MedicationResolver Warning] Could not load aliases CSV: {e}")
             ALIAS_TABLE = []
+    else:
+        print("[MedicationResolver Warning] medication_aliases.csv not found.")
+        ALIAS_TABLE = []
 
 # Known Dosage Forms Map
 DOSAGE_FORMS: Dict[str, str] = {

@@ -26,10 +26,12 @@ from app.safety.safety_engine import evaluate_medication_safety
 from app.safety.high_alert_checker import check_high_alert
 from app.safety.do_not_crush_checker import check_do_not_crush
 from app.video.video_matcher import get_verified_video
+from app.config import SAFETY_RULES_FILE, PROCESSED_DIR
 
 def seed_verified_rules_from_final_audit():
     """Loads and seeds ONLY final_verification_status == 'VERIFIED' records from final_verified_safety_rules.csv."""
-    df = pd.read_csv('c:/Users/user/Downloads/tamargi-pharma-rag/data/processed/final_verified_safety_rules.csv')
+    rules_path = SAFETY_RULES_FILE if SAFETY_RULES_FILE.exists() else (PROCESSED_DIR / 'final_verified_safety_rules.csv')
+    df = pd.read_csv(rules_path)
     verified_rows = df[df['final_verification_status'] == 'VERIFIED']
     
     count = 0
@@ -66,7 +68,8 @@ def run_all_tests():
     clear_test_rules()
 
     # Load and audit final_verified_safety_rules.csv
-    df_audit = pd.read_csv('c:/Users/user/Downloads/tamargi-pharma-rag/data/processed/final_verified_safety_rules.csv')
+    rules_path = SAFETY_RULES_FILE if SAFETY_RULES_FILE.exists() else (PROCESSED_DIR / 'final_verified_safety_rules.csv')
+    df_audit = pd.read_csv(rules_path)
     
     # -------------------------------------------------------------
     # TEST 1: Evidence Integrity Audit Integrity (All 5 direct_* checks must be True for VERIFIED)

@@ -18,10 +18,12 @@ from app.orchestrator.orchestrator import TamargiOrchestrator
 from app.orchestrator.intents import IntentType, detect_intents
 from app.orchestrator.entity_extractor import extract_entities
 from app.api.plans import verify_plan_by_token, IN_MEMORY_PLANS, IN_MEMORY_TOKEN_MAP
+from app.config import SAFETY_RULES_FILE, PROCESSED_DIR
 
 def seed_verified_rules_for_orchestrator():
     """Seeds the 9 verified rules from final_verified_safety_rules.csv."""
-    df = pd.read_csv('c:/Users/user/Downloads/tamargi-pharma-rag/data/processed/final_verified_safety_rules.csv')
+    rules_path = SAFETY_RULES_FILE if SAFETY_RULES_FILE.exists() else (PROCESSED_DIR / 'final_verified_safety_rules.csv')
+    df = pd.read_csv(rules_path)
     verified_rows = df[df['final_verification_status'] == 'VERIFIED']
     
     for idx, r in verified_rows.iterrows():

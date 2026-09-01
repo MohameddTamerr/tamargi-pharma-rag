@@ -6,10 +6,39 @@ from typing import Optional
 # Base project paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 PROJECT_ROOT = BASE_DIR.parent
-DATA_DIR = PROJECT_ROOT / "data"
-PROCESSED_DIR = DATA_DIR / "processed"
-CHUNKS_FILE = PROCESSED_DIR / "final_chunks.csv"
+
+def resolve_processed_dir() -> Path:
+    """Resolves the processed data directory across Railway deployment and local development.
+    
+    Resolution precedence:
+    1. RAG_DATA_DIR env variable (if set and exists)
+    2. BASE_DIR / 'data' / 'processed' (Railway deployment context: /backend/data/processed)
+    3. PROJECT_ROOT / 'data' / 'processed' (Local monorepo context: /data/processed)
+    """
+    env_override = os.getenv("RAG_DATA_DIR")
+    if env_override:
+        p = Path(env_override)
+        if p.exists():
+            return p.resolve()
+
+    backend_processed = BASE_DIR / "data" / "processed"
+    if backend_processed.exists():
+        return backend_processed.resolve()
+
+    repo_processed = PROJECT_ROOT / "data" / "processed"
+    if repo_processed.exists():
+        return repo_processed.resolve()
+
+    return backend_processed.resolve()
+
+PROCESSED_DIR = resolve_processed_dir()
+DATA_DIR = PROCESSED_DIR.parent
+CHUNKS_FILE = PROCESSED_DIR / "chunks_with_metadata.csv" if (PROCESSED_DIR / "chunks_with_metadata.csv").exists() else PROCESSED_DIR / "final_chunks.csv"
 SETTINGS_FILE = PROCESSED_DIR / "best_retrieval_settings.json"
+ALIASES_FILE = PROCESSED_DIR / "medication_aliases.csv"
+SAFETY_RULES_FILE = PROCESSED_DIR / "final_verified_safety_rules.csv"
+VIDEOS_FILE = PROCESSED_DIR / "final_video_candidates.csv"
+EMBEDDINGS_CACHE_FILE = BASE_DIR / "embeddings_cache.npy" if (BASE_DIR / "embeddings_cache.npy").exists() else PROCESSED_DIR / "embeddings_cache.npy"
 
 class Settings(BaseSettings):
     # API Keys

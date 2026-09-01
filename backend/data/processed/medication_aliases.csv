@@ -1,0 +1,252 @@
+canonical_generic_name,brand_name,alias,language,country,source,verified,active
+ibuprofen,Brufen,brufen,en,EG,egypt_formulary,True,True
+ibuprofen,Brufen,بروفين,ar,EG,egypt_formulary,True,True
+ibuprofen,Brufen,بروفين فوار,ar,EG,egypt_formulary,True,True
+ibuprofen,Advil,advil,en,US,egypt_formulary,True,True
+ibuprofen,Advil,ادفل,ar,EG,egypt_formulary,True,True
+ibuprofen,Advil,ادفيل,ar,EG,egypt_formulary,True,True
+ibuprofen,Motrin,motrin,en,US,egypt_formulary,True,True
+ibuprofen,,ibuprofen,en,EG,eda_monograph,True,True
+ibuprofen,,ايبوبروفين,ar,EG,eda_monograph,True,True
+ibuprofen,,إيبوبروفين,ar,EG,eda_monograph,True,True
+paracetamol,Panadol,panadol,en,EG,egypt_formulary,True,True
+paracetamol,Panadol,بانادول,ar,EG,egypt_formulary,True,True
+paracetamol,Panadol,بنادول,ar,EG,egypt_formulary,True,True
+paracetamol,Panadol,بنادول ازرق,ar,EG,egypt_formulary,True,True
+paracetamol,Panadol,بنادول احمر,ar,EG,egypt_formulary,True,True
+paracetamol,Panadol,بنادol اكسترا,ar,EG,egypt_formulary,True,True
+paracetamol,Abimol,abimol,en,EG,egypt_formulary,True,True
+paracetamol,Abimol,ابيمول,ar,EG,egypt_formulary,True,True
+paracetamol,Paramol,paramol,en,EG,egypt_formulary,True,True
+paracetamol,Paramol,بارامول,ar,EG,egypt_formulary,True,True
+paracetamol,Cetamol,cetamol,en,EG,egypt_formulary,True,True
+paracetamol,Tylenol,tylenol,en,US,egypt_formulary,True,True
+paracetamol,Tylenol,تايلينول,ar,EG,egypt_formulary,True,True
+paracetamol,,paracetamol,en,EG,eda_monograph,True,True
+paracetamol,,باراسيتامول,ar,EG,eda_monograph,True,True
+paracetamol,,acetaminophen,en,US,eda_monograph,True,True
+diclofenac,Cataflam,cataflam,en,EG,egypt_formulary,True,True
+diclofenac,Cataflam,كتفلام,ar,EG,egypt_formulary,True,True
+diclofenac,Cataflam,كاتافلام,ar,EG,egypt_formulary,True,True
+diclofenac,Voltaren,voltaren,en,EG,egypt_formulary,True,True
+diclofenac,Voltaren,فولتارين,ar,EG,egypt_formulary,True,True
+diclofenac,Diclac,diclac,en,EG,egypt_formulary,True,True
+diclofenac,Diclac,ديكلاك,ar,EG,egypt_formulary,True,True
+diclofenac,Olfen,olfen,en,EG,egypt_formulary,True,True
+diclofenac,Olfen,اولفين,ar,EG,egypt_formulary,True,True
+diclofenac,Adwiflam,adwiflam,en,EG,egypt_formulary,True,True
+diclofenac,Adwiflam,ادويفلام,ar,EG,egypt_formulary,True,True
+diclofenac,,diclofenac,en,EG,eda_monograph,True,True
+diclofenac,,ديكلوفيناك,ar,EG,eda_monograph,True,True
+amoxicillin,Augmentin,augmentin,en,EG,egypt_formulary,True,True
+amoxicillin,Augmentin,اوجمنتين,ar,EG,egypt_formulary,True,True
+amoxicillin,Augmentin,أوجمنتين,ar,EG,egypt_formulary,True,True
+amoxicillin,Amoxil,amoxil,en,EG,egypt_formulary,True,True
+amoxicillin,Amoxil,اموكسيل,ar,EG,egypt_formulary,True,True
+amoxicillin,Hibiotic,hibiotic,en,EG,egypt_formulary,True,True
+amoxicillin,Hibiotic,هاي بيوتك,ar,EG,egypt_formulary,True,True
+amoxicillin,Hibiotic,هاى بيوتك,ar,EG,egypt_formulary,True,True
+amoxicillin,Curam,curam,en,EG,egypt_formulary,True,True
+amoxicillin,Curam,كيورام,ar,EG,egypt_formulary,True,True
+amoxicillin,,amoxicillin,en,EG,eda_monograph,True,True
+amoxicillin,,اموكسيسيلين,ar,EG,eda_monograph,True,True
+amoxicillin,,أموكسيسيلين,ar,EG,eda_monograph,True,True
+amoxicillin,,اموكسيلين,ar,EG,eda_monograph,True,True
+metformin,Glucophage,glucophage,en,EG,egypt_formulary,True,True
+metformin,Glucophage,جلوكوفاج,ar,EG,egypt_formulary,True,True
+metformin,Glucophage,جلوكوفاج 500,ar,EG,egypt_formulary,True,True
+metformin,Glucophage,جلوكوفاج 1000,ar,EG,egypt_formulary,True,True
+metformin,Cidophage,cidophage,en,EG,egypt_formulary,True,True
+metformin,Cidophage,سيدوفاج,ar,EG,egypt_formulary,True,True
+metformin,,metformin,en,EG,eda_monograph,True,True
+metformin,,ميتفورمين,ar,EG,eda_monograph,True,True
+salbutamol,Ventolin,ventolin,en,EG,egypt_formulary,True,True
+salbutamol,Ventolin,فنتولين,ar,EG,egypt_formulary,True,True
+salbutamol,Ventolin,فنتولين بخاخ,ar,EG,egypt_formulary,True,True
+salbutamol,Ventolin,فنتولين شراب,ar,EG,egypt_formulary,True,True
+salbutamol,,salbutamol,en,EG,eda_monograph,True,True
+salbutamol,,سالبوتامول,ar,EG,eda_monograph,True,True
+salbutamol,,albuterol,en,US,eda_monograph,True,True
+budesonide/formoterol,Symbicort,symbicort,en,EG,egypt_formulary,True,True
+budesonide/formoterol,Symbicort,سيمبيكورت,ar,EG,egypt_formulary,True,True
+budesonide/formoterol,Symbicort,سيمبيكورت تربوهيلر,ar,EG,egypt_formulary,True,True
+salmeterol/fluticasone,Seretide,seretide,en,EG,egypt_formulary,True,True
+salmeterol/fluticasone,Seretide,سيريتيد,ar,EG,egypt_formulary,True,True
+salmeterol/fluticasone,Seretide,سيريتيد ديسكوس,ar,EG,egypt_formulary,True,True
+fluticasone/vilanterol,Relvar,relvar,en,EG,egypt_formulary,True,True
+fluticasone/vilanterol,Relvar,ريلفار,ar,EG,egypt_formulary,True,True
+fluticasone/vilanterol,Relvar,ريلفار إليبتا,ar,EG,egypt_formulary,True,True
+tiotropium,Spiriva,spiriva,en,EG,egypt_formulary,True,True
+tiotropium,Spiriva,سبيريفا,ar,EG,egypt_formulary,True,True
+tiotropium,Spiriva,سبيريفا هاندي هيلر,ar,EG,egypt_formulary,True,True
+tiotropium,Spiriva,سبيريفا ريسبيمات,ar,EG,egypt_formulary,True,True
+tiotropium,,tiotropium,en,EG,eda_monograph,True,True
+tiotropium,,تيوتروبيوم,ar,EG,eda_monograph,True,True
+bisoprolol,Concor,concor,en,EG,egypt_formulary,True,True
+bisoprolol,Concor,كونكور,ar,EG,egypt_formulary,True,True
+bisoprolol,Concor,كونكور 5,ar,EG,egypt_formulary,True,True
+bisoprolol,Concor,كونكور 2.5,ar,EG,egypt_formulary,True,True
+bisoprolol,Bisocard,bisocard,en,EG,egypt_formulary,True,True
+bisoprolol,Bisocard,بيسوكارد,ar,EG,egypt_formulary,True,True
+bisoprolol,,bisoprolol,en,EG,eda_monograph,True,True
+bisoprolol,,بيسوبرولول,ar,EG,eda_monograph,True,True
+pantoprazole,Controloc,controloc,en,EG,egypt_formulary,True,True
+pantoprazole,Controloc,كونترولوك,ar,EG,egypt_formulary,True,True
+pantoprazole,,pantoprazole,en,EG,eda_monograph,True,True
+pantoprazole,,بانتوبرازول,ar,EG,eda_monograph,True,True
+esomeprazole,Nexium,nexium,en,EG,egypt_formulary,True,True
+esomeprazole,Nexium,نكسيوم,ar,EG,egypt_formulary,True,True
+esomeprazole,,esomeprazole,en,EG,eda_monograph,True,True
+esomeprazole,,ايسوميبرازول,ar,EG,eda_monograph,True,True
+omeprazole,Gastrazole,gastrazole,en,EG,egypt_formulary,True,True
+omeprazole,Gastrazole,جاسترازول,ar,EG,egypt_formulary,True,True
+omeprazole,,omeprazole,en,EG,eda_monograph,True,True
+omeprazole,,اوميبرازول,ar,EG,eda_monograph,True,True
+omeprazole,,أوميبرازول,ar,EG,eda_monograph,True,True
+furosemide,Lasix,lasix,en,EG,egypt_formulary,True,True
+furosemide,Lasix,لازيكس,ar,EG,egypt_formulary,True,True
+furosemide,,furosemide,en,EG,eda_monograph,True,True
+furosemide,,فوروسيميد,ar,EG,eda_monograph,True,True
+spironolactone,Aldactone,aldactone,en,EG,egypt_formulary,True,True
+spironolactone,Aldactone,الداكتون,ar,EG,egypt_formulary,True,True
+spironolactone,,spironolactone,en,EG,eda_monograph,True,True
+spironolactone,,سبيرونولاكتون,ar,EG,eda_monograph,True,True
+captopril,Capoten,capoten,en,EG,egypt_formulary,True,True
+captopril,Capoten,كابوتين,ar,EG,egypt_formulary,True,True
+captopril,,captopril,en,EG,eda_monograph,True,True
+captopril,,كابتوبريل,ar,EG,eda_monograph,True,True
+lisinopril,Zestril,zestril,en,EG,egypt_formulary,True,True
+lisinopril,Zestril,زيستريل,ar,EG,egypt_formulary,True,True
+lisinopril,,lisinopril,en,EG,eda_monograph,True,True
+lisinopril,,ليسينوبريل,ar,EG,eda_monograph,True,True
+losartan,Cozaar,cozaar,en,EG,egypt_formulary,True,True
+losartan,Cozaar,كوزار,ar,EG,egypt_formulary,True,True
+losartan,,losartan,en,EG,eda_monograph,True,True
+losartan,,لوسارتان,ar,EG,eda_monograph,True,True
+valsartan,Diovan,diovan,en,EG,egypt_formulary,True,True
+valsartan,Diovan,ديوفان,ar,EG,egypt_formulary,True,True
+valsartan,,valsartan,en,EG,eda_monograph,True,True
+valsartan,,فالسارتان,ar,EG,eda_monograph,True,True
+amlodipine,Norvasc,norvasc,en,EG,egypt_formulary,True,True
+amlodipine,Norvasc,نورفاسك,ar,EG,egypt_formulary,True,True
+amlodipine,,amlodipine,en,EG,eda_monograph,True,True
+amlodipine,,املوديبين,ar,EG,eda_monograph,True,True
+atorvastatin,Lipitor,lipitor,en,EG,egypt_formulary,True,True
+atorvastatin,Lipitor,ليبيتور,ar,EG,egypt_formulary,True,True
+atorvastatin,Atormac,atormac,en,EG,egypt_formulary,True,True
+atorvastatin,Atormac,اتورماك,ar,EG,egypt_formulary,True,True
+atorvastatin,,atorvastatin,en,EG,eda_monograph,True,True
+atorvastatin,,اتورفاستاتين,ar,EG,eda_monograph,True,True
+rosuvastatin,Crestor,crestor,en,EG,egypt_formulary,True,True
+rosuvastatin,Crestor,كريستور,ar,EG,egypt_formulary,True,True
+rosuvastatin,,rosuvastatin,en,EG,eda_monograph,True,True
+rosuvastatin,,روستاتين,ar,EG,eda_monograph,True,True
+simvastatin,,simvastatin,en,EG,eda_monograph,True,True
+simvastatin,Zocor,zocor,en,EG,egypt_formulary,True,True
+simvastatin,Zocor,زوكتور,ar,EG,egypt_formulary,True,True
+simvastatin,,سيمفاستاتين,ar,EG,eda_monograph,True,True
+clopidogrel,Plavix,plavix,en,EG,egypt_formulary,True,True
+clopidogrel,Plavix,بلافيكس,ar,EG,egypt_formulary,True,True
+clopidogrel,,clopidogrel,en,EG,eda_monograph,True,True
+clopidogrel,,كلوبيدوجريل,ar,EG,eda_monograph,True,True
+warfarin,Marevan,marevan,en,EG,egypt_formulary,True,True
+warfarin,Marevan,ماريفان,ar,EG,egypt_formulary,True,True
+warfarin,Marevan,مارفان,ar,EG,egypt_formulary,True,True
+warfarin,,warfarin,en,EG,eda_monograph,True,True
+warfarin,,وارفارين,ar,EG,eda_monograph,True,True
+enoxaparin,Clexane,clexane,en,EG,egypt_formulary,True,True
+enoxaparin,Clexane,كليكسان,ar,EG,egypt_formulary,True,True
+enoxaparin,,enoxaparin,en,EG,eda_monograph,True,True
+enoxaparin,,انوكسبارين,ar,EG,eda_monograph,True,True
+enoxaparin,,إنوكسبارين,ar,EG,eda_monograph,True,True
+acetylsalicylic acid,Aspirin,aspirin,en,EG,egypt_formulary,True,True
+acetylsalicylic acid,Aspirin,اسبرين,ar,EG,egypt_formulary,True,True
+acetylsalicylic acid,Aspirin,أسبرين,ar,EG,egypt_formulary,True,True
+acetylsalicylic acid,Aspocid,aspocid,en,EG,egypt_formulary,True,True
+acetylsalicylic acid,Aspocid,اسبوسيد,ar,EG,egypt_formulary,True,True
+acetylsalicylic acid,Aggrex,aggrex,en,EG,egypt_formulary,True,True
+acetylsalicylic acid,Aggrex,اجريكس,ar,EG,egypt_formulary,True,True
+acetylsalicylic acid,,acetylsalicylic acid,en,EG,eda_monograph,True,True
+acetylsalicylic acid,,حمض الاسيتيل ساليسيليك,ar,EG,eda_monograph,True,True
+dexamethasone,,dexamethasone,en,EG,eda_monograph,True,True
+dexamethasone,,ديكساميثازون,ar,EG,eda_monograph,True,True
+dexamethasone,,ديكساميزون,ar,EG,eda_monograph,True,True
+propranolol,Inderal,inderal,en,EG,egypt_formulary,True,True
+propranolol,Inderal,اندرال,ar,EG,egypt_formulary,True,True
+propranolol,Inderal,إندرال,ar,EG,egypt_formulary,True,True
+propranolol,,propranolol,en,EG,eda_monograph,True,True
+propranolol,,بروبرانولول,ar,EG,eda_monograph,True,True
+sildenafil,Viagra,viagra,en,EG,egypt_formulary,True,True
+sildenafil,Viagra,فياجرا,ar,EG,egypt_formulary,True,True
+sildenafil,Viagra,فياغرا,ar,EG,egypt_formulary,True,True
+sildenafil,,sildenafil,en,EG,eda_monograph,True,True
+sildenafil,,سيلدينافيل,ar,EG,eda_monograph,True,True
+clarithromycin,Klacid,klacid,en,EG,egypt_formulary,True,True
+clarithromycin,Klacid,كلاسيد,ar,EG,egypt_formulary,True,True
+clarithromycin,,clarithromycin,en,EG,eda_monograph,True,True
+clarithromycin,,كلاريثروميسين,ar,EG,eda_monograph,True,True
+azithromycin,Zithromax,zithromax,en,EG,egypt_formulary,True,True
+azithromycin,Zithromax,زيثرروماكس,ar,EG,egypt_formulary,True,True
+azithromycin,Zithrokan,zithrokan,en,EG,egypt_formulary,True,True
+azithromycin,Zithrokan,زيثروكان,ar,EG,egypt_formulary,True,True
+azithromycin,,azithromycin,en,EG,eda_monograph,True,True
+azithromycin,,ازيثرومايسين,ar,EG,eda_monograph,True,True
+ciprofloxacin,Cipro,cipro,en,EG,egypt_formulary,True,True
+ciprofloxacin,Ciprofar,ciprofar,en,EG,egypt_formulary,True,True
+ciprofloxacin,Ciprofar,سيبروفار,ar,EG,egypt_formulary,True,True
+ciprofloxacin,,ciprofloxacin,en,EG,eda_monograph,True,True
+ciprofloxacin,,سيبروفلوكساسين,ar,EG,eda_monograph,True,True
+levofloxacin,Tavanic,tavanic,en,EG,egypt_formulary,True,True
+levofloxacin,Tavanic,تافانيك,ar,EG,egypt_formulary,True,True
+levofloxacin,,levofloxacin,en,EG,eda_monograph,True,True
+levofloxacin,,ليفوفلوكساسين,ar,EG,eda_monograph,True,True
+methotrexate,,methotrexate,en,EG,eda_monograph,True,True
+methotrexate,,ميثوتريكسات,ar,EG,eda_monograph,True,True
+methotrexate,,ميثوتركسات,ar,EG,eda_monograph,True,True
+insulin,,insulin,en,EG,eda_monograph,True,True
+insulin,,انسولين,ar,EG,eda_monograph,True,True
+insulin,,أنسولين,ar,EG,eda_monograph,True,True
+insulin glargine,Lantus,lantus,en,EG,egypt_formulary,True,True
+insulin glargine,Lantus,لانتوس,ar,EG,eda_monograph,True,True
+insulin glargine,Toujeo,toujeo,en,EG,egypt_formulary,True,True
+insulin glargine,Toujeo,توجيو,ar,EG,eda_monograph,True,True
+insulin aspart,NovoRapid,novorapid,en,EG,egypt_formulary,True,True
+insulin aspart,NovoRapid,نوفورابيد,ar,EG,eda_monograph,True,True
+insulin lispro,Humalog,humalog,en,EG,egypt_formulary,True,True
+insulin lispro,Humalog,هيومالوج,ar,EG,eda_monograph,True,True
+glimepiride,Amaryl,amaryl,en,EG,egypt_formulary,True,True
+glimepiride,Amaryl,اماريل,ar,EG,egypt_formulary,True,True
+glimepiride,Amaryl,أماريل,ar,EG,egypt_formulary,True,True
+glimepiride,,glimepiride,en,EG,eda_monograph,True,True
+glimepiride,,جليمبيريد,ar,EG,eda_monograph,True,True
+sitagliptin,Januvia,januvia,en,EG,egypt_formulary,True,True
+sitagliptin,Januvia,جانوڤيا,ar,EG,egypt_formulary,True,True
+sitagliptin,Januvia,جانوفيا,ar,EG,egypt_formulary,True,True
+sitagliptin,,sitagliptin,en,EG,eda_monograph,True,True
+sitagliptin,,سيتاجليبتين,ar,EG,eda_monograph,True,True
+dapagliflozin,Forxiga,forxiga,en,EG,egypt_formulary,True,True
+dapagliflozin,Forxiga,فورسيجا,ar,EG,egypt_formulary,True,True
+dapagliflozin,Forxiga,فوركسيجا,ar,EG,egypt_formulary,True,True
+dapagliflozin,,dapagliflozin,en,EG,eda_monograph,True,True
+dapagliflozin,,داباجليفلوزين,ar,EG,eda_monograph,True,True
+empagliflozin,Jardiance,jardiance,en,EG,egypt_formulary,True,True
+empagliflozin,Jardiance,جارديانس,ar,EG,egypt_formulary,True,True
+empagliflozin,,empagliflozin,en,EG,eda_monograph,True,True
+empagliflozin,,امباجليفلوزين,ar,EG,eda_monograph,True,True
+famotidine,Antodine,antodine,en,EG,egypt_formulary,True,True
+famotidine,Antodine,انتودين,ar,EG,egypt_formulary,True,True
+famotidine,,famotidine,en,EG,eda_monograph,True,True
+famotidine,,فاموتيدين,ar,EG,eda_monograph,True,True
+sulfamethoxazole,,sulfamethoxazole,en,EG,eda_monograph,True,True
+sulfamethoxazole,,سلفاميثوكسازول,ar,EG,eda_monograph,True,True
+cephalexin,,cephalexin,en,EG,eda_monograph,True,True
+cephalexin,,سيفالكسين,ar,EG,eda_monograph,True,True
+cephalexin,,سيفاليكسين,ar,EG,eda_monograph,True,True
+capecitabine,,capecitabine,en,EG,eda_monograph,True,True
+capecitabine,,كابسيتابين,ar,EG,eda_monograph,True,True
+nitroglycerin,,nitroglycerin,en,EG,eda_monograph,True,True
+nitroglycerin,,نيتروجليسرين,ar,EG,eda_monograph,True,True
+penicillin,,penicillin,en,EG,eda_monograph,True,True
+penicillin,,بنسلين,ar,EG,eda_monograph,True,True
+penicillin,,بنسيلين,ar,EG,eda_monograph,True,True
+penicillin,,البنسلين,ar,EG,eda_monograph,True,True

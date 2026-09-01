@@ -24,10 +24,12 @@ from app.safety.patient_context import (
     get_patient_profile
 )
 from app.safety.repository import seed_verified_rule, clear_test_rules
+from app.config import SAFETY_RULES_FILE, PROCESSED_DIR
 
 def seed_verified_rules():
     """Seeds the 9 verified rules from final_verified_safety_rules.csv."""
-    df = pd.read_csv('c:/Users/user/Downloads/tamargi-pharma-rag/data/processed/final_verified_safety_rules.csv')
+    rules_path = SAFETY_RULES_FILE if SAFETY_RULES_FILE.exists() else (PROCESSED_DIR / 'final_verified_safety_rules.csv')
+    df = pd.read_csv(rules_path)
     verified_rows = df[df['final_verification_status'] == 'VERIFIED']
     
     for idx, r in verified_rows.iterrows():
@@ -196,7 +198,8 @@ def run_all_resolution_tests():
     # -------------------------------------------------------------
     print("-" * 95)
     print("Evaluating Curated 52-Utterance Egyptian Dataset...")
-    df_cases = pd.read_csv('c:/Users/user/Downloads/tamargi-pharma-rag/data/processed/arabic_normalization_test_dataset.csv')
+    dataset_csv = PROCESSED_DIR / 'arabic_normalization_test_dataset.csv'
+    df_cases = pd.read_csv(dataset_csv)
     dataset_passed = 0
     dataset_total = len(df_cases)
 
