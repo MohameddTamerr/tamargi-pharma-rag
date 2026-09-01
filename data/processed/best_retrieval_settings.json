@@ -1,0 +1,14 @@
+{
+    "embedding_model": "intfloat/multilingual-e5-base",
+    "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "gemini_model": "gemini-3.5-flash-lite",
+    "chunk_size": 150,
+    "overlap": 30,
+    "dense_k": 10,
+    "bm25_k": 10,
+    "rrf_k": 30,
+    "dense_weight": 0.8,
+    "bm25_weight": 0.8,
+    "reranker_candidate_k": 10,
+    "reranker_final_k": 5
+}

@@ -1,0 +1,25 @@
+question_id,question,language,expected_source_page,top_retrieved_source_page,retrieval_method,likely_failure_reason
+5,Which drugs significantly interact with Warfarin increasing bleeding risks?,en,egypt_blood_disorders_formulary_2025.pdf p.68,egypt_blood_disorders_formulary_2025.pdf p.70,Hybrid RRF + Cross-Encoder,lexical_mismatch
+6,What dosage forms and strengths are available for Omeprazole in gastrointestinal therapy?,en,egypt_gastrointestinal_formulary_2025.pdf p.74,egypt_gastrointestinal_formulary_2025.pdf p.91,Hybrid RRF + Cross-Encoder,lexical_mismatch
+7,How should oral Methotrexate be administered for rheumatologic conditions?,en,egypt_conventional_anticancer_formulary_2024.pdf p.77,egypt_conventional_anticancer_formulary_2024.pdf p.75,Hybrid RRF + Cross-Encoder,lexical_mismatch
+8,Why is Insulin classified as a high-alert medication according to Egyptian safety standards?,en,egypt_high_alert_medications_2025.pdf p.11,egypt_high_alert_medications_2025.pdf p.8,Hybrid RRF + Cross-Encoder,lexical_mismatch
+9,Why are extended release tablets on the do-not-crush list?,en,egypt_do_not_crush_medications_2026.pdf p.1,egypt_do_not_crush_medications_2026.pdf p.7,Hybrid RRF + Cross-Encoder,lexical_mismatch
+10,What is the maximum daily OTC dose of Paracetamol for adults?,en,egypt_otc_drug_list_2026.pdf p.12,egypt_antiretroviral_formulary_2026.pdf p.94,Hybrid RRF + Cross-Encoder,lexical_mismatch
+11,What are the contraindications of Amoxicillin regarding penicillin hypersensitivity?,en,egypt_antimicrobial_formulary_2023.pdf p.371,egypt_antimicrobial_formulary_2023.pdf p.375,Hybrid RRF + Cross-Encoder,lexical_mismatch
+13,What adverse reactions are associated with Ciprofloxacin and tendon rupture?,en,egypt_antimicrobial_formulary_2023.pdf p.406,egypt_antimicrobial_formulary_2023.pdf p.409,Hybrid RRF + Cross-Encoder,lexical_mismatch
+14,What are the drug interactions between Spironolactone and ACE inhibitors?,en,egypt_cardiovascular_formulary_2024.pdf p.182,egypt_antimicrobial_formulary_2023.pdf p.348,Hybrid RRF + Cross-Encoder,lexical_mismatch
+21,What are the contraindications for Ibuprofen in peptic ulcer disease?,en,egypt_otc_drug_list_2026.pdf p.15,egypt_cardiovascular_formulary_2024.pdf p.114,Hybrid RRF + Cross-Encoder,lexical_mismatch
+22,What are the drug interactions between Clarithromycin and CYP3A4 metabolized drugs?,en,egypt_antimicrobial_formulary_2023.pdf p.121,egypt_antimicrobial_formulary_2023.pdf p.295,Hybrid RRF + Cross-Encoder,lexical_mismatch
+24,What are the warnings for Levofloxacin regarding QT prolongation?,en,egypt_antimicrobial_formulary_2023.pdf p.415,egypt_antimicrobial_formulary_2023.pdf p.417,Hybrid RRF + Cross-Encoder,lexical_mismatch
+25,What are the administration guidelines for sublingual Nitroglycerin during angina episodes?,en,egypt_cardiovascular_formulary_2024.pdf p.69,egypt_cardiovascular_formulary_2024.pdf p.78,Hybrid RRF + Cross-Encoder,lexical_mismatch
+26,Why should enteric coated capsules not be crushed?,en,egypt_do_not_crush_medications_2026.pdf p.3,egypt_do_not_crush_medications_2026.pdf p.20,Hybrid RRF + Cross-Encoder,lexical_mismatch
+28,What are the precautions when using Warfarin in pregnancy?,en,egypt_blood_disorders_formulary_2025.pdf p.70,egypt_blood_disorders_formulary_2025.pdf p.73,Hybrid RRF + Cross-Encoder,lexical_mismatch
+29,What are the OTC indications and warnings for Aspirin 81 mg?,en,egypt_otc_drug_list_2026.pdf p.11,egypt_cardiovascular_formulary_2024.pdf p.112,Hybrid RRF + Cross-Encoder,lexical_mismatch
+33,ينفع اخد سيلدينافيل مع ادوية النيترات للقلب؟,ar,egypt_cardiovascular_formulary_2024.pdf p.69,egypt_cardiovascular_formulary_2024.pdf p.73,Hybrid RRF + Cross-Encoder,Arabic_translation
+34,ما هي الاثار الجانبية لدواء سيبروفلوكساسين على الاوتار؟,ar,egypt_antimicrobial_formulary_2023.pdf p.406,egypt_antimicrobial_formulary_2023.pdf p.409,Hybrid RRF + Cross-Encoder,Arabic_translation
+36,هل دواء اموكسيسيلين ممنوع لمن يعانون من حساسية البنسلين؟,ar,egypt_antimicrobial_formulary_2023.pdf p.371,egypt_antimicrobial_formulary_2023.pdf p.375,Hybrid RRF + Cross-Encoder,Arabic_translation
+37,ما هي التداخلات الدوائية الخطيرة مع دواء وارفارين وسيولة الدم؟,ar,egypt_blood_disorders_formulary_2025.pdf p.68,egypt_blood_disorders_formulary_2025.pdf p.73,Hybrid RRF + Cross-Encoder,Arabic_translation
+39,هل اقراص اوميبرازول مناسبة لعلاج قرحة المعدة والحموضة؟,ar,egypt_gastrointestinal_formulary_2025.pdf p.74,egypt_otc_drug_list_2026.pdf p.1,Hybrid RRF + Cross-Encoder,Arabic_translation
+40,ما هي خطورة دواء الانسولين كعقار عالي الخطورة؟,ar,egypt_high_alert_medications_2025.pdf p.11,egypt_endocrine_formulary_2024.pdf p.217,Hybrid RRF + Cross-Encoder,Arabic_translation
+42,ما هي الجرعة القصوى الآمنة من الباراسيتامول في اليوم؟,ar,egypt_otc_drug_list_2026.pdf p.12,egypt_antiretroviral_formulary_2026.pdf p.94,Hybrid RRF + Cross-Encoder,Arabic_translation
+43,ما هي تحذيرات استخدام دواء لازيكس مع وظائف الكلى والاملاح؟,ar,egypt_cardiovascular_formulary_2024.pdf p.165,egypt_antimicrobial_formulary_2023.pdf p.15,Hybrid RRF + Cross-Encoder,Arabic_translation

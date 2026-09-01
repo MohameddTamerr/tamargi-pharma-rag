@@ -1,0 +1,911 @@
+﻿generic_name,dosage_form_raw,dosage_form_normalized,route,administration_instructions,device_category,technique_category,self_use_video_relevance,device_specificity,exact_device_review_required,exact_device_name,source_file,source_page,review_status,review_notes
+Gentamicin,"Eye/ear Drops 0.3%, 5mg/ml",ear_drops,"IV, IM, Topical, Opthalmic","IV, IM, Topical, Opthalmic 
+Pharmacologic 
+category 
+Antibiotic, Aminoglycoside 
+Systemic ATC: J01GB03 
+Ophthalmic ATC: S01AA11 
+Topical: D06AX07",otic,ear_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,17,pending,"Ear drop administration, ear canal positioning, and head-tilt hold"
+Tobramycin,Ophthalmic ointment 0.3% (3 mg/gm) Ophthalmic solution 0.3%,eye_ointment,"Ophthalmic, Inhalation","Ophthalmic, Inhalation 
+Pharmacologic 
+category 
+Antibiotic, Aminoglycoside 
+Ophthalmic ATC: S01AA12 
+Inhalation ATC: J01GB01 
+Indications",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,30,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Tobramycin,Inhalation Solution  300 mg/5ml,nebulizer_solution,"Ophthalmic, Inhalation","Ophthalmic, Inhalation 
+Pharmacologic 
+category 
+Antibiotic, Aminoglycoside 
+Ophthalmic ATC: S01AA12 
+Inhalation ATC: J01GB01 
+Indications",nebulizer,nebulizer,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,30,pending,Medical nebulizer chamber & compressor setup technique
+Nystatin,Vaginal suppository 100000IU,suppository,Oral Topical,"Oral Topical 
+Pharmacologic 
+action 
+Antifungal Agent, Oral Nonabsorbed/Partially Absorbed 
+ATC (oral): A07AA02 
+ATC (Topical): D01AA01 
+ATC (Vaginal): G01AA01",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,75,pending,"Suppository insertion, unwrapping, position, and retention"
+Acyclovir,"Vial 250mg, 500mg eye ointment 3%",injection,"Oral, Topical, IV, ophthalmic","Oral, Topical, IV, ophthalmic 
+ 
+Pharmacologic 
+action 
+Antiviral 
+ATC (Topical): D06BB03 
+ATC (systemic): J05AB01",ophthalmic,eye_ointment,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,156,pending,Eye ointment ribbon application along the lower eyelid
+Ganciclovir,Ophthalmic drops  0.150 gm/100g,eye_drops,"IV,  IM, ophthalmic","IV,  IM, ophthalmic 
+Pharmacologic 
+action 
+Antiviral Agent 
+ATC (Systemic): J05AB06 
+ATC (Ophthamic): S01AD09 
+Indications",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,176,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Azithromycin,Eye drops 1%,eye_drops,"Parenteral, Oral, ophthalmic","Parenteral, Oral, ophthalmic 
+Pharmacologic 
+action 
+Antibiotic, Macrolide 
+Systemic ATC: J01FA10 
+Opthalmic ATC: S01AA26 
+Indications",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,290,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Chloramphenicol,Eye drops 0.5%,eye_drops,Oral IV Topical Ophthalmic,"Oral IV Topical Ophthalmic 
+Pharmacologic 
+category 
+Antibiotic, Miscellaneous 
+ATC (Topical, dermatological): D06AX02  
+ATC (Systemic): J01BA01  
+ATC (Ophthalmic): S01AA01, S03AA08",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,307,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Chloramphenicol,Ears drops 5%,ears_drops,Oral IV Topical Ophthalmic,"Oral IV Topical Ophthalmic 
+Pharmacologic 
+category 
+Antibiotic, Miscellaneous 
+ATC (Topical, dermatological): D06AX02  
+ATC (Systemic): J01BA01  
+ATC (Ophthalmic): S01AA01, S03AA08",otic,ear_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,307,pending,"Ear drop administration, ear canal positioning, and head-tilt hold"
+Chloramphenicol,Suppository 500mg,suppository,Oral IV Topical Ophthalmic,"Oral IV Topical Ophthalmic 
+Pharmacologic 
+category 
+Antibiotic, Miscellaneous 
+ATC (Topical, dermatological): D06AX02  
+ATC (Systemic): J01BA01  
+ATC (Ophthalmic): S01AA01, S03AA08",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,307,pending,"Suppository insertion, unwrapping, position, and retention"
+Clindamycin,Vaginal ovules 100mg,vaginal_suppository,Oral IV IM intravaginal,"Oral IV IM intravaginal 
+Pharmacologic 
+category 
+Antibiotic, Lincosamide 
+ATC (Topical): D10AF01  
+ATC (Gynecological): G01AA10  
+ATC (systemic): J01FF01",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,310,pending,"Suppository insertion, unwrapping, position, and retention"
+Colistimethate,Powder for solution for injection or for nebulizer solution 1MIU,nebulizer_solution,"Parentral, Oral","Parentral, Oral 
+Pharmacologic 
+category 
+Antibiotic, Miscellaneous 
+ATC: J01XB01  
+Indications 
+Treatment of acute or chronic infections due to sensitive strains of certain gram-negative bacilli",nebulizer,nebulizer,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,314,pending,Medical nebulizer chamber & compressor setup technique
+Metronidazole,Suppository 1gm,suppository,"IV, Oral, rectal, intravaginal","IV, Oral, rectal, intravaginal 
+Pharmacologic 
+category 
+Amebicide; Antiprotozoal, Nitroimidazole 
+Indications 
+Amebiasis, Anaerobic bacterial infections (caused by Bacteroides spp., including the B. 
+fragilis group), Surgical prophylaxis (colorectal surgery), Trichomoniasis",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,333,pending,"Suppository insertion, unwrapping, position, and retention"
+Metronidazole,Vaginal suppository 500mg Vaginal gel 0.75%,suppository,"IV, Oral, rectal, intravaginal","IV, Oral, rectal, intravaginal 
+Pharmacologic 
+category 
+Amebicide; Antiprotozoal, Nitroimidazole 
+Indications 
+Amebiasis, Anaerobic bacterial infections (caused by Bacteroides spp., including the B. 
+fragilis group), Surgical prophylaxis (colorectal surgery), Trichomoniasis",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,333,pending,"Suppository insertion, unwrapping, position, and retention"
+Tetracycline,Capsule 250mg Eye Ointment 1%,capsule,Oral topical,"Oral topical 
+Pharmacologic 
+category 
+Antibiotic, Tetracycline Derivative 
+ATC (Topical): D06AA04 
+ATC (systemic): J01AA07  
+ATC (Ophthalmic): S01AA09, S03AA02",ophthalmic,eye_ointment,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,353,pending,Eye ointment ribbon application along the lower eyelid
+Ciprofloxacin,"Extended Release Tablets: 500 mg, 1g Eye ointment 0.3%",tablet,"Oral,  Opthalmic, IV","Oral,  Opthalmic, IV 
+Pharmacologic 
+action 
+Antibiotic, Fluoroquinolone 
+Systemic ATC: J01MA02 
+Ophthalmic ATC: S03AA07  
+Indications",ophthalmic,eye_ointment,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,405,pending,Eye ointment ribbon application along the lower eyelid
+Ciprofloxacin,Ear or eye drops 3mg/ml,eye_drops,"Oral,  Opthalmic, IV","Oral,  Opthalmic, IV 
+Pharmacologic 
+action 
+Antibiotic, Fluoroquinolone 
+Systemic ATC: J01MA02 
+Ophthalmic ATC: S03AA07  
+Indications",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,405,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Gatifloxacin,"Eye drops 0.3%, 0.5%",eye_drops,Ophthalmic,"Ophthalmic 
+Pharmacologic 
+action 
+ Fluoroquinolone; Antibiotic, Ophthalmic 
+ATC: S01AE06 
+ 
+Indications",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,412,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Levofloxacin,Eye drops 0.5% (5mg/ml),eye_drops,"IV, Oral, Ophthalmic solution","IV, Oral, Ophthalmic solution 
+Pharmacologic
+al action 
+Antibiotic, Fluoroquinolone 
+Systemic ATC: J01MA12 
+Ophthalmic ATC: S01AE05 
+Indications",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,414,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Lomefloxacin,"Ophthalmic Solution, eye drops: 3 mg/ml",eye_drops,"Oral ,Ophthalmic","Oral ,Ophthalmic 
+Pharmacologic 
+category
+ 
+Antibiotic, Quinolone 
+Systemic ATC: J01MA07 
+Opthalmic ATC:  S01AE04",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,419,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Moxifloxacin,"Tablets 400mg, Ophthalmic solution 0.5%",tablet,"Oral, ophthalmic, IV","Oral, ophthalmic, IV 
+Pharmacologic 
+action 
+Antibiotic, Fluoroquinolone;  
+Systemic ATC: J01MA14 
+Ophthalmic ATC: S01AE07 
+Indications",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,421,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Norfloxacin,Ophthalmic solution: 15 mg/5ml,eye_drops,"Oral, Ophthalmic","Oral, Ophthalmic 
+Pharmacologic 
+category
+ 
+Antibiotic, Fluoroquinolone 
+ATC systemic: J01MA06  
+ATC: Ophthalmic: S01AE02",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,425,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Ofloxacin,Ophthalmic solution 3mg/ml,eye_drops,"Oral, Ophthalmic","Oral, Ophthalmic 
+Pharmacologic 
+action 
+Antibiotic, Fluoroquinolone 
+Systemic ATC: J01MA01 
+Opthalmic ATC: S01AE01 
+Indications",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,427,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Clotrimazole,Aerosol 1% Solution 1%,inhalation_aerosol,"Topical, inhalation, intravaginal","Topical, inhalation, intravaginal 
+Pharmacologic 
+category 
+Antifungal Agent, Imidazole Derivative 
+ATC (Topical): D01AC01  
+ATC (Vaginal): G01AF02  
+Indications",inhaler,pmdi_inhaler,yes,exact_device_required,true,,egypt_antimicrobial_formulary_2023.pdf,434,pending,Pressurized metered-dose inhaler actuation & coordination technique
+Clotrimazole,Topical powder 1%,powder,"Topical, inhalation, intravaginal","Topical, inhalation, intravaginal 
+Pharmacologic 
+category 
+Antifungal Agent, Imidazole Derivative 
+ATC (Topical): D01AC01  
+ATC (Vaginal): G01AF02  
+Indications",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antimicrobial_formulary_2023.pdf,434,pending,Inhalation delivery system requiring exact device mapping
+Clotrimazole,Topical spray 10mg/ml,topical_spray,"Topical, inhalation, intravaginal","Topical, inhalation, intravaginal 
+Pharmacologic 
+category 
+Antifungal Agent, Imidazole Derivative 
+ATC (Topical): D01AC01  
+ATC (Vaginal): G01AF02  
+Indications",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antimicrobial_formulary_2023.pdf,434,pending,Inhalation delivery system requiring exact device mapping
+Econazole,Vaginal Pessary/ovules: 150 mg,vaginal_suppository,"Topical, vaginal","Topical, vaginal 
+Pharmacologic 
+category 
+Antifungal Agent, Imidazole Derivative 
+ATC (Topical): D01AC03  
+ATC (Gynecological): G01AF05  
+Indications",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,437,pending,"Suppository insertion, unwrapping, position, and retention"
+Isoconazole,"Vaginal ovules 300, 600mg",vaginal_suppository,"Topical, intravaginal","Topical, intravaginal 
+Pharmacologic 
+category 
+Imidazole antifungal 
+ATC (Topical): D01AC05  
+ATC (Vaginal): G01AF07  
+Indications",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,440,pending,"Suppository insertion, unwrapping, position, and retention"
+Miconazole,"Vaginal ovules 400mg, 1200",vaginal_suppository,"Topical , Intravaginal, oral","Topical , Intravaginal, oral 
+Pharmacologic 
+category 
+Antifungal Agent, Imidazole Derivative;  
+ATC (Topical): D01AC02  
+ATC (Gynecological): G01AF04  
+Indications",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,441,pending,"Suppository insertion, unwrapping, position, and retention"
+Miconazole,"Vaginal suppository 200mg, 400mg",suppository,"Topical , Intravaginal, oral","Topical , Intravaginal, oral 
+Pharmacologic 
+category 
+Antifungal Agent, Imidazole Derivative;  
+ATC (Topical): D01AC02  
+ATC (Gynecological): G01AF04  
+Indications",rectal,suppository,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,441,pending,"Suppository insertion, unwrapping, position, and retention"
+"Neomycin, Polymyxin B, and Dexamethasone",Eye ointment: Dexamethasone 1 mg ; Neomycin Sulphate 5mg ; Polymyxin B Sulphate 6000 I.U,eye_ointment,ophthalmic,"ophthalmic 
+Pharmacologic 
+category 
+Antibiotic/Corticosteroid, Ophthalmic 
+ATC: A07AA51  
+Indications 
+Inflammatory ocular conditions: Management of corticosteroid-responsive inflammatory ocular",ophthalmic,eye_ointment,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,445,pending,Eye ointment ribbon application along the lower eyelid
+Terbinafine,Topical Aerosol Powder: 1%,inhalation_aerosol,"Topical, Oral","Topical, Oral 
+Pharmacologic 
+category 
+Antifungal Agent 
+ATC (Topical): D01AE15 
+ATC (systemic): D01BA02  
+Indications",inhaler,pmdi_inhaler,yes,exact_device_required,true,,egypt_antimicrobial_formulary_2023.pdf,448,pending,Pressurized metered-dose inhaler actuation & coordination technique
+Sodium Fusidate/ Fusidic acid,eye drops 1mg/gm,eye_drops,"Oral, topical, Opthalmic","Oral, topical, Opthalmic 
+Pharmacologic 
+category 
+Antibiotic, Miscellaneous; Antibiotic, Topical 
+ATC (Topical): D06AX01  
+ATC (Dressing): D09AA02  
+ATC (Systemic): J01XC01",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antimicrobial_formulary_2023.pdf,455,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Cetirizine,Ophthalmic solution: 2.4 mg/ 1 ml And combinations,eye_drops,"Oral, IV, Ophthalmic","Oral, IV, Ophthalmic 
+Pharmacologic 
+Category 
+Histamine H1 antagonist, second generation: piperazine derivative. 
+ATC: Oral: R06AE07, Ophthalmic: S01GX12 
+Indications 
+Oral (in adults and children 2 years and above)",ophthalmic,eye_drops,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,14,pending,"Eye drop instillation, conjunctival sac pouching, and tear-duct occlusion"
+Ipratropium Bromide,"Nebulizer solution for inhalation: 250 mcg /ml, 500 mcg /2ml, 250 mcg /2ml",nebulizer_solution,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Anticholinergic agent 
+ATC: R03BB01 
+Indications 
+Nebulization",nebulizer,nebulizer,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,30,pending,Medical nebulizer chamber & compressor setup technique
+Tiotropium,Dry powder in hard capsule: 18 mcg,capsule,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Anticholinergic agent, long-acting bronchodilators 
+ATC: R03BB04. 
+Indications 
+• Maintenance broncho dilator treatment of bronchospasm in patients with",inhaler,dpi_inhaler,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,33,pending,DPI breath-actuated inhalation device technique
+Formoterol,12 mcg in combination with 400 mcg budesonide,12_mcg_in_combination_with_400_mcg_budesonide,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,6 mcg in combination with 200 mcg budesonide,6_mcg_in_combination_with_200_mcg_budesonide,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,Inhalation powder,inhalation_powder,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,dpi_inhaler,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,DPI breath-actuated inhalation device technique
+Formoterol,4.5 mcg (in combination with 80 mcg budesonide),4_5_mcg_in_combination_with_80_mcg_budesonide,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,4.5 mcg (in combination with 160 mcg budesonide),4_5_mcg_in_combination_with_160_mcg_budesonide,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,9 mcg (in combination with 320 mcg budesonide) Pressurized Inhalation Solution 12 mcg alone,nebulizer_solution,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",nebulizer,nebulizer,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Medical nebulizer chamber & compressor setup technique
+Formoterol,6 mcg in combination with 100 beclomethasone dipropionate,6_mcg_in_combination_with_100_beclomethasone_dipropionate,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,5 mcg in combination with fluticasone propionate 50 mcg,5_mcg_in_combination_with_fluticasone_propionate_50_mcg,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,5 mcg in combination with fluticasone propionate 100 mcg,5_mcg_in_combination_with_fluticasone_propionate_100_mcg,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,10 mcg in combination with fluticasone propionate 250 mcg Oral Inhalation,inhalation,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,5 mcg formoterol fumarate dihydrate micronized + 4.5 mcg formoterol fumarate in,5_mcg_formoterol_fumarate_dihydrate_micronized_4_5_mcg_formoterol_fumarate_in,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Formoterol,combination with 160 mcg budesonide + 9 mcg glycopyrroium bromide,combination_with,Oral Inhalation,"Oral Inhalation 
+Pharmacologic 
+Category 
+Beta2 agonist; beta2-adrenergic agonist, long-acting 
+ATC: R03AC13 
+Indications 
+• Indicated for use in the treatment and prophylaxis of bronchoconstriction in",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,42,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,2 mg/5 ml,2_mg_5_ml,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,2 mg + 50 mg guaifenesin /5ml,2_mg_50_mg_guaifenesin_5ml,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,2 mg + 100 mg ammonium chloride /5ml,2_mg_100_mg_ammonium_chloride_5ml,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,1 mg + 50 mg guaifenesin + 2 mg bromhexine chloride /5ml Oral inhalation solution,nebulizer_solution,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",nebulizer,nebulizer,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Medical nebulizer chamber & compressor setup technique
+Salbutamol,"5 mg/ml, 2.5 mg/2.5ml, 5 mg/2.5ml",5_mg_ml_2_5_mg_2_5ml_5_mg_2_5ml,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,2.5 mg + 0.5 mg ipratropium bromide /2.5ml,2_5_mg_0_5_mg_ipratropium_bromide_2_5ml,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,1 mg + 0.2 mg ipratropium bromide / 1 ml,1_mg_0_2_mg_ipratropium_bromide_1_ml,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,Oral dry powder inhalation: 200 mcg/dose Oral metered dose inhaler,inhalation_powder,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,dpi_inhaler,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,DPI breath-actuated inhalation device technique
+Salbutamol,0.1 mg/dose,0_1_mg_dose,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,0.1 mg + 0.02 mg ipratropium chloride/dose,0_1_mg_0_02_mg_ipratropium_chloride_dose,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,0.1 mg + 0.05 mg beclomethasone dipropionate /dose,0_1_mg_0_05_mg_beclomethasone_dipropionate_dose,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Salbutamol,Parenteral SC/IM/IV: 0.5 mg/ml,parenteral_sc_im_iv,"Oral, Oral Inhalation, Parenteral","Oral, Oral Inhalation, Parenteral 
+Pharmacologic 
+Category 
+Selective Beta2 Agonist, short-acting 
+ATC 
+Oral Inhalation: R03AC02 
+Oral, Parenteral: R03CC02",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,48,pending,Inhalation delivery system requiring exact device mapping
+Terbutaline,"Syrup: 1.5 mg/5ml single and in combination, 1.25 mg, 1.5 mg/5ml in combination",oral_syrup,"Oral, inhalation","Oral, inhalation 
+Pharmacologic 
+Category 
+Beta2-adrenoreceptor agonists 
+ 
+ATC 
+Nebulizer solution: R03AC03",nebulizer,nebulizer,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,53,pending,Medical nebulizer chamber & compressor setup technique
+Terbutaline,Tablets: 2.5 mg,tablet,"Oral, inhalation","Oral, inhalation 
+Pharmacologic 
+Category 
+Beta2-adrenoreceptor agonists 
+ 
+ATC 
+Nebulizer solution: R03AC03",nebulizer,nebulizer,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,53,pending,Medical nebulizer chamber & compressor setup technique
+Terbutaline,Solution for nebulizer: 5mg/2ml,nebulizer_solution,"Oral, inhalation","Oral, inhalation 
+Pharmacologic 
+Category 
+Beta2-adrenoreceptor agonists 
+ 
+ATC 
+Nebulizer solution: R03AC03",nebulizer,nebulizer,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,53,pending,Medical nebulizer chamber & compressor setup technique
+Xylometazoline,"Nasal drops: 0.05%, 0.1%",nasal_drops,Nasal,"Nasal 
+Pharmacologic 
+Category 
+Alpha-adrenergic agonist; decongestant; imidazoline derivative 
+ATC: R01AA07 
+Indications 
+Nasal relief of nasopharyngeal congestion, perennial and allergic rhinitis (including",nasal,nasal_drops,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,58,pending,Nasal drops instillation posture (Mygind / Mecca position)
+Xylometazoline,"Nasal spray: 1mg/ml, 0.5mg/ml",nasal_spray,Nasal,"Nasal 
+Pharmacologic 
+Category 
+Alpha-adrenergic agonist; decongestant; imidazoline derivative 
+ATC: R01AA07 
+Indications 
+Nasal relief of nasopharyngeal congestion, perennial and allergic rhinitis (including",nasal,nasal_spray,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,58,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Beclomethasone Dipropionate,"Oral inhalation aerosol: 50 micrograms, 100 mcg per actuation",inhalation_aerosol,"Nasal, oral spray, topical","Nasal, oral spray, topical 
+Pharmacologic 
+Category 
+Corticosteroid, inhalant (oral), nasal  
+ATC:  R03BA01, R01AD01, D07AC01 
+Indications 
+• Nasal spray: Indicated for the treatment and prevention of seasonal and",inhaler,pmdi_inhaler,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,69,pending,Pressurized metered-dose inhaler actuation & coordination technique
+Beclomethasone Dipropionate,Nasal inhalation aerosol:  50 micrograms per actuation,inhalation_aerosol,"Nasal, oral spray, topical","Nasal, oral spray, topical 
+Pharmacologic 
+Category 
+Corticosteroid, inhalant (oral), nasal  
+ATC:  R03BA01, R01AD01, D07AC01 
+Indications 
+• Nasal spray: Indicated for the treatment and prevention of seasonal and",inhaler,pmdi_inhaler,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,69,pending,Pressurized metered-dose inhaler actuation & coordination technique
+Fluticasone,/Strengths,strengths,"Intranasal, intranasal inhalation, oral inhalation, topical","Intranasal, intranasal inhalation, oral inhalation, topical 
+Pharmacologic 
+Category 
+Corticosteroids  
+ATC: D07AC17, R01AD08, R01AD12 (salt), R03BA05, R03BA09 
+Indications 
+Nasal spray",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,77,pending,Inhalation delivery system requiring exact device mapping
+Fluticasone,"Metered nasal spray: 27.5 mcg, 28 mcg, 50 mcg /actuation",nasal_spray,"Intranasal, intranasal inhalation, oral inhalation, topical","Intranasal, intranasal inhalation, oral inhalation, topical 
+Pharmacologic 
+Category 
+Corticosteroids  
+ATC: D07AC17, R01AD08, R01AD12 (salt), R03BA05, R03BA09 
+Indications 
+Nasal spray",nasal,nasal_spray,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,77,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Fluticasone,Monodose nasal drops: 400 mcg,nasal_drops,"Intranasal, intranasal inhalation, oral inhalation, topical","Intranasal, intranasal inhalation, oral inhalation, topical 
+Pharmacologic 
+Category 
+Corticosteroids  
+ATC: D07AC17, R01AD08, R01AD12 (salt), R03BA05, R03BA09 
+Indications 
+Nasal spray",nasal,nasal_drops,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,77,pending,Nasal drops instillation posture (Mygind / Mecca position)
+Fluticasone,"Inhalation powder: 250 mcg, 100 mcg",inhalation_powder,"Intranasal, intranasal inhalation, oral inhalation, topical","Intranasal, intranasal inhalation, oral inhalation, topical 
+Pharmacologic 
+Category 
+Corticosteroids  
+ATC: D07AC17, R01AD08, R01AD12 (salt), R03BA05, R03BA09 
+Indications 
+Nasal spray",inhaler,dpi_inhaler,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,77,pending,DPI breath-actuated inhalation device technique
+Fluticasone,Nasal spray solution: 37.5mg/100 ml,nasal_spray,"Intranasal, intranasal inhalation, oral inhalation, topical","Intranasal, intranasal inhalation, oral inhalation, topical 
+Pharmacologic 
+Category 
+Corticosteroids  
+ATC: D07AC17, R01AD08, R01AD12 (salt), R03BA05, R03BA09 
+Indications 
+Nasal spray",nasal,nasal_spray,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,77,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Acetylcysteine,/Strengths,strengths,"IV, Oral, Inhalation","IV, Oral, Inhalation 
+Pharmacologic 
+Category 
+Antidote; mucolytic agent 
+ATC: Oral and inhalation: R05CB01; Antidote: V03AB23 
+Indications 
+Oral",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,93,pending,Inhalation delivery system requiring exact device mapping
+Acetylcysteine,Effervescent tablet: 600 mg,effervescent_tablet,"IV, Oral, Inhalation","IV, Oral, Inhalation 
+Pharmacologic 
+Category 
+Antidote; mucolytic agent 
+ATC: Oral and inhalation: R05CB01; Antidote: V03AB23 
+Indications 
+Oral",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,93,pending,Inhalation delivery system requiring exact device mapping
+Acetylcysteine,Solution for oral inhalation: 100 mg/ml,inhalation,"IV, Oral, Inhalation","IV, Oral, Inhalation 
+Pharmacologic 
+Category 
+Antidote; mucolytic agent 
+ATC: Oral and inhalation: R05CB01; Antidote: V03AB23 
+Indications 
+Oral",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,93,pending,Inhalation delivery system requiring exact device mapping
+Acetylcysteine,"Solution for IV: 2 gm/10 ml, 5 gm/25 ml, 300 mg/3 ml",solution_for_iv,"IV, Oral, Inhalation","IV, Oral, Inhalation 
+Pharmacologic 
+Category 
+Antidote; mucolytic agent 
+ATC: Oral and inhalation: R05CB01; Antidote: V03AB23 
+Indications 
+Oral",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,93,pending,Inhalation delivery system requiring exact device mapping
+Acetylcysteine,Concentrate for solution for IV infusion and inhalation: 1000 mg /5ml,inhalation,"IV, Oral, Inhalation","IV, Oral, Inhalation 
+Pharmacologic 
+Category 
+Antidote; mucolytic agent 
+ATC: Oral and inhalation: R05CB01; Antidote: V03AB23 
+Indications 
+Oral",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_antiretroviral_formulary_2026.pdf,93,pending,Inhalation delivery system requiring exact device mapping
+Carbocisteine (Carbocysteine),Nasal spray: 5 mg (in combination with 0.5 mg xylometazoline hydrochloride),nasal_spray,"Oral, nasal spray","Oral, nasal spray      
+Pharmacologic 
+Category 
+Mucolytic Agent 
+ATC: R05CB03           
+Indications 
+Mucolytic agent for the adjunctive therapy of respiratory tract disorders",nasal,nasal_spray,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,104,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Guaifenesin,Rectal suppository: 66.6 mg/suppository,suppository,"Oral, rectal","Oral, rectal 
+Pharmacologic 
+Category 
+Expectorant 
+ATC: R05CA03, R05CA10, R05FA02, R05X 
+Indications 
+Symptomatic relief of productive cough in adults and adolescents above 12 years. It",rectal,suppository,yes,generic_technique,false,,egypt_antiretroviral_formulary_2026.pdf,106,pending,"Suppository insertion, unwrapping, position, and retention"
+Cyanocobalamin (Vitamin B12),Metered Nasal Spray: 0.5 mg,nasal_spray,"IM, Nasal, Oral","IM, Nasal, Oral.  
+Pharmacologic 
+Category 
+Vitamin, Water Soluble. 
+ATC: B03BA01   
+Indications",nasal,nasal_spray,yes,generic_technique,false,,egypt_blood_disorders_formulary_2025.pdf,24,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Emicizumab,"Solution for S.C injection:  30 mg/ml, 105 mg/0.7ml, 60 mg/0.4 ml",injection,SC,"SC 
+Pharmacologic 
+Category 
+Antihemophilic Agent; Monoclonal Antibody 
+ATC: B02BX06 
+Indications 
+Routine prophylaxis of bleeding episodes in patients (all age groups) with",self_injection,self_injection,needs_review,needs_review,false,,egypt_blood_disorders_formulary_2025.pdf,80,pending,Subcutaneous route requires clinical check for outpatient self-use
+Emicizumab,150mg/ml,150mg_ml,SC,"SC 
+Pharmacologic 
+Category 
+Antihemophilic Agent; Monoclonal Antibody 
+ATC: B02BX06 
+Indications 
+Routine prophylaxis of bleeding episodes in patients (all age groups) with",self_injection,self_injection,needs_review,needs_review,false,,egypt_blood_disorders_formulary_2025.pdf,80,pending,Subcutaneous route requires clinical check for outpatient self-use
+Nitroglycerin (Glyceryl Trinitrate),"Transdermal Therapeutic System: 5mg, 10mg",transdermal_patch,"IV, Oral, Transdermal, topical","IV, Oral, Transdermal, topical 
+Pharmacologic 
+category 
+Antianginal Agent; Antidote, Extravasation; Vasodilator 
+ATC: Topical, local: C05AE01,  other routes: C01DA02  
+Indications 
+Oral administration: Treatment or prevention of angina pectoris.",transdermal,transdermal_patch,yes,generic_technique,false,,egypt_cardiovascular_formulary_2024.pdf,76,pending,"Transdermal patch skin preparation, adhesion, and rotation"
+Nitroglycerin (Glyceryl Trinitrate),"Transdermal Patch: 22.4 mg, 44.8 mg, 18.7 mg, 37.4 mg",transdermal_patch,"IV, Oral, Transdermal, topical","IV, Oral, Transdermal, topical 
+Pharmacologic 
+category 
+Antianginal Agent; Antidote, Extravasation; Vasodilator 
+ATC: Topical, local: C05AE01,  other routes: C01DA02  
+Indications 
+Oral administration: Treatment or prevention of angina pectoris.",transdermal,transdermal_patch,yes,generic_technique,false,,egypt_cardiovascular_formulary_2024.pdf,76,pending,"Transdermal patch skin preparation, adhesion, and rotation"
+Lidocaine,Topical Patch: 700 mg/Patch,transdermal_patch,"IM, IV, SC, Topical, oral","IM, IV, SC, Topical, oral 
+Pharmacologic 
+category 
+Systemic: Antiarrhythmic Agent, Class Ib; Local Anesthetic 
+Topical: Analgesic, Topical; Local Anesthetic 
+ATC: parentral antiarrhythmic C01BB01  
+ATC: Local for hemorrhoids C05AD01",transdermal,transdermal_patch,yes,generic_technique,false,,egypt_cardiovascular_formulary_2024.pdf,85,pending,"Transdermal patch skin preparation, adhesion, and rotation"
+Lidocaine,topical aerosol powder spray 10gm And in combinations,inhalation_aerosol,"IM, IV, SC, Topical, oral","IM, IV, SC, Topical, oral 
+Pharmacologic 
+category 
+Systemic: Antiarrhythmic Agent, Class Ib; Local Anesthetic 
+Topical: Analgesic, Topical; Local Anesthetic 
+ATC: parentral antiarrhythmic C01BB01  
+ATC: Local for hemorrhoids C05AD01",inhaler,pmdi_inhaler,yes,exact_device_required,true,,egypt_cardiovascular_formulary_2024.pdf,85,pending,Pressurized metered-dose inhaler actuation & coordination technique
+Acetylsalicylic acid,Rectal suppository: 200 mg in combination,suppository,"Oral, rectal","Oral, rectal 
+Pharmacologic 
+category 
+Pharmacological category:  
+Analgesic, Nonopioid; Antipyretic; Antiplatelet Agent; Nonsteroidal Anti-
+inflammatory Drug (NSAID) 
+ATC:",rectal,suppository,yes,generic_technique,false,,egypt_cardiovascular_formulary_2024.pdf,112,pending,"Suppository insertion, unwrapping, position, and retention"
+Goserelin,Prefilled syringe for S.C injection (Depot Implant): 10.8 mg,injection,Subcutaneous,"Subcutaneous. 
+Pharmacologic 
+Category 
+Antineoplastic Agent, Gonadotropin-Releasing Hormone Agonist. 
+ATC Code: L02AE03. 
+Indications",self_injection,self_injection,needs_review,needs_review,false,,egypt_conventional_anticancer_formulary_2024.pdf,228,pending,Subcutaneous route requires clinical check for outpatient self-use
+Goserelin,Prefilled syringe for S.C injection (Implant): 3.6 mg,injection,Subcutaneous,"Subcutaneous. 
+Pharmacologic 
+Category 
+Antineoplastic Agent, Gonadotropin-Releasing Hormone Agonist. 
+ATC Code: L02AE03. 
+Indications",self_injection,self_injection,needs_review,needs_review,false,,egypt_conventional_anticancer_formulary_2024.pdf,228,pending,Subcutaneous route requires clinical check for outpatient self-use
+Goserelin,Implant with applicator: 3.6 mg,implant_with_applicator,Subcutaneous,"Subcutaneous. 
+Pharmacologic 
+Category 
+Antineoplastic Agent, Gonadotropin-Releasing Hormone Agonist. 
+ATC Code: L02AE03. 
+Indications",self_injection,self_injection,needs_review,needs_review,false,,egypt_conventional_anticancer_formulary_2024.pdf,228,pending,Subcutaneous route requires clinical check for outpatient self-use
+Pegfilgrastim,Solution for injection in pre-filled syringes: 6mg/ 0.6ml,injection,SC,"SC 
+Pharmacologic 
+Category 
+Colony Stimulating Factor; Hematopoietic Agent 
+ATC code: L03AA13 
+Indications 
+Reduction in the duration of neutropenia and the incidence of febrile neutropenia",self_injection,self_injection,needs_review,needs_review,false,,egypt_conventional_anticancer_formulary_2024.pdf,275,pending,Subcutaneous route requires clinical check for outpatient self-use
+Dulaglutide,"Solution for SC injection: 0.75mg/0.5ml, 1.5mg/0.5ml",injection,SC,"SC. 
+Pharmacologic 
+Category 
+Antidiabetic Agent, Glucagon-Like Peptide-1 (GLP-1) Receptor Agonist. 
+ATC: A10BJ05 
+Indications 
+Biological medicine should be prescribed and dispensed by brand name.",self_injection,self_injection,needs_review,needs_review,false,,egypt_endocrine_formulary_2024.pdf,46,pending,Subcutaneous route requires clinical check for outpatient self-use
+Exenatide,Powder for Suspension for Injection in prefilled pen (extended-release): 2mg,oral_suspension,SC,"SC 
+Pharmacologic 
+Category 
+Antidiabetic Agent, Glucagon-Like Peptide-1 (GLP-1) Receptor Agonist 
+ATC: A10BJ01 
+Indications 
+Diabetes mellitus, type 2, Management (extended-release): As an adjunct to",self_injection,self_injection,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,49,pending,Emergency or daily patient self-administered auto-injector device
+Liraglutide,Solution for S.C injection: 6 mg/mL,injection,SC,"SC 
+Pharmacologic 
+Category 
+Antidiabetic Agent, Glucagon-Like Peptide-1 (GLP-1) Receptor Agonist 
+ATC: A10BJ02 
+Indications",self_injection,self_injection,needs_review,needs_review,false,,egypt_endocrine_formulary_2024.pdf,52,pending,Subcutaneous route requires clinical check for outpatient self-use
+Semaglutide,"Solution for SC injection: 0.25 mg, 0.5 mg",injection,"Oral, SC","Oral, SC 
+Pharmacologic 
+Category 
+Antidiabetic Agent, Glucagon-Like Peptide-1 (GLP-1) Receptor Agonist. 
+ATC: A10BJ06 
+Indications",self_injection,self_injection,needs_review,needs_review,false,,egypt_endocrine_formulary_2024.pdf,55,pending,Subcutaneous route requires clinical check for outpatient self-use
+Semaglutide,Solution in prefilled pen: 1 mg,solution_in_prefilled_pen,"Oral, SC","Oral, SC 
+Pharmacologic 
+Category 
+Antidiabetic Agent, Glucagon-Like Peptide-1 (GLP-1) Receptor Agonist. 
+ATC: A10BJ06 
+Indications",self_injection,self_injection,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,55,pending,Emergency or daily patient self-administered auto-injector device
+Ethinyl Estradiol and Etonogestrel,Vaginal Ring: Ethinyl estradiol 2.7 mg; Etonogestrel 11.7 mg,vaginal_suppository,Vaginal,"Vaginal  
+Pharmacologic 
+Category",rectal,suppository,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,88,pending,"Suppository insertion, unwrapping, position, and retention"
+Progesterone,Rectal or vaginal pessaries: 200 mg; 400 mg,vaginal_suppository,"Oral; Vaginal; I.M, Rectal","Oral; Vaginal; I.M, Rectal  
+Pharmacologic 
+Category 
+Progestin 
+ATC: G03DA04 
+Indications 
+Oral",rectal,suppository,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,130,pending,"Suppository insertion, unwrapping, position, and retention"
+Progesterone,Rectal Suppositories: 200 mg,suppository,"Oral; Vaginal; I.M, Rectal","Oral; Vaginal; I.M, Rectal  
+Pharmacologic 
+Category 
+Progestin 
+ATC: G03DA04 
+Indications 
+Oral",rectal,suppository,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,130,pending,"Suppository insertion, unwrapping, position, and retention"
+Betamethasone,Topical Aerosol Foam: 0.12 gm,inhalation_aerosol,"Oral, IV, IM, Topical, intra-articular, intralesional","Oral, IV, IM, Topical, intra-articular, intralesional 
+Pharmacologic 
+Category 
+Corticosteroid 
+ATC code: 
+D07AC01:  Topical 
+H02AB01: Systemic",inhaler,pmdi_inhaler,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,138,pending,Pressurized metered-dose inhaler actuation & coordination technique
+Budesonide,Inhalation,inhalation,"Oral Inhalation, Oral, Rectal, Nasal Inhalation","Oral Inhalation, Oral, Rectal, Nasal Inhalation  
+Pharmacologic 
+Category 
+Corticosteroid 
+ATC, Oral Inhalant : R03BA02 
+ATC, Rectal: D07AC09 
+ATC, Nasal: R01AD05",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,145,pending,Inhalation delivery system requiring exact device mapping
+Budesonide,"Suspension for inhalation in nebules: 0.25 mg/ml, 0.25mg/2ml, 0.5mg/ml",oral_suspension,"Oral Inhalation, Oral, Rectal, Nasal Inhalation","Oral Inhalation, Oral, Rectal, Nasal Inhalation  
+Pharmacologic 
+Category 
+Corticosteroid 
+ATC, Oral Inhalant : R03BA02 
+ATC, Rectal: D07AC09 
+ATC, Nasal: R01AD05",nebulizer,nebulizer,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,145,pending,Medical nebulizer chamber & compressor setup technique
+Budesonide,"0.5 mg/2ml, 1 mg/2ml",0_5_mg_2ml_1_mg_2ml,"Oral Inhalation, Oral, Rectal, Nasal Inhalation","Oral Inhalation, Oral, Rectal, Nasal Inhalation  
+Pharmacologic 
+Category 
+Corticosteroid 
+ATC, Oral Inhalant : R03BA02 
+ATC, Rectal: D07AC09 
+ATC, Nasal: R01AD05",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,145,pending,Inhalation delivery system requiring exact device mapping
+Budesonide,Oral Modified-Release Tablet: 9mg,extended_release_tablet,"Oral Inhalation, Oral, Rectal, Nasal Inhalation","Oral Inhalation, Oral, Rectal, Nasal Inhalation  
+Pharmacologic 
+Category 
+Corticosteroid 
+ATC, Oral Inhalant : R03BA02 
+ATC, Rectal: D07AC09 
+ATC, Nasal: R01AD05",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,145,pending,Inhalation delivery system requiring exact device mapping
+Budesonide,Rectal Enema: 2 mg,rectal_enema,"Oral Inhalation, Oral, Rectal, Nasal Inhalation","Oral Inhalation, Oral, Rectal, Nasal Inhalation  
+Pharmacologic 
+Category 
+Corticosteroid 
+ATC, Oral Inhalant : R03BA02 
+ATC, Rectal: D07AC09 
+ATC, Nasal: R01AD05",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,145,pending,Inhalation delivery system requiring exact device mapping
+Budesonide,"Nasal spray: 32 mcg/metered dose, 64mcg/metered dose",nasal_spray,"Oral Inhalation, Oral, Rectal, Nasal Inhalation","Oral Inhalation, Oral, Rectal, Nasal Inhalation  
+Pharmacologic 
+Category 
+Corticosteroid 
+ATC, Oral Inhalant : R03BA02 
+ATC, Rectal: D07AC09 
+ATC, Nasal: R01AD05",inhaler,pmdi_inhaler,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,145,pending,Pressurized metered-dose inhaler actuation & coordination technique
+Dexamethasone,Eye / Ear Drops: 1 mg/ml,ear_drops,"Oral, IM, IV, Ophthalmic, Intravitreal","Oral, IM, IV, Ophthalmic, Intravitreal. 
+Pharmacologic 
+Category 
+Systemic: Anti-inflammatory Agent; Antiemetic; Corticosteroid. 
+Ophthalmic, Otic: Anti-inflammatory Agent; Corticosteroid.  
+ATC:  
+Hormonal: H02AB02",otic,ear_drops,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,151,pending,"Ear drop administration, ear canal positioning, and head-tilt hold"
+Dexamethasone,Eye Ointment: 0.050 %,eye_ointment,"Oral, IM, IV, Ophthalmic, Intravitreal","Oral, IM, IV, Ophthalmic, Intravitreal. 
+Pharmacologic 
+Category 
+Systemic: Anti-inflammatory Agent; Antiemetic; Corticosteroid. 
+Ophthalmic, Otic: Anti-inflammatory Agent; Corticosteroid.  
+ATC:  
+Hormonal: H02AB02",ophthalmic,eye_ointment,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,151,pending,Eye ointment ribbon application along the lower eyelid
+Hydrocortisone,Ophthalmic Ointment: 10 mg. And in combinations,eye_ointment,"IM, IV, Oral, Topical Ophthalmic","IM, IV, Oral, Topical Ophthalmic. 
+Pharmacologic 
+Category 
+Corticosteroid, Systemic, Topical, Ophthalmic. 
+ATC: 
+Dermatological: D07AA02  
+Systemic: H02AB09",ophthalmic,eye_ointment,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,162,pending,Eye ointment ribbon application along the lower eyelid
+Mometasone,Metered Nasal Spray: 50 mcg/actuation,nasal_spray,"Nasal, Topical, Inhalation","Nasal, Topical, Inhalation 
+Pharmacologic 
+Category 
+Corticosteroid  
+ATC: Topical (single agent): D07AC13, Nasal: R01AD09 
+Indications 
+Nasal spray",nasal,nasal_spray,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,179,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Mometasone,"Topical Lotion: 1mg/gm (15ml, 20ml, 60ml)",lotion,"Nasal, Topical, Inhalation","Nasal, Topical, Inhalation 
+Pharmacologic 
+Category 
+Corticosteroid  
+ATC: Topical (single agent): D07AC13, Nasal: R01AD09 
+Indications 
+Nasal spray",inhaler,inhaler_unspecified,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,179,pending,Inhalation delivery system requiring exact device mapping
+Triamcinolone,Nasal spray:  55 mcg/dose,nasal_spray,"Intra-muscular, Intra-articular, Intralesional, Oral, Nasal, Topical","Intra-muscular, Intra-articular, Intralesional, Oral, Nasal, Topical 
+Pharmacologic 
+Category 
+Corticosteroid 
+ATC code: Systemic: A01AC01, H02AB08 
+ATC code: Nasal: R01AD11 
+ATC code: Topical: C05AA12, D07AB09, D07XB02",nasal,nasal_spray,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,189,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Bromocriptine,Vaginal suppositories: 2.5mg,suppository,"Oral, Vaginal","Oral, Vaginal 
+Pharmacologic 
+Category 
+Dopamine (D2) Agonist: Anti-Parkinson Agent, Antidiabetic Agent, Ergot 
+Derivative; Hyperprolactinemia Agent 
+ATC: G02CB01, N04BC01  
+Indications",rectal,suppository,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,197,pending,"Suppository insertion, unwrapping, position, and retention"
+Degludec Long acting Insulin,Solution for SC injection (prefilled pen): 100 units/ml,injection,SC,"SC 
+Pharmacologic 
+Category 
+Insulin, Long-Acting 
+ATC code: A10AE06 
+Indications 
+To improve glycemic control of diabetes mellitus, types 1 and 2 in adults",insulin_injection,insulin_pen,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,214,pending,"Insulin injection pen dial, priming, and subcutaneous technique"
+Detemir Long-acting Insulin,Solution for injection in Pre-filled Syringe: 100 I.U./ml,injection,SC,"SC 
+Pharmacologic 
+Category 
+Insulin, Long-Acting 
+ATC: A10AE05 
+Indications 
+Improvement of glycemic control of diabetes mellitus (type 1 and 2) in",insulin_injection,insulin_pen,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,217,pending,"Insulin injection pen dial, priming, and subcutaneous technique"
+Follitropin Alfa,"Powder and solvent for injection: 75 I.U/VIAL, 150 I.U/VIAL",injection,SC,"SC 
+Pharmacologic 
+Category 
+Gonadotropin; Ovulation Stimulator 
+ATC: G03GA05 
+Indications 
+Biological medicines must be prescribed and dispensed by brand name.",self_injection,self_injection,needs_review,needs_review,false,,egypt_endocrine_formulary_2024.pdf,233,pending,Subcutaneous route requires clinical check for outpatient self-use
+Follitropin Alfa,"Solution for injection in Pre-Filled Syringe: 150 I.U., 225 I.U., 300 I.U",injection,SC,"SC 
+Pharmacologic 
+Category 
+Gonadotropin; Ovulation Stimulator 
+ATC: G03GA05 
+Indications 
+Biological medicines must be prescribed and dispensed by brand name.",self_injection,self_injection,needs_review,needs_review,false,,egypt_endocrine_formulary_2024.pdf,233,pending,Subcutaneous route requires clinical check for outpatient self-use
+Follitropin Alfa,"Solution for injection in prefilled pen: 300 IU / 0.5 ml, 900 IU/ 1.5ml",injection,SC,"SC 
+Pharmacologic 
+Category 
+Gonadotropin; Ovulation Stimulator 
+ATC: G03GA05 
+Indications 
+Biological medicines must be prescribed and dispensed by brand name.",self_injection,self_injection,yes,exact_device_required,true,,egypt_endocrine_formulary_2024.pdf,233,pending,Emergency or daily patient self-administered auto-injector device
+Desmopressin Acetate,Nasal Spray: 0.1 mg/ml,nasal_spray,"Subcutaneous, Intramuscular, Intravenous, Oral, Sublingual, Nasal","Subcutaneous, Intramuscular, Intravenous, Oral, Sublingual, Nasal 
+Pharmacologic 
+Category 
+Antihemophilic Agent; Hemostatic Agent; Hormone, Posterior Pituitary; 
+Vasopressin Analog, Synthetic. 
+ATC: H01BA02.  
+Indications",nasal,nasal_spray,yes,generic_technique,false,,egypt_endocrine_formulary_2024.pdf,255,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Granisetron,Transdermal Patch: 34.3 mg,transdermal_patch,"IV, Oral, Transdermal","IV, Oral, Transdermal. 
+Pharmacologic 
+Category 
+Antiemetic; Selective 5-HT3 Receptor Antagonist. 
+ATC: A04AA02. 
+Indications 
+Oral",transdermal,transdermal_patch,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,21,pending,"Transdermal patch skin preparation, adhesion, and rotation"
+Ondansetron,Rectal Suppositories: 16 mg,suppository,"Oral, Parenteral, Rectal","Oral, Parenteral, Rectal 
+Pharmacologic 
+Category 
+Antiemetic; Selective 5-HT3 Receptor Antagonist 
+ATC: A04AA01 
+Indications 
+• Management and prevention of nausea and vomiting associated with",rectal,suppository,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,26,pending,"Suppository insertion, unwrapping, position, and retention"
+Domperidone,Rectal suppository: 30 mg,suppository,"Oral, Rectal","Oral, Rectal 
+Pharmacologic 
+Category 
+• Dopamine Antagonist; Gastrointestinal Agent, Prokinetic 
+• ATC:  A03FA03 
+Indications 
+• Relief of the symptoms of nausea and vomiting.",rectal,suppository,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,36,pending,"Suppository insertion, unwrapping, position, and retention"
+Metoclopramide,"Rectal Suppositories: 10 mg, 20 mg",suppository,"Oral, Rectal, Parenteral","Oral, Rectal, Parenteral 
+Pharmacologic 
+Category 
+Antiemetic; Dopamine Antagonist; Gastrointestinal Agent, Prokinetic; 
+Serotonin 5-HT4 Receptor Agonist. 
+ATC: A03FA01 
+Indications",rectal,suppository,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,39,pending,"Suppository insertion, unwrapping, position, and retention"
+Hyoscine-N-butyl bromide/ Scopolamine butylbromide,Rectal Suppositories: 15 mg,suppository,"Oral, Parenteral, Rectal","Oral, Parenteral, Rectal 
+Pharmacologic 
+Category 
+Anticholinergic Agent. 
+ATC: A03BA03 
+Indications 
+Injection (adult only)",rectal,suppository,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,55,pending,"Suppository insertion, unwrapping, position, and retention"
+Mesalazine (Mesalamine),Rectal Suppositories: 1 gm,suppository,"Oral, rectal","Oral, rectal 
+Pharmacologic 
+Category 
+5-Aminosalicylic Acid Derivative 
+ATC:  A07EC02 
+Indications 
+Oral",rectal,suppository,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,107,pending,"Suppository insertion, unwrapping, position, and retention"
+Glycerin,"Rectal Suppositories: 1.4 gm, 1.47 gm, 1.61 gm. 70% w/w",suppository,Rectal,"Rectal 
+Pharmacologic 
+Category 
+Laxative, Osmotic 
+ATC: A06AX01 
+Indications 
+• For occasional use as a stimulant laxative for the treatment of constipation.",rectal,suppository,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,117,pending,"Suppository insertion, unwrapping, position, and retention"
+Glycerin,Infantile rectal suppository: 0.7gm,suppository,Rectal,"Rectal 
+Pharmacologic 
+Category 
+Laxative, Osmotic 
+ATC: A06AX01 
+Indications 
+• For occasional use as a stimulant laxative for the treatment of constipation.",rectal,suppository,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,117,pending,"Suppository insertion, unwrapping, position, and retention"
+Bisacodyl,"Suppository: 5 mg, 10 mg",suppository,"Oral, Rectal","Oral, Rectal 
+Pharmacologic 
+Category 
+Laxative, Stimulant 
+ATC: A06AG02 
+Indications 
+• Short-term relief of occasional constipation whenever a stimulant laxative is",rectal,suppository,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,130,pending,"Suppository insertion, unwrapping, position, and retention"
+Docusate sodium,Ear drops (wax): 5 gm/100 mL,ear_drops,"Oral, Rectal, Otic","Oral, Rectal, Otic 
+Pharmacologic 
+Category 
+Laxative, Stimulant; Stool Softener 
+Oral ATC: A06AA02 
+Indications 
+Oral",otic,ear_drops,yes,generic_technique,false,,egypt_gastrointestinal_formulary_2025.pdf,135,pending,"Ear drop administration, ear canal positioning, and head-tilt hold"
+Diazepam,Rectal Suppositories: 10 mg,suppository,"IM, IV, Oral, Rectal","IM, IV, Oral, Rectal 
+Pharmacologic 
+Category 
+Anticonvulsant, Antiseizure Agent, Benzodiazepine. 
+ATC: N05BA01 
+Indications 
+•",rectal,suppository,yes,generic_technique,false,,egypt_nervous_system_formulary_2025.pdf,21,pending,"Suppository insertion, unwrapping, position, and retention"
+Denosumab,"Prefilled syringe for injection: 60 mg, 120mg",injection,SC,"SC 
+Pharmacologic 
+Category 
+Bone-Modifying Agent; RANK ligand (RANKL) inhibitor, Monoclonal Antibody. 
+ATC: M05BX04 
+Indications 
+120 mg",self_injection,self_injection,needs_review,needs_review,false,,egypt_targeted_anticancer_formulary_2025.pdf,145,pending,Subcutaneous route requires clinical check for outpatient self-use
+Fluticasone Propionate,Nasal Spray: micronized 0.05 mg /100,nasal_spray,Topical,,nasal,nasal_spray,yes,generic_technique,false,,egypt_otc_drug_list_2026.pdf,7,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+Mometasone Furoate Monohydrat,Nasal spray: 0.052 mg equivalent to,nasal_spray,Topical,,nasal,nasal_spray,yes,generic_technique,false,,egypt_otc_drug_list_2026.pdf,7,pending,"Nasal spray pump priming, head tilt, and ipsilateral/contralateral spraying technique"
+As in insert leaflet in children weighing between 14 Kg and 28,"Kg (Approximately 2 to 9 years of age).: Carton box containing 1,2 or 3 (Al/Al) strips,each of 5 suppositories",kg_approximately_2_to_9_years_of_age,Topical,,rectal,suppository,yes,generic_technique,false,,egypt_otc_drug_list_2026.pdf,16,pending,"Suppository insertion, unwrapping, position, and retention"
+As in insert leaflet in children aged 1 - 5 years (10 - 18 Kg).,Carton box containing one (PVC/PE) strip containing 5 suppositories,suppository,Rectal,,rectal,suppository,yes,generic_technique,false,,egypt_otc_drug_list_2026.pdf,16,pending,"Suppository insertion, unwrapping, position, and retention"

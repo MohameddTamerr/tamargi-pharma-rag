@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card-bg: #ffffff;
+  --border-color: #e2e8f0;
+  --primary-teal: #0f766e;
+  --primary-teal-light: #f0fdfa;
+  --primary-blue: #0369a1;
+  --primary-blue-light: #f0f9ff;
+  --calm-slate: #334155;
+  --muted-text: #475569;
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --card-bg: #1e293b;
+  --border-color: #334155;
+  --primary-teal: #14b8a6;
+  --primary-teal-light: #134e4a;
+  --primary-blue: #38bdf8;
+  --primary-blue-light: #075985;
+  --calm-slate: #cbd5e1;
+  --muted-text: #94a3b8;
+}
+
+html, body {
+  height: 100dvh;
+  max-height: 100dvh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  direction: rtl;
+}
+
+/* Touch targets minimum 44px for elderly accessibility */
+button, a, input, select, textarea {
+  min-height: 44px;
+}
+
+/* Scoped Clean Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+/* Print Stylesheet for Medication Plan / Draft Prescriptions */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  .no-print, nav, aside, footer, .sidebar, .navbar, .chat-composer {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .prescription-sheet {
+    box-shadow: none !important;
+    border: 1px solid #cbd5e1 !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

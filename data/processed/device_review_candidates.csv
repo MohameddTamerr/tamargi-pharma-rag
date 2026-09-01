@@ -1,0 +1,751 @@
+﻿generic_name,dosage_form_raw,dosage_form_normalized,route,device_category,source_file,source_page,exact_device_name,review_status,review_notes
+Amikacin,"Vial 100mg, 250mg, 500mg, 1000mg",injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,13,,pending,needs manual exact device verification
+Gentamicin,"Ampoule 20mg, 40mg, 80mg",injection,"IV, IM, Topical, Opthalmic",injection,egypt_antimicrobial_formulary_2023.pdf,17,,pending,needs manual exact device verification
+Gentamicin,"Topical cream or ointment 0.1%, 0.3%",cream,"IV, IM, Topical, Opthalmic",injection,egypt_antimicrobial_formulary_2023.pdf,17,,pending,needs manual exact device verification
+Gentamicin,"Eye/ear Drops 0.3%, 5mg/ml",ear_drops,"IV, IM, Topical, Opthalmic",otic,egypt_antimicrobial_formulary_2023.pdf,17,,pending,needs manual exact device verification
+Gentamicin,"Eye/ Ear Ointment: 3mg/gm, 5mg/gm",ointment,"IV, IM, Topical, Opthalmic",injection,egypt_antimicrobial_formulary_2023.pdf,17,,pending,needs manual exact device verification
+Neomycin,Ophthalmic and topical preparations in combinations,ophthalmic_and_topical_preparations_in_combinations,Oral,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,23,,pending,needs manual exact device verification
+Streptomycin,Vial (or Powder for injection): 1gm,injection,"IM 
+Or oral in combinations",injection,egypt_antimicrobial_formulary_2023.pdf,26,,pending,needs manual exact device verification
+Tobramycin,Ophthalmic ointment 0.3% (3 mg/gm) Ophthalmic solution 0.3%,eye_ointment,"Ophthalmic, Inhalation",inhaler,egypt_antimicrobial_formulary_2023.pdf,30,,pending,needs manual exact device verification
+Tobramycin,Inhalation Solution  300 mg/5ml,nebulizer_solution,"Ophthalmic, Inhalation",inhaler,egypt_antimicrobial_formulary_2023.pdf,30,,pending,needs manual exact device verification
+Albendazole,"Suspension 200mg/5ml, 2 gm/100ml",oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,33,,pending,needs manual exact device verification
+Levamisole,Syrup: 0.8% (40mg/5ml),oral_syrup,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,40,,pending,needs manual exact device verification
+Mebendazole,Oral suspension: 100mg/5ml,oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,42,,pending,needs manual exact device verification
+Praziquantel,Suspension 1.8gm/15ml,oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,45,,pending,needs manual exact device verification
+Pyrantel,Oral Suspension: 250 mg/5ml,oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,47,,pending,needs manual exact device verification
+Amphotericin B,Vial 50 mg/15ml,injection,IV,injection,egypt_antimicrobial_formulary_2023.pdf,49,,pending,needs manual exact device verification
+Anidulafungin,Vial 100mg,injection,IV,injection,egypt_antimicrobial_formulary_2023.pdf,52,,pending,needs manual exact device verification
+Caspofungin,"Vial 50mg, 70mg",injection,IV,injection,egypt_antimicrobial_formulary_2023.pdf,54,,pending,needs manual exact device verification
+Flubendazole,Oral suspension: 100mg/5ml,oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,57,,pending,needs manual exact device verification
+Fluconazole,"Capsule 50mg, 150mg, 200mg",capsule,"IV, Oral",injection,egypt_antimicrobial_formulary_2023.pdf,58,,pending,needs manual exact device verification
+Fluconazole,"Oral Syrup (or powder for oral suspension) 25mg/5ml, 50mg/5ml, 200mg/5ml",oral_suspension,"IV, Oral",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,58,,pending,needs manual exact device verification
+Fluconazole,"Vial (2mg/ml) 50mg, 100mg, 200mg",injection,"IV, Oral",injection,egypt_antimicrobial_formulary_2023.pdf,58,,pending,needs manual exact device verification
+Griseofulvin,Oral Suspension 125mg/5ml,oral_suspension,"Oral, Topical",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,62,,pending,needs manual exact device verification
+Griseofulvin,Topical Suspension 2.5gm/100ml,oral_suspension,"Oral, Topical",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,62,,pending,needs manual exact device verification
+Itraconazole,Syrup 10mg/ml,oral_syrup,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,64,,pending,needs manual exact device verification
+Micafungin,Powder for Solution for I.V Infusion: 50mg,iv_infusion,I.V infusion,injection,egypt_antimicrobial_formulary_2023.pdf,72,,pending,needs manual exact device verification
+Nystatin,Oral drops (suspension): 100000IU/ml,oral_suspension,Oral Topical,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,75,,pending,needs manual exact device verification
+Nystatin,Vaginal suppository 100000IU,suppository,Oral Topical,rectal,egypt_antimicrobial_formulary_2023.pdf,75,,pending,needs manual exact device verification
+Voriconazole,"Tablets 50mg, 200mg",tablet,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,77,,pending,needs manual exact device verification
+Voriconazole,Vial 200mg,injection,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,77,,pending,needs manual exact device verification
+Voriconazole,Oral suspension 40mg,oral_suspension,"Oral, IV",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,77,,pending,needs manual exact device verification
+Posaconazole,Oral Suspension: 200 mg/5ml,oral_suspension,"Oral, IV",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,83,,pending,needs manual exact device verification
+Posaconazole,Solution for slow I.V. Infusion: 300 mg/16.7ml,iv_infusion,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,83,,pending,needs manual exact device verification
+Chloroquine,Suspension: 80 mg/5 ml,oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,95,,pending,needs manual exact device verification
+Chloroquine,Injection: 200 mg/5ml,injection,Oral,injection,egypt_antimicrobial_formulary_2023.pdf,95,,pending,needs manual exact device verification
+Darunavir/ritonavir,"Suspension, Oral: 100 mg/mL (200 mL)",oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,132,,pending,needs manual exact device verification
+Rifampicin,"Capsule 150mg, 300mg",capsule,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,149,,pending,needs manual exact device verification
+Rifampicin,Oral Suspension 2% (100mg/5ml),oral_suspension,"Oral, IV",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,149,,pending,needs manual exact device verification
+Rifampicin,Ampoule Lyophilized Powder 250mg,injection,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,149,,pending,needs manual exact device verification
+Acyclovir,"Tablet 400mg, 800mg",tablet,"Oral, Topical, IV, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,156,,pending,needs manual exact device verification
+Acyclovir,Capsule 200mg,capsule,"Oral, Topical, IV, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,156,,pending,needs manual exact device verification
+Acyclovir,"Suspension 200mg/5ml, 400mg/5ml",oral_suspension,"Oral, Topical, IV, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,156,,pending,needs manual exact device verification
+Acyclovir,Cream 5%,cream,"Oral, Topical, IV, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,156,,pending,needs manual exact device verification
+Acyclovir,"Vial 250mg, 500mg eye ointment 3%",injection,"Oral, Topical, IV, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,156,,pending,needs manual exact device verification
+Ganciclovir,Powder for injection:  500mg,injection,"IV,  IM, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,176,,pending,needs manual exact device verification
+Ganciclovir,Ophthalmic gel 1.5 mg/gm,gel,"IV,  IM, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,176,,pending,needs manual exact device verification
+Ganciclovir,Ophthalmic drops  0.150 gm/100g,eye_drops,"IV,  IM, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,176,,pending,needs manual exact device verification
+Oseltamivir,Powder (or Granules) for Oral Suspension 12mg/ml,oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,188,,pending,needs manual exact device verification
+Ribavirin,Oral Syrup 100mg/5ml,oral_syrup,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,192,,pending,needs manual exact device verification
+Ertapenem,Powder for injection: 1g,injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,220,,pending,needs manual exact device verification
+Imipenem and Cilastatin,Powder for injection: 500/500mg,injection,IV,injection,egypt_antimicrobial_formulary_2023.pdf,225,,pending,needs manual exact device verification
+Meropenem,"Powder for injection: 500mg, 1gm",injection,IV,injection,egypt_antimicrobial_formulary_2023.pdf,229,,pending,needs manual exact device verification
+Cefadroxil,"Oral suspension 125mg/5ml, 250mg/5ml, 500mg/5ml",oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,232,,pending,needs manual exact device verification
+Cefadroxil,Oral drops 100mg/ml,oral_drops,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,232,,pending,needs manual exact device verification
+Cefazolin,"Vial 500mg, 1g",injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,234,,pending,needs manual exact device verification
+Cephalexin,"Oral suspension: 125mg/5ml, 250mg/5ml",oral_suspension,"Oral , parentral",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,238,,pending,needs manual exact device verification
+Cephalexin,"Vial 500mg, 1g",injection,"Oral , parentral",injection,egypt_antimicrobial_formulary_2023.pdf,238,,pending,needs manual exact device verification
+Cephradine,"Capsule 250mg, 500mg, 1g",capsule,"Oral, IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,241,,pending,needs manual exact device verification
+Cephradine,Tablets 1g,tablet,"Oral, IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,241,,pending,needs manual exact device verification
+Cephradine,"Oral suspension 125mg/5ml, 250mg/5ml",oral_suspension,"Oral, IV, IM",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,241,,pending,needs manual exact device verification
+Cephradine,"Vial 250 mg, 500mg, 1g",injection,"Oral, IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,241,,pending,needs manual exact device verification
+Cefaclor,"Oral suspension 125mg/5ml, 250mg/5ml, 375mg/5ml",oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,243,,pending,needs manual exact device verification
+Cefoxitin,"Powder for Solution for Injection: 1gm, 2gm",injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,246,,pending,needs manual exact device verification
+Cefprozil,Powder for Oral Suspension 125 mg/5ml 250 mg/5ml,oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,249,,pending,needs manual exact device verification
+Cefuroxime,"Oral suspension 125mg/5ml, 250mg/5ml",oral_suspension,"Oral, IV, IM",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,251,,pending,needs manual exact device verification
+Cefuroxime,"Tablets 125mg, 250mg, 500mg, 1g",tablet,"Oral, IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,251,,pending,needs manual exact device verification
+Cefuroxime,"Powder for injection 250mg, 750mg, 1500mg",injection,"Oral, IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,251,,pending,needs manual exact device verification
+Cefdinir,"Oral suspension: 125mg/5ml, 250mg/5ml",oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,254,,pending,needs manual exact device verification
+Cefixime,"Oral suspension 100mg/5ml, 200mg/5ml",oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,256,,pending,needs manual exact device verification
+Cefpodoxime,"Oral Suspension: 50,100 mg/5 mL",oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,258,,pending,needs manual exact device verification
+Cefoperazone,"500 mg vial, 1 gm vial, 2gm",injection,"Parenteral IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,262,,pending,needs manual exact device verification
+Cefoperazone and Sulbactam,"Injection, powder for reconstitution: Cefoperazone 1000 mg ; Sulbactam 500 mg",injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,265,,pending,needs manual exact device verification
+Cefotaxime,"Vial 250 mg, 500 mg, 1 gm, 2gm",injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,267,,pending,needs manual exact device verification
+Ceftazidime,"Vial 250 mg , 500 mg, 1 gm, 2gm",injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,270,,pending,needs manual exact device verification
+Ceftazidime and Avibactam,Powder for injection:  2 g/0.5 g,injection,IV,injection,egypt_antimicrobial_formulary_2023.pdf,273,,pending,needs manual exact device verification
+Ceftriaxone,"Vial 250mg, 500 mg, 1 gm, 2gm",injection,"IM, IV",injection,egypt_antimicrobial_formulary_2023.pdf,276,,pending,needs manual exact device verification
+Cefepime,"Vial 500mg, 1g, 2g",injection,"Parentral (IM, IV)",injection,egypt_antimicrobial_formulary_2023.pdf,280,,pending,needs manual exact device verification
+Ceftaroline fosamil,"Powder for Reconstitution for I.V. infusion: 400mg, 600mg",iv_infusion,IV,injection,egypt_antimicrobial_formulary_2023.pdf,283,,pending,needs manual exact device verification
+Ceftolozane and Tazobactam,powder for solution Tazobactam 0.5 gm; Ceftolozane 1 gm,powder,IV,injection,egypt_antimicrobial_formulary_2023.pdf,287,,pending,needs manual exact device verification
+Azithromycin,500 mg vial,injection,"Parenteral, Oral, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,290,,pending,needs manual exact device verification
+Azithromycin,"Tablets 500mg, 600mg, 1000mg",tablet,"Parenteral, Oral, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,290,,pending,needs manual exact device verification
+Azithromycin,"Capsules 250mg, 500mg",capsule,"Parenteral, Oral, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,290,,pending,needs manual exact device verification
+Azithromycin,"Suspension 100mg/5ml, 200mg/5ml, 2000mg/60ml, 2gm ER",oral_suspension,"Parenteral, Oral, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,290,,pending,needs manual exact device verification
+Azithromycin,Eye drops 1%,eye_drops,"Parenteral, Oral, ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,290,,pending,needs manual exact device verification
+Clarithromycin,"Tablets 250mg, 500mg, 500mg SR",tablet,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,293,,pending,needs manual exact device verification
+Clarithromycin,"Granules or powder for Oral Suspension 125mg/5ml, 250mg/5ml",oral_suspension,"Oral, IV",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,293,,pending,needs manual exact device verification
+Clarithromycin,Powder for injection 500mg,injection,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,293,,pending,needs manual exact device verification
+Erythromycin,"powder for orl Suspension 125mg/5ml, 200mg/5ml, 250mg/5ml, 400mg/5ml",oral_suspension,"Oral, topical",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,297,,pending,needs manual exact device verification
+Aztreonam,Powder for injection :1gm,injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,304,,pending,needs manual exact device verification
+Chloramphenicol,Eye ointmint 1%,eye_ointmint,Oral IV Topical Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,307,,pending,needs manual exact device verification
+Chloramphenicol,Eye drops 0.5%,eye_drops,Oral IV Topical Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,307,,pending,needs manual exact device verification
+Chloramphenicol,Capsule 250mg,capsule,Oral IV Topical Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,307,,pending,needs manual exact device verification
+Chloramphenicol,Ears drops 5%,ears_drops,Oral IV Topical Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,307,,pending,needs manual exact device verification
+Chloramphenicol,Oral Suspension 125 mg/5ml,oral_suspension,Oral IV Topical Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,307,,pending,needs manual exact device verification
+Chloramphenicol,Suppository 500mg,suppository,Oral IV Topical Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,307,,pending,needs manual exact device verification
+Chloramphenicol,powder for injection 1g,injection,Oral IV Topical Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,307,,pending,needs manual exact device verification
+Clindamycin,"Capsules 150mg, 300mg, 600mg",capsule,Oral IV IM intravaginal,injection,egypt_antimicrobial_formulary_2023.pdf,310,,pending,needs manual exact device verification
+Clindamycin,"Topical solution 1%, 10mg/30ml",topical_solution,Oral IV IM intravaginal,injection,egypt_antimicrobial_formulary_2023.pdf,310,,pending,needs manual exact device verification
+Clindamycin,Topical jel or cream 1%,cream,Oral IV IM intravaginal,injection,egypt_antimicrobial_formulary_2023.pdf,310,,pending,needs manual exact device verification
+Clindamycin,Solution for injection 300mg 600mg,injection,Oral IV IM intravaginal,injection,egypt_antimicrobial_formulary_2023.pdf,310,,pending,needs manual exact device verification
+Clindamycin,Vaginal ovules 100mg,vaginal_suppository,Oral IV IM intravaginal,rectal,egypt_antimicrobial_formulary_2023.pdf,310,,pending,needs manual exact device verification
+Clindamycin,Vaginal cream2%,cream,Oral IV IM intravaginal,injection,egypt_antimicrobial_formulary_2023.pdf,310,,pending,needs manual exact device verification
+Colistimethate,Powder for solution for injection or for nebulizer solution 1MIU,nebulizer_solution,"Parentral, Oral",inhaler,egypt_antimicrobial_formulary_2023.pdf,314,,pending,needs manual exact device verification
+Linezolid,Oral suspension 100mg/5ml,oral_suspension,"IV, oral",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,329,,pending,needs manual exact device verification
+Linezolid,"Tablets 200mg, 600mg",tablet,"IV, oral",injection,egypt_antimicrobial_formulary_2023.pdf,329,,pending,needs manual exact device verification
+Linezolid,Vial 600mg,injection,"IV, oral",injection,egypt_antimicrobial_formulary_2023.pdf,329,,pending,needs manual exact device verification
+Metronidazole,Suppository 1gm,suppository,"IV, Oral, rectal, intravaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,333,,pending,needs manual exact device verification
+Metronidazole,Vaginal suppository 500mg Vaginal gel 0.75%,suppository,"IV, Oral, rectal, intravaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,333,,pending,needs manual exact device verification
+Metronidazole,"Oral suspension 125mg/5ml, 200mg/5ml",oral_suspension,"IV, Oral, rectal, intravaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,333,,pending,needs manual exact device verification
+Metronidazole,"Tablets 250mg, 500mg",tablet,"IV, Oral, rectal, intravaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,333,,pending,needs manual exact device verification
+Metronidazole,Vial 500mg,injection,"IV, Oral, rectal, intravaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,333,,pending,needs manual exact device verification
+Sulfamethoxazole and Trimethoprim,"Oral suspension Sulfamethoxazole 200 mg/5m, Trimethoprim 40 mg/5ml",oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,346,,pending,needs manual exact device verification
+Teicoplanin,"Powder for solution for I.M or I.V Injection 200mg, 400mg",injection,IV IM,injection,egypt_antimicrobial_formulary_2023.pdf,351,,pending,needs manual exact device verification
+Thiamphenicol,Capsule 250mg,capsule,"IV, IM, Oral",injection,egypt_antimicrobial_formulary_2023.pdf,357,,pending,needs manual exact device verification
+Thiamphenicol,Tablets 250mg,tablet,"IV, IM, Oral",injection,egypt_antimicrobial_formulary_2023.pdf,357,,pending,needs manual exact device verification
+Thiamphenicol,Powder for Solution for Injection 750mg,injection,"IV, IM, Oral",injection,egypt_antimicrobial_formulary_2023.pdf,357,,pending,needs manual exact device verification
+Thiamphenicol,Oral Solution 250mg,oral_solution,"IV, IM, Oral",injection,egypt_antimicrobial_formulary_2023.pdf,357,,pending,needs manual exact device verification
+Tigecycline,Lyophilized Powder for Reconstitution for I.V Infusion: 50mg,iv_infusion,IV,injection,egypt_antimicrobial_formulary_2023.pdf,359,,pending,needs manual exact device verification
+Vancomycin,"Powder for Solution for I.V Infusion 100mg, 500mg, 1gm, 10gm",iv_infusion,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,363,,pending,needs manual exact device verification
+Vancomycin,Hard Gelatin Capsules 250 mg,capsule,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,363,,pending,needs manual exact device verification
+Amoxicillin,"Powder for Oral suspension 125mg/5ml, 200mg/5ml, 250mg/5ml, 400mg/5ml",oral_suspension,"Oral, IV",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,369,,pending,needs manual exact device verification
+Amoxicillin,"Capsule 250mg, 500mg",capsule,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,369,,pending,needs manual exact device verification
+Amoxicillin,"Tablet 125mg, 875mg, 1g",tablet,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,369,,pending,needs manual exact device verification
+Amoxicillin,Extended Release Tablets: 775 mg,tablet,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,369,,pending,needs manual exact device verification
+Amoxicillin,"Powder for injection 250mg, 500mg, 1g",injection,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,369,,pending,needs manual exact device verification
+Amoxicillin,Oral drops 100mg/ml,oral_drops,"Oral, IV",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,369,,pending,needs manual exact device verification
+Amoxicillin and Clavulanate,"Tablet (film coated, dispersible or chewable): 125/31.25 mg, 200/28.5 mg, 250/62.5 mg",chewable_tablet,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,373,,pending,needs manual exact device verification
+Amoxicillin and Clavulanate,"250/125mg, 500/125 mg, 652.78/50.4 mg, 875/125 mg, 875/148.9 mg",250,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,373,,pending,needs manual exact device verification
+Amoxicillin and Clavulanate,"Powder for Oral Suspension: 50/12.5 mg, 125/31.25 mg, 200/28.5 mg, 200/30 mg, 250/62.5",oral_suspension,"Oral, IV",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,373,,pending,needs manual exact device verification
+Amoxicillin and Clavulanate,"mg, 400/57 mg, 400/60 mg, 600/42.9 mg, 1000/125 mg",mg_400,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,373,,pending,needs manual exact device verification
+Amoxicillin and Clavulanate,"Powder for injection:  500/100 mg, 1000/200 mg",injection,"Oral, IV",injection,egypt_antimicrobial_formulary_2023.pdf,373,,pending,needs manual exact device verification
+Ampicillin,"Capsules: 250mg, 500mg",capsule,"Oral, IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,378,,pending,needs manual exact device verification
+Ampicillin,"Oral suspension: 125mg/5ml, 250mg/5ml",oral_suspension,"Oral, IV, IM",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,378,,pending,needs manual exact device verification
+Ampicillin,"Vial: 250 mg, 500 mg, 1g",injection,"Oral, IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,378,,pending,needs manual exact device verification
+Ampicillin and Sulbactam,"Powder for Injection: 2000/1000mg, 1000/500mg, 500/250mg, 250/125 mg",injection,"IM, IV",injection,egypt_antimicrobial_formulary_2023.pdf,382,,pending,needs manual exact device verification
+Benzylpenicillin [Penicillin G],Vial 1 M.I.U,injection,"IV, IM",injection,egypt_antimicrobial_formulary_2023.pdf,385,,pending,needs manual exact device verification
+Flucloxacillin,"In cominations: Capsule, tablet, oral suspension & vial",in_cominations,"IV, IM & oral",injection,egypt_antimicrobial_formulary_2023.pdf,392,,pending,needs manual exact device verification
+Penicillin G Benzathine,Vial 1.2M IU,injection,IM,injection,egypt_antimicrobial_formulary_2023.pdf,394,,pending,needs manual exact device verification
+Piperacillin and Tazobactam,Vial 4.5gm,injection,Intravenous,injection,egypt_antimicrobial_formulary_2023.pdf,400,,pending,needs manual exact device verification
+Sultamicillin,Oral Suspension: 250 mg/5ml,oral_suspension,Oral,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,403,,pending,needs manual exact device verification
+Ciprofloxacin,"Tablets 250mg, 500mg, 750mg",tablet,"Oral,  Opthalmic, IV",injection,egypt_antimicrobial_formulary_2023.pdf,405,,pending,needs manual exact device verification
+Ciprofloxacin,"Extended Release Tablets: 500 mg, 1g Eye ointment 0.3%",tablet,"Oral,  Opthalmic, IV",injection,egypt_antimicrobial_formulary_2023.pdf,405,,pending,needs manual exact device verification
+Ciprofloxacin,Ear or eye drops 3mg/ml,eye_drops,"Oral,  Opthalmic, IV",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,405,,pending,needs manual exact device verification
+Ciprofloxacin,"Vial 200mg, 400mg",injection,"Oral,  Opthalmic, IV",injection,egypt_antimicrobial_formulary_2023.pdf,405,,pending,needs manual exact device verification
+Gatifloxacin,"Eye drops 0.3%, 0.5%",eye_drops,Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,412,,pending,needs manual exact device verification
+Levofloxacin,"Vial 500mg, 750mg",injection,"IV, Oral, Ophthalmic solution",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,414,,pending,needs manual exact device verification
+Levofloxacin,"Tablets 250mg, 500mg, 750mg",tablet,"IV, Oral, Ophthalmic solution",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,414,,pending,needs manual exact device verification
+Levofloxacin,Eye drops 0.5% (5mg/ml),eye_drops,"IV, Oral, Ophthalmic solution",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,414,,pending,needs manual exact device verification
+Lomefloxacin,"Ophthalmic Solution, eye drops: 3 mg/ml",eye_drops,"Oral ,Ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,419,,pending,needs manual exact device verification
+Lomefloxacin,Film coated tablets : 400 mg,tablet,"Oral ,Ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,419,,pending,needs manual exact device verification
+Moxifloxacin,"Tablets 400mg, Ophthalmic solution 0.5%",tablet,"Oral, ophthalmic, IV",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,421,,pending,needs manual exact device verification
+Moxifloxacin,Vial 400mg,injection,"Oral, ophthalmic, IV",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,421,,pending,needs manual exact device verification
+Norfloxacin,Tablets: 400 mg,tablet,"Oral, Ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,425,,pending,needs manual exact device verification
+Norfloxacin,Ophthalmic solution: 15 mg/5ml,eye_drops,"Oral, Ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,425,,pending,needs manual exact device verification
+Ofloxacin,"Tablets: 200mg, 300mg, 400mg",tablet,"Oral, Ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,427,,pending,needs manual exact device verification
+Ofloxacin,Ophthalmic solution 3mg/ml,eye_drops,"Oral, Ophthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,427,,pending,needs manual exact device verification
+Clotrimazole,Aerosol 1% Solution 1%,inhalation_aerosol,"Topical, inhalation, intravaginal",inhaler,egypt_antimicrobial_formulary_2023.pdf,434,,pending,needs manual exact device verification
+Clotrimazole,Topical powder 1%,powder,"Topical, inhalation, intravaginal",inhaler,egypt_antimicrobial_formulary_2023.pdf,434,,pending,needs manual exact device verification
+Clotrimazole,Topical cream 1%,cream,"Topical, inhalation, intravaginal",inhaler,egypt_antimicrobial_formulary_2023.pdf,434,,pending,needs manual exact device verification
+Clotrimazole,Topical spray 10mg/ml,topical_spray,"Topical, inhalation, intravaginal",inhaler,egypt_antimicrobial_formulary_2023.pdf,434,,pending,needs manual exact device verification
+Clotrimazole,"Vaginal tablets 100mg, 200mg, 500mg",tablet,"Topical, inhalation, intravaginal",inhaler,egypt_antimicrobial_formulary_2023.pdf,434,,pending,needs manual exact device verification
+Clotrimazole,"Vaginal cream 2%, 10gm/100gm",cream,"Topical, inhalation, intravaginal",inhaler,egypt_antimicrobial_formulary_2023.pdf,434,,pending,needs manual exact device verification
+Econazole,"Topical Cream, Lotion or spray: 1 %",topical_spray,"Topical, vaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,437,,pending,needs manual exact device verification
+Econazole,Vaginal Pessary/ovules: 150 mg,vaginal_suppository,"Topical, vaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,437,,pending,needs manual exact device verification
+Econazole,Vaginal Cream:  1 gm/100g,cream,"Topical, vaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,437,,pending,needs manual exact device verification
+Isoconazole,"Vaginal ovules 300, 600mg",vaginal_suppository,"Topical, intravaginal",rectal,egypt_antimicrobial_formulary_2023.pdf,440,,pending,needs manual exact device verification
+Miconazole,"Vaginal ovules 400mg, 1200",vaginal_suppository,"Topical , Intravaginal, oral",rectal,egypt_antimicrobial_formulary_2023.pdf,441,,pending,needs manual exact device verification
+Miconazole,"Vaginal suppository 200mg, 400mg",suppository,"Topical , Intravaginal, oral",rectal,egypt_antimicrobial_formulary_2023.pdf,441,,pending,needs manual exact device verification
+"Neomycin, Polymyxin B, and Dexamethasone",Ophthalmic Suspension: Dexamethasone 1 mg/ml; Neomycin Sulphate 3.5 mg/ml; Polymyxin B,oral_suspension,ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,445,,pending,needs manual exact device verification
+"Neomycin, Polymyxin B, and Dexamethasone",Sulphate 6000 I.U./ml,sulphate_6000_i_u_ml,ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,445,,pending,needs manual exact device verification
+"Neomycin, Polymyxin B, and Dexamethasone",Eye ointment: Dexamethasone 1 mg ; Neomycin Sulphate 5mg ; Polymyxin B Sulphate 6000 I.U,eye_ointment,ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,445,,pending,needs manual exact device verification
+Natamycin,Sterile ophthalmic suspension: 50mg/ml,oral_suspension,Ophthalmic,ophthalmic,egypt_antimicrobial_formulary_2023.pdf,447,,pending,needs manual exact device verification
+Terbinafine,Topical Aerosol Powder: 1%,inhalation_aerosol,"Topical, Oral",inhaler,egypt_antimicrobial_formulary_2023.pdf,448,,pending,needs manual exact device verification
+Sodium Fusidate/ Fusidic acid,eye drops 1mg/gm,eye_drops,"Oral, topical, Opthalmic",ophthalmic,egypt_antimicrobial_formulary_2023.pdf,455,,pending,needs manual exact device verification
+Sodium Fusidate/ Fusidic acid,Oral Suspension 250 mg/5ml,oral_suspension,"Oral, topical, Opthalmic",oral_liquid,egypt_antimicrobial_formulary_2023.pdf,455,,pending,needs manual exact device verification
+Permethrin,"Topical Cream, Lotion, Ointment, Emulsion: 2.5%, 5% Shampoo 1%",oral_emulsion,Topical,oral_liquid,egypt_antimicrobial_formulary_2023.pdf,457,,pending,needs manual exact device verification
+Cetirizine,Oral drops: 10 mg/1 ml,oral_drops,"Oral, IV, Ophthalmic",ophthalmic,egypt_antiretroviral_formulary_2026.pdf,14,,pending,needs manual exact device verification
+Cetirizine,Oral syrup or solution: 1 mg/ ml,oral_syrup,"Oral, IV, Ophthalmic",ophthalmic,egypt_antiretroviral_formulary_2026.pdf,14,,pending,needs manual exact device verification
+Cetirizine,Film-coated tablets: 10 mg,tablet,"Oral, IV, Ophthalmic",ophthalmic,egypt_antiretroviral_formulary_2026.pdf,14,,pending,needs manual exact device verification
+Cetirizine,Chewable tablets: 10 mg,chewable_tablet,"Oral, IV, Ophthalmic",ophthalmic,egypt_antiretroviral_formulary_2026.pdf,14,,pending,needs manual exact device verification
+Cetirizine,Solution for IV injection: 10 mg,injection,"Oral, IV, Ophthalmic",ophthalmic,egypt_antiretroviral_formulary_2026.pdf,14,,pending,needs manual exact device verification
+Cetirizine,Ophthalmic solution: 2.4 mg/ 1 ml And combinations,eye_drops,"Oral, IV, Ophthalmic",ophthalmic,egypt_antiretroviral_formulary_2026.pdf,14,,pending,needs manual exact device verification
+Chlorpheniramine maleate,Tablets: 4 mg,tablet,"Oral, IM, IV, SC",injection,egypt_antiretroviral_formulary_2026.pdf,19,,pending,needs manual exact device verification
+Chlorpheniramine maleate,Syrup: 2 mg/5 ml,oral_syrup,"Oral, IM, IV, SC",oral_liquid,egypt_antiretroviral_formulary_2026.pdf,19,,pending,needs manual exact device verification
+Chlorpheniramine maleate,"Solution for IM, SC, or IV injection:  10 mg /2 ml, 5 mg/ 1ml",injection,"Oral, IM, IV, SC",injection,egypt_antiretroviral_formulary_2026.pdf,19,,pending,needs manual exact device verification
+Fexofenadine,Oral suspension: 30 mg/5ml,oral_suspension,Oral,oral_liquid,egypt_antiretroviral_formulary_2026.pdf,23,,pending,needs manual exact device verification
+Loratadine,"Oral syrup: 2.5 mg/5ml, 1 mg/ml",oral_syrup,Oral,oral_liquid,egypt_antiretroviral_formulary_2026.pdf,26,,pending,needs manual exact device verification
+Ipratropium Bromide,"Nebulizer solution for inhalation: 250 mcg /ml, 500 mcg /2ml, 250 mcg /2ml",nebulizer_solution,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,30,,pending,needs manual exact device verification
+Tiotropium,Dry powder in hard capsule: 18 mcg,capsule,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,33,,pending,needs manual exact device verification
+Dextromethorphan,Syrup: 200 mg/100ml,oral_syrup,Oral,oral_liquid,egypt_antiretroviral_formulary_2026.pdf,38,,pending,needs manual exact device verification
+Dextromethorphan,"Oral drops: 10 mg/ml, 15 mg/ml",oral_drops,Oral,oral_liquid,egypt_antiretroviral_formulary_2026.pdf,38,,pending,needs manual exact device verification
+Formoterol,Inhalation powder in a hard capsule 12 mcg alone,capsule,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,12 mcg in combination with 400 mcg budesonide,12_mcg_in_combination_with_400_mcg_budesonide,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,6 mcg in combination with 200 mcg budesonide,6_mcg_in_combination_with_200_mcg_budesonide,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,Inhalation powder,inhalation_powder,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,4.5 mcg (in combination with 80 mcg budesonide),4_5_mcg_in_combination_with_80_mcg_budesonide,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,4.5 mcg (in combination with 160 mcg budesonide),4_5_mcg_in_combination_with_160_mcg_budesonide,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,9 mcg (in combination with 320 mcg budesonide) Pressurized Inhalation Solution 12 mcg alone,nebulizer_solution,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,6 mcg in combination with 100 beclomethasone dipropionate,6_mcg_in_combination_with_100_beclomethasone_dipropionate,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,5 mcg in combination with fluticasone propionate 50 mcg,5_mcg_in_combination_with_fluticasone_propionate_50_mcg,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,5 mcg in combination with fluticasone propionate 100 mcg,5_mcg_in_combination_with_fluticasone_propionate_100_mcg,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,10 mcg in combination with fluticasone propionate 250 mcg Oral Inhalation,inhalation,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,5 mcg formoterol fumarate dihydrate micronized + 4.5 mcg formoterol fumarate in,5_mcg_formoterol_fumarate_dihydrate_micronized_4_5_mcg_formoterol_fumarate_in,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Formoterol,combination with 160 mcg budesonide + 9 mcg glycopyrroium bromide,combination_with,Oral Inhalation,inhaler,egypt_antiretroviral_formulary_2026.pdf,42,,pending,needs manual exact device verification
+Salbutamol,"Sustained release capsule (SR): 4 mg, 8 mg",capsule,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,"Tablet: 2 mg, 4 mg (1mg in combination with 4 mg bromhexine hydrochloride)",tablet,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,Syrup,oral_syrup,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,2 mg/5 ml,2_mg_5_ml,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,2 mg + 50 mg guaifenesin /5ml,2_mg_50_mg_guaifenesin_5ml,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,2 mg + 100 mg ammonium chloride /5ml,2_mg_100_mg_ammonium_chloride_5ml,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,1 mg + 50 mg guaifenesin + 2 mg bromhexine chloride /5ml Oral inhalation solution,nebulizer_solution,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,"5 mg/ml, 2.5 mg/2.5ml, 5 mg/2.5ml",5_mg_ml_2_5_mg_2_5ml_5_mg_2_5ml,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,2.5 mg + 0.5 mg ipratropium bromide /2.5ml,2_5_mg_0_5_mg_ipratropium_bromide_2_5ml,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,1 mg + 0.2 mg ipratropium bromide / 1 ml,1_mg_0_2_mg_ipratropium_bromide_1_ml,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,Oral dry powder inhalation: 200 mcg/dose Oral metered dose inhaler,inhalation_powder,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,0.1 mg/dose,0_1_mg_dose,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,0.1 mg + 0.02 mg ipratropium chloride/dose,0_1_mg_0_02_mg_ipratropium_chloride_dose,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,0.1 mg + 0.05 mg beclomethasone dipropionate /dose,0_1_mg_0_05_mg_beclomethasone_dipropionate_dose,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Salbutamol,Parenteral SC/IM/IV: 0.5 mg/ml,parenteral_sc_im_iv,"Oral, Oral Inhalation, Parenteral",inhaler,egypt_antiretroviral_formulary_2026.pdf,48,,pending,needs manual exact device verification
+Terbutaline,"Syrup: 1.5 mg/5ml single and in combination, 1.25 mg, 1.5 mg/5ml in combination",oral_syrup,"Oral, inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,53,,pending,needs manual exact device verification
+Terbutaline,Tablets: 2.5 mg,tablet,"Oral, inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,53,,pending,needs manual exact device verification
+Terbutaline,Solution for nebulizer: 5mg/2ml,nebulizer_solution,"Oral, inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,53,,pending,needs manual exact device verification
+Xylometazoline,"Nasal drops: 0.05%, 0.1%",nasal_drops,Nasal,nasal,egypt_antiretroviral_formulary_2026.pdf,58,,pending,needs manual exact device verification
+Xylometazoline,"Nasal spray: 1mg/ml, 0.5mg/ml",nasal_spray,Nasal,nasal,egypt_antiretroviral_formulary_2026.pdf,58,,pending,needs manual exact device verification
+Xylometazoline,"Some products are combined with carbocysteine 5 mg, 10 mg, and dexapanthenol",some_products_are_combined_with_carbocysteine,Nasal,nasal,egypt_antiretroviral_formulary_2026.pdf,58,,pending,needs manual exact device verification
+Xylometazoline,50 mg/ml,50_mg_ml,Nasal,nasal,egypt_antiretroviral_formulary_2026.pdf,58,,pending,needs manual exact device verification
+Beclomethasone Dipropionate,/Strengths,strengths,"Nasal, oral spray, topical",nasal,egypt_antiretroviral_formulary_2026.pdf,69,,pending,needs manual exact device verification
+Beclomethasone Dipropionate,"Oral inhalation aerosol: 50 micrograms, 100 mcg per actuation",inhalation_aerosol,"Nasal, oral spray, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,69,,pending,needs manual exact device verification
+Beclomethasone Dipropionate,Nasal suspension spray:,oral_suspension,"Nasal, oral spray, topical",nasal,egypt_antiretroviral_formulary_2026.pdf,69,,pending,needs manual exact device verification
+Beclomethasone Dipropionate,42 mg/ 100 ml (each puff contains 42 mcg),42_mg_100_ml_each_puff_contains_42_mcg,"Nasal, oral spray, topical",nasal,egypt_antiretroviral_formulary_2026.pdf,69,,pending,needs manual exact device verification
+Beclomethasone Dipropionate,77 mg/ 100 ml (each puff contains 77 mcg),77_mg_100_ml_each_puff_contains_77_mcg,"Nasal, oral spray, topical",nasal,egypt_antiretroviral_formulary_2026.pdf,69,,pending,needs manual exact device verification
+Beclomethasone Dipropionate,Nasal inhalation aerosol:  50 micrograms per actuation,inhalation_aerosol,"Nasal, oral spray, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,69,,pending,needs manual exact device verification
+Beclomethasone Dipropionate,Topical cream: Beclometasone dipropionate 0.25 mg/gm (for non-respiratory use),cream,"Nasal, oral spray, topical",nasal,egypt_antiretroviral_formulary_2026.pdf,69,,pending,needs manual exact device verification
+Fluticasone,/Strengths,strengths,"Intranasal, intranasal inhalation, oral inhalation, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,77,,pending,needs manual exact device verification
+Fluticasone,"Metered nasal spray: 27.5 mcg, 28 mcg, 50 mcg /actuation",nasal_spray,"Intranasal, intranasal inhalation, oral inhalation, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,77,,pending,needs manual exact device verification
+Fluticasone,Topical cream: 0.05%,cream,"Intranasal, intranasal inhalation, oral inhalation, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,77,,pending,needs manual exact device verification
+Fluticasone,Topical ointment: 0.005%,ointment,"Intranasal, intranasal inhalation, oral inhalation, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,77,,pending,needs manual exact device verification
+Fluticasone,Monodose nasal drops: 400 mcg,nasal_drops,"Intranasal, intranasal inhalation, oral inhalation, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,77,,pending,needs manual exact device verification
+Fluticasone,"Suspension for inhalation in a pressurized can: 125 mcg/dose, 50 mcg",oral_suspension,"Intranasal, intranasal inhalation, oral inhalation, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,77,,pending,needs manual exact device verification
+Fluticasone,"Inhalation powder: 250 mcg, 100 mcg",inhalation_powder,"Intranasal, intranasal inhalation, oral inhalation, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,77,,pending,needs manual exact device verification
+Fluticasone,Nasal spray solution: 37.5mg/100 ml,nasal_spray,"Intranasal, intranasal inhalation, oral inhalation, topical",inhaler,egypt_antiretroviral_formulary_2026.pdf,77,,pending,needs manual exact device verification
+Acetylcysteine,/Strengths,strengths,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Acetylcysteine,"Granules in sachet for oral solution: 200 mg, 600 mg",oral_solution,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Acetylcysteine,Powder for oral solution: 600 mg,oral_solution,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Acetylcysteine,Effervescent tablet: 600 mg,effervescent_tablet,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Acetylcysteine,Capsule: 600 mg,capsule,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Acetylcysteine,Oral syrup: 100 mg/5 ml,oral_syrup,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Acetylcysteine,Solution for oral inhalation: 100 mg/ml,inhalation,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Acetylcysteine,"Solution for IV: 2 gm/10 ml, 5 gm/25 ml, 300 mg/3 ml",solution_for_iv,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Acetylcysteine,Concentrate for solution for IV infusion and inhalation: 1000 mg /5ml,inhalation,"IV, Oral, Inhalation",inhaler,egypt_antiretroviral_formulary_2026.pdf,93,,pending,needs manual exact device verification
+Ambroxol,Oral drops: 7.5 mg/ml,oral_drops,"Buccal, Oral",oral_liquid,egypt_antiretroviral_formulary_2026.pdf,98,,pending,needs manual exact device verification
+Ambroxol,"Syrup: 15 mg/5 ml, 30 mg/5 ml",oral_syrup,"Buccal, Oral",oral_liquid,egypt_antiretroviral_formulary_2026.pdf,98,,pending,needs manual exact device verification
+Bromhexine,Oral drops: 2 mg/ml,oral_drops,Oral,oral_liquid,egypt_antiretroviral_formulary_2026.pdf,101,,pending,needs manual exact device verification
+Bromhexine,"Oral syrup: 4 mg/5 ml, 8 mg/5 ml",oral_syrup,Oral,oral_liquid,egypt_antiretroviral_formulary_2026.pdf,101,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),/Strengths,strengths,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),Oral syrup,oral_syrup,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),"100 mg/5 ml, 250 mg/ 5ml alone",100_mg_5_ml_250_mg_5ml_alone,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),"(100, 125 mg in combination with guaifenesin 100 mg, oxomemazine 2mg)",100,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),100mg /5 ml in combination with Promethazine HCL 2.5mg),100mg_5_ml_in_combination_with_promethazine_hcl_2_5mg,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),Capsule: 375 mg,capsule,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),"Tablet: 375mg (in combination with guaifenesin 225 mg, oxomemazine 5mg)",tablet,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),Granule for oral suspension: 750 mg,oral_suspension,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),Nasal spray: 5 mg (in combination with 0.5 mg xylometazoline hydrochloride),nasal_spray,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Carbocisteine (Carbocysteine),10 mg (in combination with 1 mg xylometazoline hydrochloride),10_mg_in_combination_with_1_mg_xylometazoline_hydrochloride,"Oral, nasal spray",nasal,egypt_antiretroviral_formulary_2026.pdf,104,,pending,needs manual exact device verification
+Guaifenesin,"Extended-release tablet: 600 mg, 1200 mg",extended_release_tablet,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Guaifenesin,"Tablets: 100 mg, 200 mg, 225 mg, 400 mg",tablet,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Guaifenesin,Capsules: 100 mg,capsule,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Guaifenesin,"Oral syrup: 10 mg/5 ml, 30 mg/5 ml, 50 mg/5 ml, 100 mg/5 ml,100 mg/10 ml",oral_syrup,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Guaifenesin,"200 mg/5 ml, 200 mg/15 ml, 33.3mg/5ml",200_mg_5_ml_200_mg_15_ml_33_3mg_5ml,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Guaifenesin,Powder for oral solution: 200 mg/sachet,oral_solution,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Guaifenesin,Effervescent granules:100mg/sachet,effervescent_granules,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Guaifenesin,Rectal suppository: 66.6 mg/suppository,suppository,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Guaifenesin,Guaifenesin is available in different combinations,guaifenesin_is_available_in_different_combinations,"Oral, rectal",rectal,egypt_antiretroviral_formulary_2026.pdf,106,,pending,needs manual exact device verification
+Doxapram,Solution for IV Bolus Injection: 100mg / 5ml ampoules,injection,Intravenous,injection,egypt_antiretroviral_formulary_2026.pdf,117,,pending,needs manual exact device verification
+Doxapram,"Solution for IV Infusion: 2mg / 1ml, 500ml infusion bag",iv_infusion,Intravenous,injection,egypt_antiretroviral_formulary_2026.pdf,117,,pending,needs manual exact device verification
+Beractant,"Sterile suspension for intratracheal administration Vial: 25 mg/ml (4, 8 ml)",oral_suspension,Intratracheal administration,oral_liquid,egypt_antiretroviral_formulary_2026.pdf,122,,pending,needs manual exact device verification
+Ferrous Fumarate,Syrup: 140 mg/5ml (equivalent to 45mg elemental iron). And in combinations,oral_syrup,Oral,oral_liquid,egypt_blood_disorders_formulary_2025.pdf,12,,pending,needs manual exact device verification
+Iron Carboxymaltose,Solution for I.V injection \Infusion: 500 mg/10 mL,iv_infusion,IV,injection,egypt_blood_disorders_formulary_2025.pdf,14,,pending,needs manual exact device verification
+Iron Dextran,Solution for I.M injection or I.V infusion: 100mg/2ml (10%),iv_infusion,"IM, IV",injection,egypt_blood_disorders_formulary_2025.pdf,17,,pending,needs manual exact device verification
+Iron Sucrose,Solution for slow IV injection and infusion: 100mg elemental iron/5ml,iv_infusion,IV,injection,egypt_blood_disorders_formulary_2025.pdf,20,,pending,needs manual exact device verification
+Cyanocobalamin (Vitamin B12),Oily suspension for I.M injection: 1 mg/ml,oral_suspension,"IM, Nasal, Oral",nasal,egypt_blood_disorders_formulary_2025.pdf,24,,pending,needs manual exact device verification
+Cyanocobalamin (Vitamin B12),Solution for I.M Injection: 1 mg/ml,injection,"IM, Nasal, Oral",nasal,egypt_blood_disorders_formulary_2025.pdf,24,,pending,needs manual exact device verification
+Cyanocobalamin (Vitamin B12),Metered Nasal Spray: 0.5 mg,nasal_spray,"IM, Nasal, Oral",nasal,egypt_blood_disorders_formulary_2025.pdf,24,,pending,needs manual exact device verification
+Cyanocobalamin (Vitamin B12),Sustained Release Capsule: 1 mg,capsule,"IM, Nasal, Oral",nasal,egypt_blood_disorders_formulary_2025.pdf,24,,pending,needs manual exact device verification
+Cyanocobalamin (Vitamin B12),Sublingual Tablet: 1 mg,orodispersible_tablet,"IM, Nasal, Oral",nasal,egypt_blood_disorders_formulary_2025.pdf,24,,pending,needs manual exact device verification
+Cyanocobalamin (Vitamin B12),Orally disintegrating Tablets: 1 mg. And in combinations,tablet,"IM, Nasal, Oral",nasal,egypt_blood_disorders_formulary_2025.pdf,24,,pending,needs manual exact device verification
+Hydroxocobalamin,"Solution for I.M Injection: 500mcg/ml, 1000mcg/2ml, 1000mcg/ml",injection,IM,injection,egypt_blood_disorders_formulary_2025.pdf,31,,pending,needs manual exact device verification
+Hydroxocobalamin,1500mcg/ml. And in combinations,1500mcg_ml_and_in_combinations,IM,injection,egypt_blood_disorders_formulary_2025.pdf,31,,pending,needs manual exact device verification
+Enoxaparin,"Solution for injection: 20 mg (2,000 IU)/0.2ml, 40 mg (4,000 IU)/0.4ml, 60",injection,"SC, IV",injection,egypt_blood_disorders_formulary_2025.pdf,42,,pending,needs manual exact device verification
+Enoxaparin,"mg (6,000 IU)/0.6ml, 80 mg (8,000 IU)/0.8ml, 100 mg/ml",mg_6,"SC, IV",injection,egypt_blood_disorders_formulary_2025.pdf,42,,pending,needs manual exact device verification
+Heparin Calcium,Solution for injection: 5000 I.U/0.5 mL,injection,"SC, IV",injection,egypt_blood_disorders_formulary_2025.pdf,49,,pending,needs manual exact device verification
+Heparin sodium,"Solution for Injection/Infusion: 1000 I.U./ml, 5000 I.U./1 ml",iv_infusion,"IV, SC",injection,egypt_blood_disorders_formulary_2025.pdf,53,,pending,needs manual exact device verification
+Fondaparinux,Solution in pre-filled syringe for S.C injection: 7.5 mg/0.6ml,injection,"IV, SC",injection,egypt_blood_disorders_formulary_2025.pdf,76,,pending,needs manual exact device verification
+Fondaparinux,Solution in pre-filled syringe for S.C injection / IV injection or infusion:,iv_infusion,"IV, SC",injection,egypt_blood_disorders_formulary_2025.pdf,76,,pending,needs manual exact device verification
+Fondaparinux,2.5mg/0.5ml,2_5mg_0_5ml,"IV, SC",injection,egypt_blood_disorders_formulary_2025.pdf,76,,pending,needs manual exact device verification
+Emicizumab,"Solution for S.C injection:  30 mg/ml, 105 mg/0.7ml, 60 mg/0.4 ml",injection,SC,injection,egypt_blood_disorders_formulary_2025.pdf,80,,pending,needs manual exact device verification
+Emicizumab,150mg/ml,150mg_ml,SC,injection,egypt_blood_disorders_formulary_2025.pdf,80,,pending,needs manual exact device verification
+Factor Ⅷ,"Concentrate from human plasma: Powder for injection: 250 IU, 500 IU, 1000 IU",concentrate_from_human_plasma,IV,injection,egypt_blood_disorders_formulary_2025.pdf,83,,pending,needs manual exact device verification
+Factor Ⅷ,"Recombinant: Powder for injection: 250 IU, 500 IU, 1000 IU",recombinant,IV,injection,egypt_blood_disorders_formulary_2025.pdf,83,,pending,needs manual exact device verification
+Factor Ⅸ,"Concentrate from human plasma: 250 IU, 500 IU, 1000 IU, 1500 IU",concentrate_from_human_plasma,IV,injection,egypt_blood_disorders_formulary_2025.pdf,87,,pending,needs manual exact device verification
+Factor Ⅸ,"Recombinant: 250 IU, 500 IU, 1000 IU",recombinant,IV,injection,egypt_blood_disorders_formulary_2025.pdf,87,,pending,needs manual exact device verification
+Phytomenadione (Phytonadione) (Vitamin K1),"Solution for IM, slow IV injection or infusion: 10 mg/ml",iv_infusion,"IM, IV, Oral",injection,egypt_blood_disorders_formulary_2025.pdf,92,,pending,needs manual exact device verification
+Phytomenadione (Phytonadione) (Vitamin K1),"Lyophilized Powder: 2 mg/0.2 ml, 10 mg/ml",powder,"IM, IV, Oral",injection,egypt_blood_disorders_formulary_2025.pdf,92,,pending,needs manual exact device verification
+Phytomenadione (Phytonadione) (Vitamin K1),"Tablets: 5 mg, 10 mg",tablet,"IM, IV, Oral",injection,egypt_blood_disorders_formulary_2025.pdf,92,,pending,needs manual exact device verification
+Phytomenadione (Phytonadione) (Vitamin K1),Chewable Tablets: 10 mg,chewable_tablet,"IM, IV, Oral",injection,egypt_blood_disorders_formulary_2025.pdf,92,,pending,needs manual exact device verification
+Phytomenadione (Phytonadione) (Vitamin K1),Soft Gelatin Capsule: 1 mg And in combinations,soft_capsule,"IM, IV, Oral",injection,egypt_blood_disorders_formulary_2025.pdf,92,,pending,needs manual exact device verification
+Tranexamic acid,"Injection: 100 mg/ml, 500 mg/5 ml",injection,"IV, Oral",injection,egypt_blood_disorders_formulary_2025.pdf,96,,pending,needs manual exact device verification
+Tranexamic acid,"Tablet: 500 mg, 650 mg",tablet,"IV, Oral",injection,egypt_blood_disorders_formulary_2025.pdf,96,,pending,needs manual exact device verification
+Tirofiban,"Concentrate for Solution for I.V Infusion: 12.5 mg/50 ml (0.25/ml), 12.5",iv_infusion,IV,injection,egypt_blood_disorders_formulary_2025.pdf,101,,pending,needs manual exact device verification
+Tirofiban,mg/250 ml (0.05/ml),mg_250_ml_0_05_ml,IV,injection,egypt_blood_disorders_formulary_2025.pdf,101,,pending,needs manual exact device verification
+Nitroglycerin (Glyceryl Trinitrate),"Sustained Release Capsules: 2.5mg, 6.5mg, 9mg",capsule,"IV, Oral, Transdermal, topical",injection,egypt_cardiovascular_formulary_2024.pdf,76,,pending,needs manual exact device verification
+Nitroglycerin (Glyceryl Trinitrate),"Transdermal Therapeutic System: 5mg, 10mg",transdermal_patch,"IV, Oral, Transdermal, topical",transdermal,egypt_cardiovascular_formulary_2024.pdf,76,,pending,needs manual exact device verification
+Nitroglycerin (Glyceryl Trinitrate),Oral Spray: 0.4mg /dose,topical_spray,"IV, Oral, Transdermal, topical",injection,egypt_cardiovascular_formulary_2024.pdf,76,,pending,needs manual exact device verification
+Nitroglycerin (Glyceryl Trinitrate),"Transdermal Patch: 22.4 mg, 44.8 mg, 18.7 mg, 37.4 mg",transdermal_patch,"IV, Oral, Transdermal, topical",transdermal,egypt_cardiovascular_formulary_2024.pdf,76,,pending,needs manual exact device verification
+Nitroglycerin (Glyceryl Trinitrate),"Lyophilized Powder: 25mg, 50mg/10ml",powder,"IV, Oral, Transdermal, topical",injection,egypt_cardiovascular_formulary_2024.pdf,76,,pending,needs manual exact device verification
+Nitroglycerin (Glyceryl Trinitrate),Solution for I.V Infusion: 50mg/50ml,iv_infusion,"IV, Oral, Transdermal, topical",injection,egypt_cardiovascular_formulary_2024.pdf,76,,pending,needs manual exact device verification
+Nitroglycerin (Glyceryl Trinitrate),Rectal Ointment: 400 mg/100gm,ointment,"IV, Oral, Transdermal, topical",injection,egypt_cardiovascular_formulary_2024.pdf,76,,pending,needs manual exact device verification
+Amiodarone,"Tablet: 100mg, 200mg",tablet,"IV, Oral",injection,egypt_cardiovascular_formulary_2024.pdf,81,,pending,needs manual exact device verification
+Lidocaine,"Solution for injection: 50mg 0r 20mg or 10 mg/ml (1%), 40mg or 20mg or 20 mg/ml",injection,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,or 1 gm/50ml (2%),or_1_gm_50ml_2,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,"Solution for I.M Injection 20mg (1%), 50mg (1%)",injection,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,Solution for S.C injection: 34.610 mg/2ml,injection,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,Solution for I.M or S.C injection: 20mg,injection,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,"Solution for IM, IV and SC injection: 1gm, 400mg",injection,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,Solution for I.M or slow I.V Injection 20mg/ml,injection,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,Oral gel: 0.330 gm/100g,gel,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,Oral spray: 10gm/100gm (10%),topical_spray,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,Lozenges: 8 mg,lozenges,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,"Topical Ointment: 50mg/1gm, 5 gm/100g",ointment,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,"Topical Spray: 10%, 40 mg/ml, 10gm, 10mg",topical_spray,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,"Topical Gel: 2 %, 4%, 5% 0.05gm",gel,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,Topical Patch: 700 mg/Patch,transdermal_patch,"IM, IV, SC, Topical, oral",transdermal,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,"Topical Cream: 0.02gm, 4%, 5%",cream,"IM, IV, SC, Topical, oral",injection,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Lidocaine,topical aerosol powder spray 10gm And in combinations,inhalation_aerosol,"IM, IV, SC, Topical, oral",inhaler,egypt_cardiovascular_formulary_2024.pdf,85,,pending,needs manual exact device verification
+Propafenone,"Tablets 150mg, 300mg",tablet,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,91,,pending,needs manual exact device verification
+Propafenone,Ampoule 70mg/20ml,injection,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,91,,pending,needs manual exact device verification
+Nitroprusside Sodium,"Lyophilized powder for IM, IV injections: 50mg, 60mg",injection,"IM, IV",injection,egypt_cardiovascular_formulary_2024.pdf,108,,pending,needs manual exact device verification
+Acetylsalicylic acid,"Tablet: 75 mg, 100 mg, 250 mg single or in combination, 300 mg single or in",tablet,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Acetylsalicylic acid,"combination, 320 mg, 500 mg",combination,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Acetylsalicylic acid,"Chewable tablet: 75 mg, 81 mg, 150 mg",chewable_tablet,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Acetylsalicylic acid,"Film coated tablet: 250 mg in combination, 75 mg in combination, 770 mg in combination",tablet,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Acetylsalicylic acid,"Enteric coated tablet: 75 mg, 81 mg, 100 mg, 325 mg",tablet,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Acetylsalicylic acid,"Effervescent tablet: 325 mg, 400 mg in combination, 500 mg in combination",effervescent_tablet,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Acetylsalicylic acid,Capsule: 250 mg in combination,capsule,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Acetylsalicylic acid,Hard gelatin capsule: 75 mg in combination,capsule,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Acetylsalicylic acid,Rectal suppository: 200 mg in combination,suppository,"Oral, rectal",rectal,egypt_cardiovascular_formulary_2024.pdf,112,,pending,needs manual exact device verification
+Metoprolol,"Metoprolol Succinate: Modified release tablets: 25mg, 50mg, 100mg, 200mg",metoprolol_succinate,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,129,,pending,needs manual exact device verification
+Metoprolol,Metoprolol Tartrate: Solution for intravenous injection: 5mg/ml,metoprolol_tartrate,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,129,,pending,needs manual exact device verification
+Propranolol,"Tablet 10mg, 40mg",tablet,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,135,,pending,needs manual exact device verification
+Propranolol,Ampoule 1mg/ml,injection,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,135,,pending,needs manual exact device verification
+Verapamil,"Sustained or prolonged Release Capsule: 120mg, 240mg",capsule,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,150,,pending,needs manual exact device verification
+Verapamil,"Tablets: 40mg, 80mg",tablet,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,150,,pending,needs manual exact device verification
+Verapamil,Sustained release tablets: 240mg,tablet,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,150,,pending,needs manual exact device verification
+Verapamil,"Solution for I.V injection \Infusion: 5mg/2ml, And in combinations",iv_infusion,"Oral, IV",injection,egypt_cardiovascular_formulary_2024.pdf,150,,pending,needs manual exact device verification
+Digoxin,Solution for I.V injection \Infusion: 0.5 mg/2ml,iv_infusion,"Oral, IM, IV",injection,egypt_cardiovascular_formulary_2024.pdf,155,,pending,needs manual exact device verification
+Digoxin,Solution for I.M or slow I.V Injection: 0.5 mg/2ml,injection,"Oral, IM, IV",injection,egypt_cardiovascular_formulary_2024.pdf,155,,pending,needs manual exact device verification
+Digoxin,Tablets: 0.25 mg,tablet,"Oral, IM, IV",injection,egypt_cardiovascular_formulary_2024.pdf,155,,pending,needs manual exact device verification
+Digoxin,Elixir: 0.05 mg/ml,oral_solution,"Oral, IM, IV",injection,egypt_cardiovascular_formulary_2024.pdf,155,,pending,needs manual exact device verification
+Bumetanide,Tablets: 1mg,tablet,"Oral, IM, IV",injection,egypt_cardiovascular_formulary_2024.pdf,160,,pending,needs manual exact device verification
+Bumetanide,Solution for I.M or slow I.V Injection: 0.25 mg/ml,injection,"Oral, IM, IV",injection,egypt_cardiovascular_formulary_2024.pdf,160,,pending,needs manual exact device verification
+Furosemide,"Solution for IM, slow IV injection or IV infusion: 40mg/4ml, 20mg/2ml",iv_infusion,"IV, IM, Oral",injection,egypt_cardiovascular_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Furosemide,Ampoule: 20mg/2ml,injection,"IV, IM, Oral",injection,egypt_cardiovascular_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Furosemide,"Tablets: 20mg, 40mg, 80mg, 500mg",tablet,"IV, IM, Oral",injection,egypt_cardiovascular_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Furosemide,"Oral solution: 20mg/5ml, 50mg/5ml And in combinations",oral_solution,"IV, IM, Oral",injection,egypt_cardiovascular_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Torsemide (Torasemide),"Modified release tablet:  5mg, 10mg",tablet,"IV, Oral",injection,egypt_cardiovascular_formulary_2024.pdf,166,,pending,needs manual exact device verification
+Torsemide (Torasemide),"Tablets: 5mg, 10mg, 20g, 100mg",tablet,"IV, Oral",injection,egypt_cardiovascular_formulary_2024.pdf,166,,pending,needs manual exact device verification
+Torsemide (Torasemide),"Solution for intravenous injection: 10 mg/ml, 20 mg/2ml, 50mg",injection,"IV, Oral",injection,egypt_cardiovascular_formulary_2024.pdf,166,,pending,needs manual exact device verification
+Mannitol,"Solution for I.V infusion: 10%, 15%, 20% (10,15 or 20 gm / 100 ml)",iv_infusion,I.V,injection,egypt_cardiovascular_formulary_2024.pdf,169,,pending,needs manual exact device verification
+Alteplase,Powder and solvent for injection: 50 mg vial,injection,IV,injection,egypt_cardiovascular_formulary_2024.pdf,188,,pending,needs manual exact device verification
+Cholestyramine,Powder for Oral Suspension: 4mg,oral_suspension,Oral,oral_liquid,egypt_cardiovascular_formulary_2024.pdf,195,,pending,needs manual exact device verification
+Colesevelam,"Powder for Oral Suspension:  1.875 gm, 3.75 gm",oral_suspension,Oral,oral_liquid,egypt_cardiovascular_formulary_2024.pdf,197,,pending,needs manual exact device verification
+Adrenaline (Epinephrine),"Solution for Injection: 0.25 mg/ml, 1mg/ml and in combinations",injection,"IM, IV, SC",injection,egypt_cardiovascular_formulary_2024.pdf,229,,pending,needs manual exact device verification
+Dobutamine,Ampoules:  12.5mg/ml; 250mg/20ml; 250 mg/5ml,injection,IV,injection,egypt_cardiovascular_formulary_2024.pdf,234,,pending,needs manual exact device verification
+Bendamustine,"Powder for concentrate for solution for infusion:  25mg, 100mg",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,17,,pending,needs manual exact device verification
+Cyclophosphamide,"Powder for injection: 200 mg, 1 gm",injection,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,26,,pending,needs manual exact device verification
+Cyclophosphamide,Tablets: 50 mg,tablet,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,26,,pending,needs manual exact device verification
+Ifosfamide,"Powder for solution for I.V. Injection or infusion: 1gm, 2gm",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,34,,pending,needs manual exact device verification
+Carboplatin,"Solution For I.V Infusion: 10 mg, 50mg, 150 mg, 450 mg",iv_infusion,Intravenous,injection,egypt_conventional_anticancer_formulary_2024.pdf,51,,pending,needs manual exact device verification
+Cisplatin,"Concentrate solution for infusion: 10mg/10ml, 10mg/20ml, 50mg/50ml",iv_infusion,Intravenous,injection,egypt_conventional_anticancer_formulary_2024.pdf,58,,pending,needs manual exact device verification
+Cisplatin,50mg/100ml,50mg_100ml,Intravenous,injection,egypt_conventional_anticancer_formulary_2024.pdf,58,,pending,needs manual exact device verification
+Oxaliplatin,"Powder for Solution for I.V Infusion: 50mg, 100mg",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,65,,pending,needs manual exact device verification
+Oxaliplatin,"Concentrate solution for infusion: 50 mg/10ml,100 mg/20ml, 200 mg /40 ml",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,65,,pending,needs manual exact device verification
+Dacarbazine,"Powder for solution: 100mg, 200mg",powder,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,71,,pending,needs manual exact device verification
+Methotrexate,"Tablets: 2.5mg, 5mg, 7.5mg, 10mg, 15mg",tablet,"Oral, Intravenous, Intramuscular, Intrathecal, Subcutaneous",injection,egypt_conventional_anticancer_formulary_2024.pdf,75,,pending,needs manual exact device verification
+Methotrexate,"Solution for injection (IV, IM, SC, Intrathecal): 50mg/2ml, 5000 mg/50ml",injection,"Oral, Intravenous, Intramuscular, Intrathecal, Subcutaneous",injection,egypt_conventional_anticancer_formulary_2024.pdf,75,,pending,needs manual exact device verification
+Methotrexate,Lyophilized Powder: 50mg,powder,"Oral, Intravenous, Intramuscular, Intrathecal, Subcutaneous",injection,egypt_conventional_anticancer_formulary_2024.pdf,75,,pending,needs manual exact device verification
+Methotrexate,"Solution for injection in Pre-filled Syringe: 7.5 mg/0.15 ml, 10 mg/0.2 ml",injection,"Oral, Intravenous, Intramuscular, Intrathecal, Subcutaneous",injection,egypt_conventional_anticancer_formulary_2024.pdf,75,,pending,needs manual exact device verification
+Methotrexate,"15 mg/0.3 ml, 20 mg/0.4 ml, 25 mg/ 0.5 ml",15_mg_0_3_ml_20_mg_0_4_ml_25_mg_0_5_ml,"Oral, Intravenous, Intramuscular, Intrathecal, Subcutaneous",injection,egypt_conventional_anticancer_formulary_2024.pdf,75,,pending,needs manual exact device verification
+Pemetrexed,"Concentrate for solution for I.V. Infusion: 500 mg/20 ml, 1000 mg/40 ml",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,86,,pending,needs manual exact device verification
+Pemetrexed,"Powder for concentrate for solution for I.V Infusion: 100mg, 500 mg",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,86,,pending,needs manual exact device verification
+Fludarabine,Powder for Solution for I.V Infusion: 50mg,iv_infusion,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,91,,pending,needs manual exact device verification
+Fludarabine,Concentrate for solution for injection/infusion: 50 mg/2 mL,iv_infusion,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,91,,pending,needs manual exact device verification
+Fludarabine,Tablet 10mg,tablet,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,91,,pending,needs manual exact device verification
+Azacitidine,Lyophilized powder for suspension for SC injection: 100mg,oral_suspension,"Subcutaneous, Intravenous",oral_liquid,egypt_conventional_anticancer_formulary_2024.pdf,106,,pending,needs manual exact device verification
+Azacitidine,Lyophilized powder for suspension for SC or IV injection: 100mg,oral_suspension,"Subcutaneous, Intravenous",oral_liquid,egypt_conventional_anticancer_formulary_2024.pdf,106,,pending,needs manual exact device verification
+Cytarabine,"Solution for injection: 200mg/2ml, 100 mg/5ml, 500mg/5ml, 500 mg/10ml",injection,"Intravenous (injection or infusion), Intrathecal and Subcutaneous",injection,egypt_conventional_anticancer_formulary_2024.pdf,119,,pending,needs manual exact device verification
+Cytarabine,"1000 mg/10ml, 1000 mg/20ml, 2000mg/20ml, 4000ml/80ml",1000_mg_10ml_1000_mg_20ml_2000mg_20ml_4000ml_80ml,"Intravenous (injection or infusion), Intrathecal and Subcutaneous",injection,egypt_conventional_anticancer_formulary_2024.pdf,119,,pending,needs manual exact device verification
+Cytarabine,Lyophilized Powder: 100 mg/5ml,powder,"Intravenous (injection or infusion), Intrathecal and Subcutaneous",injection,egypt_conventional_anticancer_formulary_2024.pdf,119,,pending,needs manual exact device verification
+Fluorouracil,"Concentrate for solution for injection/infusion:  250 mg/5ml, 500 mg/10ml",iv_infusion,"IV, Topical, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,124,,pending,needs manual exact device verification
+Fluorouracil,1000 mg/20ml,1000_mg_20ml,"IV, Topical, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,124,,pending,needs manual exact device verification
+Fluorouracil,Tablets: 50 mg,tablet,"IV, Topical, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,124,,pending,needs manual exact device verification
+Fluorouracil,Topical Cream: 50 mg/gm,cream,"IV, Topical, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,124,,pending,needs manual exact device verification
+Gemcitabine,"Powder for Solution for I.V Infusion: 1 gm, 200 mg",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,131,,pending,needs manual exact device verification
+Gemcitabine,"Concentrate for Solution For I.V Infusion: 200 mg/5ml, 1000 mg/100ml",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,131,,pending,needs manual exact device verification
+Gemcitabine,"1000mg/26.316ml, 2000 mg/50 ml",1000mg_26_316ml_2000_mg_50_ml,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,131,,pending,needs manual exact device verification
+Docetaxel,"Concentrate for Solution For I.V Infusion: 10mg, 20mg, 80mg, 140mg, 160mg",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Paclitaxel,"Concentrate for solution for Infusion (6mg/ml):  30mg/5ml, 150ml/25ml",iv_infusion,Intravenous,injection,egypt_conventional_anticancer_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Paclitaxel,"300mg/25ml, 300/50ml",300mg_25ml_300_50ml,Intravenous,injection,egypt_conventional_anticancer_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Vinblastine,Solution for IV injection or infusion: 10mg/10ml,iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,152,,pending,needs manual exact device verification
+Vincristine,"Solution for injection 1mg/ml, 2mg/2ml",injection,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,156,,pending,needs manual exact device verification
+Vincristine,Lyophilized Powder 1mg,powder,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,156,,pending,needs manual exact device verification
+Vinorelbine,"Concentrate for Solution For I.V Infusion: 10 mg/ml, 50mg/5ml",iv_infusion,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,160,,pending,needs manual exact device verification
+Vinorelbine,"Capsule: 20mg, 30mg",capsule,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,160,,pending,needs manual exact device verification
+Daunorubicin,Lyophilized Powder for IV injection: 20mg,injection,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,166,,pending,needs manual exact device verification
+Doxorubicin,"Solution for I.V Infusion or 10mg, 20mg, 50mg, 200mg",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,171,,pending,needs manual exact device verification
+Doxorubicin,"Powder for solution: 10mg, 50mg, 150mg",powder,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,171,,pending,needs manual exact device verification
+Epirubicin,"Solution for IV injection\Infusion 2 mg/ml: 10mg, 50mg",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,176,,pending,needs manual exact device verification
+Epirubicin,Lyophilized Powder 10mg,powder,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,176,,pending,needs manual exact device verification
+Mitoxantrone,Solution for IV injection: 20mg/ 10 ml,injection,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,182,,pending,needs manual exact device verification
+Bleomycin,15.000 I.U. Lyophilized Powder Vial,injection,"IV, IM, S.C, Intrapleural",injection,egypt_conventional_anticancer_formulary_2024.pdf,190,,pending,needs manual exact device verification
+Dactinomycin,Lyophilized Powder for Injection: 500 mcg,injection,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,194,,pending,needs manual exact device verification
+Fulvestrant,Solution for injection in Pre-filled Syringe: 250 mg/5ml,injection,Intramuscular,injection,egypt_conventional_anticancer_formulary_2024.pdf,210,,pending,needs manual exact device verification
+Fulvestrant,Solution for I.M Injection: 250 mg/5ml,injection,Intramuscular,injection,egypt_conventional_anticancer_formulary_2024.pdf,210,,pending,needs manual exact device verification
+Goserelin,Prefilled syringe for S.C injection (Depot Implant): 10.8 mg,injection,Subcutaneous,injection,egypt_conventional_anticancer_formulary_2024.pdf,228,,pending,needs manual exact device verification
+Goserelin,Prefilled syringe for S.C injection (Implant): 3.6 mg,injection,Subcutaneous,injection,egypt_conventional_anticancer_formulary_2024.pdf,228,,pending,needs manual exact device verification
+Goserelin,Implant with applicator: 3.6 mg,implant_with_applicator,Subcutaneous,injection,egypt_conventional_anticancer_formulary_2024.pdf,228,,pending,needs manual exact device verification
+Leuprolide (Leuprorelin Acetate),"Lyophilized powder for I.M. injection: 3.75 mg, 11.25 mg, 22.5 mg",injection,Intramuscular,injection,egypt_conventional_anticancer_formulary_2024.pdf,233,,pending,needs manual exact device verification
+Epoetin Alfa,/Strengths,strengths,"SC, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,265,,pending,needs manual exact device verification
+Epoetin Alfa,"Solution for injection in Pre-filled Syringe: 2000 I.U./ml, 2000 I.U/0.5ml, 4000",injection,"SC, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,265,,pending,needs manual exact device verification
+Epoetin Alfa,"I.U./0.4ml, 10000 I.U./ml, 40000 I.U./ml",i_u,"SC, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,265,,pending,needs manual exact device verification
+Filgrastim,"Solution for injection/Infusion: 300 mcg/0.5ml, 300 mcg/1ml, 480 mcg/0.5ml",iv_infusion,"SC, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,270,,pending,needs manual exact device verification
+Filgrastim,Concentrate solution for infusion: 0.6 mg/ml,iv_infusion,"SC, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,270,,pending,needs manual exact device verification
+Filgrastim,Lyophilized Powder: 300 mcg/ml,powder,"SC, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,270,,pending,needs manual exact device verification
+Pegfilgrastim,Solution for injection in pre-filled syringes: 6mg/ 0.6ml,injection,SC,injection,egypt_conventional_anticancer_formulary_2024.pdf,275,,pending,needs manual exact device verification
+Calcium folinate (Calcium Leucovorin),"Solution for injection: 10 mg/ml (10ml, 20ml, 50ml, 100ml)",injection,"IV, IM",injection,egypt_conventional_anticancer_formulary_2024.pdf,278,,pending,needs manual exact device verification
+Mesna,"Solution for injection: 200mg/2ml, 400 mg/4ml",injection,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,282,,pending,needs manual exact device verification
+Mesna,Solution for I.V Infusion/ Injection or oral use: 400 mg/4ml,iv_infusion,"IV, Oral",injection,egypt_conventional_anticancer_formulary_2024.pdf,282,,pending,needs manual exact device verification
+Zoledronic acid,"Solution for I.V Infusion: 4mg/100 ml, 5mg/100 ml",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,285,,pending,needs manual exact device verification
+Zoledronic acid,Concentrate for Solution for I.V Infusion:  4 mg/5 ml (0.8mg/ml),iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,285,,pending,needs manual exact device verification
+Zoledronic acid,Lyophilized powder for solution for I.V Infusion: 4mg,iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,285,,pending,needs manual exact device verification
+Asparaginase,"10,000 IU as lyophilized powder in single-use vials",injection,"IM, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,292,,pending,needs manual exact device verification
+Etoposide,"Concentrate for Solution for I.V Infusion 20mg/1ml, 100mg/5ml",iv_infusion,"Oral, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,299,,pending,needs manual exact device verification
+Etoposide,Capsule: 50mg,capsule,"Oral, IV",injection,egypt_conventional_anticancer_formulary_2024.pdf,299,,pending,needs manual exact device verification
+Irinotecan,"Concentrate for Solution For I.V Infusion: 40mg/2ml, 100mg/5ml",iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,304,,pending,needs manual exact device verification
+Topotecan,Lyophilized powder for I.V infusion: 4mg,iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,309,,pending,needs manual exact device verification
+Topotecan,Concentrate for Solution for I.V Infusion: 4mg (1mg/ml),iv_infusion,IV,injection,egypt_conventional_anticancer_formulary_2024.pdf,309,,pending,needs manual exact device verification
+Testosterone,Solution for I.M Injection,injection,IM,injection,egypt_endocrine_formulary_2024.pdf,23,,pending,needs manual exact device verification
+Testosterone,Testosterone enanthate: 250mg/ml (corresponding to 180mg testosterone),testosterone_enanthate,IM,injection,egypt_endocrine_formulary_2024.pdf,23,,pending,needs manual exact device verification
+Testosterone,Testosterone undecanoate: 1000 mg/4ml (corresponding to 631.5,testosterone_undecanoate,IM,injection,egypt_endocrine_formulary_2024.pdf,23,,pending,needs manual exact device verification
+Testosterone,"testosterone), 750mg /3ml (corresponding to 473.6 testosterone)",testosterone,IM,injection,egypt_endocrine_formulary_2024.pdf,23,,pending,needs manual exact device verification
+Dulaglutide,"Solution for SC injection: 0.75mg/0.5ml, 1.5mg/0.5ml",injection,SC,injection,egypt_endocrine_formulary_2024.pdf,46,,pending,needs manual exact device verification
+Exenatide,Powder for Suspension for Injection in prefilled pen (extended-release): 2mg,oral_suspension,SC,oral_liquid,egypt_endocrine_formulary_2024.pdf,49,,pending,needs manual exact device verification
+Liraglutide,Solution for S.C injection: 6 mg/mL,injection,SC,injection,egypt_endocrine_formulary_2024.pdf,52,,pending,needs manual exact device verification
+Semaglutide,"Solution for SC injection: 0.25 mg, 0.5 mg",injection,"Oral, SC",injection,egypt_endocrine_formulary_2024.pdf,55,,pending,needs manual exact device verification
+Semaglutide,Solution in prefilled pen: 1 mg,solution_in_prefilled_pen,"Oral, SC",injection,egypt_endocrine_formulary_2024.pdf,55,,pending,needs manual exact device verification
+Semaglutide,"Tablets: 3 mg, 7 mg, 14 mg",tablet,"Oral, SC",injection,egypt_endocrine_formulary_2024.pdf,55,,pending,needs manual exact device verification
+Ethinyl Estradiol and Etonogestrel,Vaginal Ring: Ethinyl estradiol 2.7 mg; Etonogestrel 11.7 mg,vaginal_suppository,Vaginal,rectal,egypt_endocrine_formulary_2024.pdf,88,,pending,needs manual exact device verification
+Medroxyprogesterone Acetate,Tablets: 5mg,tablet,"Oral, IM",injection,egypt_endocrine_formulary_2024.pdf,121,,pending,needs manual exact device verification
+Medroxyprogesterone Acetate,Suspension for injection: 150mg/ml,oral_suspension,"Oral, IM",oral_liquid,egypt_endocrine_formulary_2024.pdf,121,,pending,needs manual exact device verification
+Medroxyprogesterone Acetate,Suspension in prefilled syringe: 104 mg/0.65ml,oral_suspension,"Oral, IM",oral_liquid,egypt_endocrine_formulary_2024.pdf,121,,pending,needs manual exact device verification
+Progesterone,Vaginal Gel: 8 % w/w,gel,"Oral; Vaginal; I.M, Rectal",rectal,egypt_endocrine_formulary_2024.pdf,130,,pending,needs manual exact device verification
+Progesterone,Rectal or vaginal pessaries: 200 mg; 400 mg,vaginal_suppository,"Oral; Vaginal; I.M, Rectal",rectal,egypt_endocrine_formulary_2024.pdf,130,,pending,needs manual exact device verification
+Progesterone,"Soft Gelatin Capsule: Progesterone micronized: 100 mg, 200 mg, 400",soft_capsule,"Oral; Vaginal; I.M, Rectal",rectal,egypt_endocrine_formulary_2024.pdf,130,,pending,needs manual exact device verification
+Progesterone,mg,mg,"Oral; Vaginal; I.M, Rectal",rectal,egypt_endocrine_formulary_2024.pdf,130,,pending,needs manual exact device verification
+Progesterone,Oral or Vaginal soft gelatin capsule: Progesterone micronized 200 mg,soft_capsule,"Oral; Vaginal; I.M, Rectal",rectal,egypt_endocrine_formulary_2024.pdf,130,,pending,needs manual exact device verification
+Progesterone,Vaginal Tablets: 100 mg,tablet,"Oral; Vaginal; I.M, Rectal",rectal,egypt_endocrine_formulary_2024.pdf,130,,pending,needs manual exact device verification
+Progesterone,"Oily solution for IM injection: 25mg, 50 mg, 100 mg",injection,"Oral; Vaginal; I.M, Rectal",rectal,egypt_endocrine_formulary_2024.pdf,130,,pending,needs manual exact device verification
+Progesterone,Rectal Suppositories: 200 mg,suppository,"Oral; Vaginal; I.M, Rectal",rectal,egypt_endocrine_formulary_2024.pdf,130,,pending,needs manual exact device verification
+Betamethasone,Topical Aerosol Foam: 0.12 gm,inhalation_aerosol,"Oral, IV, IM, Topical, intra-articular, intralesional",inhaler,egypt_endocrine_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Betamethasone,"Topical Ointment or cream: 1 mg/gm (0.1 gm/100g), 0.5 mg/gm",cream,"Oral, IV, IM, Topical, intra-articular, intralesional",injection,egypt_endocrine_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Betamethasone,Topical Gel: 0.5 mg/gm,gel,"Oral, IV, IM, Topical, intra-articular, intralesional",injection,egypt_endocrine_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Betamethasone,Topical Solution:  0.1 gm,topical_solution,"Oral, IV, IM, Topical, intra-articular, intralesional",injection,egypt_endocrine_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Betamethasone,Tablets: 0.5mg,tablet,"Oral, IV, IM, Topical, intra-articular, intralesional",injection,egypt_endocrine_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Betamethasone,"Solution for deep I.M, I.V slow Injection/Infusion, Subconjunctival, and local",iv_infusion,"Oral, IV, IM, Topical, intra-articular, intralesional",injection,egypt_endocrine_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Betamethasone,injection in soft tissue: 4 mg/mL,injection,"Oral, IV, IM, Topical, intra-articular, intralesional",injection,egypt_endocrine_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Betamethasone,"Solution for I.M Injection, I.V Injection/Infusion: 8mg/2mL And in combinations",iv_infusion,"Oral, IV, IM, Topical, intra-articular, intralesional",injection,egypt_endocrine_formulary_2024.pdf,138,,pending,needs manual exact device verification
+Budesonide,Inhalation,inhalation,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,"Inhalation powder, or Powder for Inhalation in Hard Capsule: 200 mcg, 400 mcg",capsule,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,Suspension Aerosol for Inhalation: 200 mcg/dose,oral_suspension,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,"Suspension for inhalation in nebules: 0.25 mg/ml, 0.25mg/2ml, 0.5mg/ml",oral_suspension,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,"0.5 mg/2ml, 1 mg/2ml",0_5_mg_2ml_1_mg_2ml,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,"Suspension for inhalation in Respules: 0.5mg, 1mg. Oral",oral_suspension,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,Oral Hard Gelatin Capsule: 3mg,capsule,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,Oral Modified-Release Tablet: 9mg,extended_release_tablet,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,Rectal Enema: 2 mg,rectal_enema,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Budesonide,"Nasal spray: 32 mcg/metered dose, 64mcg/metered dose",nasal_spray,"Oral Inhalation, Oral, Rectal, Nasal Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,145,,pending,needs manual exact device verification
+Dexamethasone,"Solution for I.M or I.V. Injection: 8mg/2ml, 4 mg/ml, 6.65 mg/ml",injection,"Oral, IM, IV, Ophthalmic, Intravitreal",ophthalmic,egypt_endocrine_formulary_2024.pdf,151,,pending,needs manual exact device verification
+Dexamethasone,"Tablets: 0.5mg, 0.75 mg, 8mg",tablet,"Oral, IM, IV, Ophthalmic, Intravitreal",ophthalmic,egypt_endocrine_formulary_2024.pdf,151,,pending,needs manual exact device verification
+Dexamethasone,"Oral Syrup: 0.25 mg/5ml, 10 mg/100ml",oral_syrup,"Oral, IM, IV, Ophthalmic, Intravitreal",ophthalmic,egypt_endocrine_formulary_2024.pdf,151,,pending,needs manual exact device verification
+Dexamethasone,Eye / Ear Drops: 1 mg/ml,ear_drops,"Oral, IM, IV, Ophthalmic, Intravitreal",ophthalmic,egypt_endocrine_formulary_2024.pdf,151,,pending,needs manual exact device verification
+Dexamethasone,Eye Ointment: 0.050 %,eye_ointment,"Oral, IM, IV, Ophthalmic, Intravitreal",ophthalmic,egypt_endocrine_formulary_2024.pdf,151,,pending,needs manual exact device verification
+Dexamethasone,Intravitreal Implant in Applicator: 700 mcg And in combinations,intravitreal_implant_in_applicator,"Oral, IM, IV, Ophthalmic, Intravitreal",ophthalmic,egypt_endocrine_formulary_2024.pdf,151,,pending,needs manual exact device verification
+Hydrocortisone,"Lyophilized powder for solution for IM, IV injection: 100mg, 250 mg",injection,"IM, IV, Oral, Topical Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Hydrocortisone,Tablets: 10mg,tablet,"IM, IV, Oral, Topical Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Hydrocortisone,"Topical Cream: 0.01g, 0.1 gm/100g (10mg/gm) (1%)",cream,"IM, IV, Oral, Topical Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Hydrocortisone,Topical Ointment: 0.01 gm (1%),ointment,"IM, IV, Oral, Topical Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Hydrocortisone,Ophthalmic Ointment: 10 mg. And in combinations,eye_ointment,"IM, IV, Oral, Topical Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,162,,pending,needs manual exact device verification
+Methylprednisolone,"Suspension for injection (IM, Intra-articular, soft tissue, Intralesional): 40 mg/ml",oral_suspension,"Oral, IV, IM, Intra-articular, Intralesional",oral_liquid,egypt_endocrine_formulary_2024.pdf,170,,pending,needs manual exact device verification
+Methylprednisolone,80 mg/2ml,80_mg_2ml,"Oral, IV, IM, Intra-articular, Intralesional",injection,egypt_endocrine_formulary_2024.pdf,170,,pending,needs manual exact device verification
+Methylprednisolone,"Powder for reconstitution for I.M/IV injection or I.V infusion: 1.000 gm, 500mg",iv_infusion,"Oral, IV, IM, Intra-articular, Intralesional",injection,egypt_endocrine_formulary_2024.pdf,170,,pending,needs manual exact device verification
+Methylprednisolone,"Tablets: 4 mg, 8 mg, 16mg",tablet,"Oral, IV, IM, Intra-articular, Intralesional",injection,egypt_endocrine_formulary_2024.pdf,170,,pending,needs manual exact device verification
+Mometasone,Metered Nasal Spray: 50 mcg/actuation,nasal_spray,"Nasal, Topical, Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,179,,pending,needs manual exact device verification
+Mometasone,"Topical Ointment: 1mg/gm (0.1%) (10gm, 15gm, 20gm, 25gm, 30gm)",ointment,"Nasal, Topical, Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,179,,pending,needs manual exact device verification
+Mometasone,"Topical Lotion: 1mg/gm (15ml, 20ml, 60ml)",lotion,"Nasal, Topical, Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,179,,pending,needs manual exact device verification
+Mometasone,"Topical Cream: 1mg/gm (15gm, 20gm, 25gm, 30gm, 40gm, 45gm). And in combinations as topical or inhalation forms",cream,"Nasal, Topical, Inhalation",inhaler,egypt_endocrine_formulary_2024.pdf,179,,pending,needs manual exact device verification
+Prednisolone,"Orally disintegrating Tablets: 5mg, 15mg, 30mg",tablet,"Oral, Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,183,,pending,needs manual exact device verification
+Prednisolone,"Oro-dispersible tablet: 5mg, 20mg",orodispersible_tablet,"Oral, Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,183,,pending,needs manual exact device verification
+Prednisolone,"Oral Solution: 5mg/5ml, 15mg/5ml",oral_solution,"Oral, Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,183,,pending,needs manual exact device verification
+Prednisolone,Tablet: 5mg,tablet,"Oral, Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,183,,pending,needs manual exact device verification
+Prednisolone,Ophthalmic Suspension: 10 mg/ml (1%),oral_suspension,"Oral, Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,183,,pending,needs manual exact device verification
+Prednisolone,Ophthalmic gel: 5mg/ml,gel,"Oral, Ophthalmic",ophthalmic,egypt_endocrine_formulary_2024.pdf,183,,pending,needs manual exact device verification
+Triamcinolone,Suspension for injection IM or Intra-articular: 40 mg/ml,oral_suspension,"Intra-muscular, Intra-articular, Intralesional, Oral, Nasal, Topical",nasal,egypt_endocrine_formulary_2024.pdf,189,,pending,needs manual exact device verification
+Triamcinolone,Suspension for Intralesional or intra-articular Injection: 10 mg/ml,oral_suspension,"Intra-muscular, Intra-articular, Intralesional, Oral, Nasal, Topical",nasal,egypt_endocrine_formulary_2024.pdf,189,,pending,needs manual exact device verification
+Triamcinolone,Tablets: 4 mg,tablet,"Intra-muscular, Intra-articular, Intralesional, Oral, Nasal, Topical",nasal,egypt_endocrine_formulary_2024.pdf,189,,pending,needs manual exact device verification
+Triamcinolone,Nasal spray:  55 mcg/dose,nasal_spray,"Intra-muscular, Intra-articular, Intralesional, Oral, Nasal, Topical",nasal,egypt_endocrine_formulary_2024.pdf,189,,pending,needs manual exact device verification
+Triamcinolone,Oral paste: 1 mg/g,oral_paste,"Intra-muscular, Intra-articular, Intralesional, Oral, Nasal, Topical",nasal,egypt_endocrine_formulary_2024.pdf,189,,pending,needs manual exact device verification
+Triamcinolone,Topical cream: 1 mg/g,cream,"Intra-muscular, Intra-articular, Intralesional, Oral, Nasal, Topical",nasal,egypt_endocrine_formulary_2024.pdf,189,,pending,needs manual exact device verification
+Bromocriptine,Tablet: 2.5mg,tablet,"Oral, Vaginal",rectal,egypt_endocrine_formulary_2024.pdf,197,,pending,needs manual exact device verification
+Bromocriptine,Vaginal suppositories: 2.5mg,suppository,"Oral, Vaginal",rectal,egypt_endocrine_formulary_2024.pdf,197,,pending,needs manual exact device verification
+Glucagon,Lyophilized Powder: 1 mg/ml,powder,"IV, IM, SC",injection,egypt_endocrine_formulary_2024.pdf,210,,pending,needs manual exact device verification
+Degludec Long acting Insulin,Solution for SC injection (prefilled pen): 100 units/ml,injection,SC,insulin_injection,egypt_endocrine_formulary_2024.pdf,214,,pending,needs manual exact device verification
+Detemir Long-acting Insulin,Solution for injection in Pre-filled Syringe: 100 I.U./ml,injection,SC,insulin_injection,egypt_endocrine_formulary_2024.pdf,217,,pending,needs manual exact device verification
+Follitropin Alfa,"Powder and solvent for injection: 75 I.U/VIAL, 150 I.U/VIAL",injection,SC,injection,egypt_endocrine_formulary_2024.pdf,233,,pending,needs manual exact device verification
+Follitropin Alfa,"Solution for injection in Pre-Filled Syringe: 150 I.U., 225 I.U., 300 I.U",injection,SC,injection,egypt_endocrine_formulary_2024.pdf,233,,pending,needs manual exact device verification
+Follitropin Alfa,"Solution for injection in prefilled pen: 300 IU / 0.5 ml, 900 IU/ 1.5ml",injection,SC,injection,egypt_endocrine_formulary_2024.pdf,233,,pending,needs manual exact device verification
+Human Chorionic Gonadotropin,Powder and Solvent for Solution for injection: 5000 I.U,injection,"IM, SC",injection,egypt_endocrine_formulary_2024.pdf,237,,pending,needs manual exact device verification
+Human Chorionic Gonadotropin,"Lyophilized Powder: 1500 I.U., 5000 I.U",powder,"IM, SC",injection,egypt_endocrine_formulary_2024.pdf,237,,pending,needs manual exact device verification
+Human Chorionic Gonadotropin,Solution for injection in a prefilled syringe: 250 mcg/0.5ml (Recombinant),injection,"IM, SC",injection,egypt_endocrine_formulary_2024.pdf,237,,pending,needs manual exact device verification
+Urofollitropin,"Powder and solvent for injection: 75 I.U., 150 I.U",injection,IM. SC,injection,egypt_endocrine_formulary_2024.pdf,240,,pending,needs manual exact device verification
+Carbetocin,Solution for I.M or slow I.V Injection: 100 mcg/ml,injection,"IM, IV",injection,egypt_endocrine_formulary_2024.pdf,244,,pending,needs manual exact device verification
+Oxytocin,"Solution for slow I.V injection or infusion: 5 I.U./ml, 10 I.U./ml",iv_infusion,"IV, IM",injection,egypt_endocrine_formulary_2024.pdf,247,,pending,needs manual exact device verification
+Oxytocin,Concentrate for solution for IM injection/ I.V. infusion or short infusion: 25,iv_infusion,"IV, IM",injection,egypt_endocrine_formulary_2024.pdf,247,,pending,needs manual exact device verification
+Oxytocin,"mg/ml (5 I.U), 50 mg/ml (10 I.U)",mg_ml_5_i_u,"IV, IM",injection,egypt_endocrine_formulary_2024.pdf,247,,pending,needs manual exact device verification
+Methylergometrine,Solution for I.M or slow I.V Injection: 0.2 mg/ml,injection,"IM, IV, Oral",injection,egypt_endocrine_formulary_2024.pdf,251,,pending,needs manual exact device verification
+Methylergometrine,Tablets: 0.125 mg,tablet,"IM, IV, Oral",injection,egypt_endocrine_formulary_2024.pdf,251,,pending,needs manual exact device verification
+Desmopressin Acetate,Solution for injection: 4mcg/ml,injection,"Subcutaneous, Intramuscular, Intravenous, Oral, Sublingual, Nasal",nasal,egypt_endocrine_formulary_2024.pdf,255,,pending,needs manual exact device verification
+Desmopressin Acetate,"Tablets: 0.1 mg, 0.2 mg",tablet,"Subcutaneous, Intramuscular, Intravenous, Oral, Sublingual, Nasal",nasal,egypt_endocrine_formulary_2024.pdf,255,,pending,needs manual exact device verification
+Desmopressin Acetate,Sublingual Tablet: 240 mcg,orodispersible_tablet,"Subcutaneous, Intramuscular, Intravenous, Oral, Sublingual, Nasal",nasal,egypt_endocrine_formulary_2024.pdf,255,,pending,needs manual exact device verification
+Desmopressin Acetate,"Oral lyophilisate Tablet: 60 mcg, 120 mcg",tablet,"Subcutaneous, Intramuscular, Intravenous, Oral, Sublingual, Nasal",nasal,egypt_endocrine_formulary_2024.pdf,255,,pending,needs manual exact device verification
+Desmopressin Acetate,Nasal Spray: 0.1 mg/ml,nasal_spray,"Subcutaneous, Intramuscular, Intravenous, Oral, Sublingual, Nasal",nasal,egypt_endocrine_formulary_2024.pdf,255,,pending,needs manual exact device verification
+Granisetron,"Solution for IV injection \Infusion: 1mg/1ml, 3mg/3ml",iv_infusion,"IV, Oral, Transdermal",injection,egypt_gastrointestinal_formulary_2025.pdf,21,,pending,needs manual exact device verification
+Granisetron,"Tablet: 1mg, 2mg",tablet,"IV, Oral, Transdermal",injection,egypt_gastrointestinal_formulary_2025.pdf,21,,pending,needs manual exact device verification
+Granisetron,Oral Solution: 1mg/5ml,oral_solution,"IV, Oral, Transdermal",injection,egypt_gastrointestinal_formulary_2025.pdf,21,,pending,needs manual exact device verification
+Granisetron,Transdermal Patch: 34.3 mg,transdermal_patch,"IV, Oral, Transdermal",transdermal,egypt_gastrointestinal_formulary_2025.pdf,21,,pending,needs manual exact device verification
+Ondansetron,"Solution for I.M Injection, IV Injection/Infusion: 4mg/2ml, 8mg/4ml",iv_infusion,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,26,,pending,needs manual exact device verification
+Ondansetron,"Tablet: 4 mg, 8 mg, 24 mg",tablet,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,26,,pending,needs manual exact device verification
+Ondansetron,"Orally disintegrating, dispersible, or fast-melting tablet: 4 mg, 8 mg",orodispersible_tablet,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,26,,pending,needs manual exact device verification
+Ondansetron,"Oral soluble film: 4 mg, 8 mg",oral_soluble_film,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,26,,pending,needs manual exact device verification
+Ondansetron,Oral Syrup or solution: 4 mg/5 ml,oral_syrup,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,26,,pending,needs manual exact device verification
+Ondansetron,Rectal Suppositories: 16 mg,suppository,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,26,,pending,needs manual exact device verification
+Palonosetron,"Solution for IV injection or Infusion:  0.05 mg/mL (1.5 mL, 5 mL)",iv_infusion,"IV, Oral",injection,egypt_gastrointestinal_formulary_2025.pdf,32,,pending,needs manual exact device verification
+Palonosetron,Capsules: 0.5 mg,capsule,"IV, Oral",injection,egypt_gastrointestinal_formulary_2025.pdf,32,,pending,needs manual exact device verification
+Domperidone,Oral suspension: 5 mg/ 5 ml,oral_suspension,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,36,,pending,needs manual exact device verification
+Domperidone,Film-coated tablet: 10 mg alone and in combination with (ergotamine tartrate 1,tablet,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,36,,pending,needs manual exact device verification
+Domperidone,"mg, paracetamol 250 mg, caffeine anhydrous 50 mg)",mg_paracetamol,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,36,,pending,needs manual exact device verification
+Domperidone,Oro-dispersible tablets: 10 mg,orodispersible_tablet,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,36,,pending,needs manual exact device verification
+Domperidone,Effervescent granules: 10 mg,effervescent_granules,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,36,,pending,needs manual exact device verification
+Domperidone,Soft gelatin capsule: 10 mg,soft_capsule,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,36,,pending,needs manual exact device verification
+Domperidone,Rectal suppository: 30 mg,suppository,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,36,,pending,needs manual exact device verification
+Metoclopramide,"Tablets, Scored tablet: 10 mg",tablet,"Oral, Rectal, Parenteral",rectal,egypt_gastrointestinal_formulary_2025.pdf,39,,pending,needs manual exact device verification
+Metoclopramide,Oral solution: 1 mg/1 ml,oral_solution,"Oral, Rectal, Parenteral",rectal,egypt_gastrointestinal_formulary_2025.pdf,39,,pending,needs manual exact device verification
+Metoclopramide,"Oral drops: 1mg/1 mL, 2 mg/1 ml",oral_drops,"Oral, Rectal, Parenteral",rectal,egypt_gastrointestinal_formulary_2025.pdf,39,,pending,needs manual exact device verification
+Metoclopramide,"Rectal Suppositories: 10 mg, 20 mg",suppository,"Oral, Rectal, Parenteral",rectal,egypt_gastrointestinal_formulary_2025.pdf,39,,pending,needs manual exact device verification
+Metoclopramide,Solution for IM or IV Injection: 10 mg/2 ml,injection,"Oral, Rectal, Parenteral",rectal,egypt_gastrointestinal_formulary_2025.pdf,39,,pending,needs manual exact device verification
+Simethicone,"Oral Drops: 20 mg/ 1mL, 40 mg, 66.6 mg/ 1mL",oral_drops,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,52,,pending,needs manual exact device verification
+Simethicone,Oral Suspension: 42 mg/ 5mL,oral_suspension,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,52,,pending,needs manual exact device verification
+Simethicone,Oral Emulsion: 100 mg/ 5mL,oral_emulsion,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,52,,pending,needs manual exact device verification
+Hyoscine-N-butyl bromide/ Scopolamine butylbromide,/Strengths,strengths,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,55,,pending,needs manual exact device verification
+Hyoscine-N-butyl bromide/ Scopolamine butylbromide,"Solution for I.M., S.C., or Slow IV injection: 20 mg/mL",injection,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,55,,pending,needs manual exact device verification
+Hyoscine-N-butyl bromide/ Scopolamine butylbromide,Tablet: 10 mg,tablet,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,55,,pending,needs manual exact device verification
+Hyoscine-N-butyl bromide/ Scopolamine butylbromide,Oral Syrup: 5 mg/5mL,oral_syrup,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,55,,pending,needs manual exact device verification
+Hyoscine-N-butyl bromide/ Scopolamine butylbromide,Rectal Suppositories: 15 mg,suppository,"Oral, Parenteral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,55,,pending,needs manual exact device verification
+Mebeverine,Oral Suspension: 50 mg/ 5mL,oral_suspension,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,59,,pending,needs manual exact device verification
+Dicyclomine (Dicycloverine) hydrochloride,Oral syrup: 10 mg/5mL,oral_syrup,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,61,,pending,needs manual exact device verification
+Trimebutine,Oral Suspension: 24 mg/5 mL,oral_suspension,"Oral, IM, IV",oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,63,,pending,needs manual exact device verification
+Trimebutine,"Tablets: 100 mg, 200 mg",tablet,"Oral, IM, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,63,,pending,needs manual exact device verification
+Trimebutine,I.M. and I.V. Injection: 50 mg,injection,"Oral, IM, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,63,,pending,needs manual exact device verification
+Ursodeoxycholic acid,Oral Suspension: 250 mg/5mL,oral_suspension,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,66,,pending,needs manual exact device verification
+Famotidine,"Tablets: 20 mg, 40 mg",tablet,"Oral, IV, IM",injection,egypt_gastrointestinal_formulary_2025.pdf,70,,pending,needs manual exact device verification
+Famotidine,"Oro-dispersible Film: 20 mg, 40 mg",orodispersible_tablet,"Oral, IV, IM",injection,egypt_gastrointestinal_formulary_2025.pdf,70,,pending,needs manual exact device verification
+Famotidine,Powder for Oral Suspension: 40 mg/5 mL,oral_suspension,"Oral, IV, IM",oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,70,,pending,needs manual exact device verification
+Famotidine,Effervescence Powder: 20 mg/sachet,powder,"Oral, IV, IM",injection,egypt_gastrointestinal_formulary_2025.pdf,70,,pending,needs manual exact device verification
+Famotidine,Effervescent Granules: 20 mg/sachet,effervescent_granules,"Oral, IV, IM",injection,egypt_gastrointestinal_formulary_2025.pdf,70,,pending,needs manual exact device verification
+Famotidine,"Solution for IM, IV injection, and IV infusion: 20 mg",iv_infusion,"Oral, IV, IM",injection,egypt_gastrointestinal_formulary_2025.pdf,70,,pending,needs manual exact device verification
+Famotidine,Concentrate for Solution for IV Injection or Infusion: 20 mg,iv_infusion,"Oral, IV, IM",injection,egypt_gastrointestinal_formulary_2025.pdf,70,,pending,needs manual exact device verification
+Esomeprazole,"Tablet or gastro-resistant tablet: 20 mg, 40 mg",tablet,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Esomeprazole,"Enteric-coated granules for delayed-release oral suspension: 2.5 mg, 5 mg, 10",oral_suspension,"Oral, IV",oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Esomeprazole,"mg, 20 mg, 40 mg",mg,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Esomeprazole,"Delayed-release capsule: 20 mg, 40 mg",capsule,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Esomeprazole,"Delayed-release powder for oral suspension in sachet: 20 mg, 40 mg",oral_suspension,"Oral, IV",oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Esomeprazole,"Lyophilized powder for slow IV injection or infusion: 20 mg, 40 mg",iv_infusion,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Omeprazole,Lyophilized powder for solution for IV infusion: 40 mg,iv_infusion,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,91,,pending,needs manual exact device verification
+Omeprazole,"Modified release capsule containing pellets: 10 mg, 20 mg, 40 mg",capsule,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,91,,pending,needs manual exact device verification
+Omeprazole,Enteric-coated capsules 20 mg,capsule,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,91,,pending,needs manual exact device verification
+Pantoprazole,/Strengths,strengths,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,96,,pending,needs manual exact device verification
+Pantoprazole,"Enteric-coated tablet: 20 mg, 40 mg",tablet,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,96,,pending,needs manual exact device verification
+Pantoprazole,"Modified release tablets: 20 mg, 40 mg",tablet,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,96,,pending,needs manual exact device verification
+Pantoprazole,Powder for solution for IV injection or infusion: 40 mg,iv_infusion,"Oral, IV",injection,egypt_gastrointestinal_formulary_2025.pdf,96,,pending,needs manual exact device verification
+Mesalazine (Mesalamine),Tablet: 500 mg,tablet,"Oral, rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,107,,pending,needs manual exact device verification
+Mesalazine (Mesalamine),"Modified release tablets: 400 mg, 500 mg, 800 mg",tablet,"Oral, rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,107,,pending,needs manual exact device verification
+Mesalazine (Mesalamine),"Prolonged release granules: 1 gm, 2 gm, 4 gm",granules,"Oral, rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,107,,pending,needs manual exact device verification
+Mesalazine (Mesalamine),Capsules Containing extended-release pellets: 500 mg,capsule,"Oral, rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,107,,pending,needs manual exact device verification
+Mesalazine (Mesalamine),Rectal Suppositories: 1 gm,suppository,"Oral, rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,107,,pending,needs manual exact device verification
+Mesalazine (Mesalamine),Rectal Suspension: 1 gm/100mL,oral_suspension,"Oral, rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,107,,pending,needs manual exact device verification
+Glycerin,"Rectal Suppositories: 1.4 gm, 1.47 gm, 1.61 gm. 70% w/w",suppository,Rectal,rectal,egypt_gastrointestinal_formulary_2025.pdf,117,,pending,needs manual exact device verification
+Glycerin,Infantile rectal suppository: 0.7gm,suppository,Rectal,rectal,egypt_gastrointestinal_formulary_2025.pdf,117,,pending,needs manual exact device verification
+Lactulose,Syrup or oral solution: 3.35 gm/5 mL,oral_syrup,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,119,,pending,needs manual exact device verification
+Polyethylene glycol 3350 (macrogol),Powder for oral suspension (in combinations): 6.563 grams per sachet. 13.125 grams per sachet. 100 grams per pouch,oral_suspension,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,122,,pending,needs manual exact device verification
+Bisacodyl,"Enteric-coated tablet: 5 mg, 10 mg",tablet,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,130,,pending,needs manual exact device verification
+Bisacodyl,"Suppository: 5 mg, 10 mg",suppository,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,130,,pending,needs manual exact device verification
+Bisacodyl,Enema: 10 mg/30 mL,enema,"Oral, Rectal",rectal,egypt_gastrointestinal_formulary_2025.pdf,130,,pending,needs manual exact device verification
+Sodium Picosulfate,Oral drops 7.5 mg/mL,oral_drops,Oral,oral_liquid,egypt_gastrointestinal_formulary_2025.pdf,133,,pending,needs manual exact device verification
+Docusate sodium,"Oral solution or syrup: 12.5 mg/5 mL, 20 mg/5 mL, 50 mg/5 mL",oral_syrup,"Oral, Rectal, Otic",otic,egypt_gastrointestinal_formulary_2025.pdf,135,,pending,needs manual exact device verification
+Docusate sodium,Capsules: 100 mg,capsule,"Oral, Rectal, Otic",otic,egypt_gastrointestinal_formulary_2025.pdf,135,,pending,needs manual exact device verification
+Docusate sodium,Rectal micro enema: 120 mg/10 gm,rectal_micro_enema,"Oral, Rectal, Otic",otic,egypt_gastrointestinal_formulary_2025.pdf,135,,pending,needs manual exact device verification
+Docusate sodium,Ear drops (wax): 5 gm/100 mL,ear_drops,"Oral, Rectal, Otic",otic,egypt_gastrointestinal_formulary_2025.pdf,135,,pending,needs manual exact device verification
+Phenobarbital,Elixir: 15mg/5ml,oral_solution,"Oral, IV, IM",injection,egypt_nervous_system_formulary_2025.pdf,13,,pending,needs manual exact device verification
+Phenobarbital,"Tablets: 15mg, 30mg, 60mg, 100mg",tablet,"Oral, IV, IM",injection,egypt_nervous_system_formulary_2025.pdf,13,,pending,needs manual exact device verification
+Phenobarbital,Solution for injection: 40mg/ml,injection,"Oral, IV, IM",injection,egypt_nervous_system_formulary_2025.pdf,13,,pending,needs manual exact device verification
+Clonazepam,Oral drops: 2.5 mg/ml,oral_drops,Oral,oral_liquid,egypt_nervous_system_formulary_2025.pdf,17,,pending,needs manual exact device verification
+Diazepam,"Solution for I.M Injection, I.V Injection/Infusion: 10 mg/2ml",iv_infusion,"IM, IV, Oral, Rectal",rectal,egypt_nervous_system_formulary_2025.pdf,21,,pending,needs manual exact device verification
+Diazepam,"Tablets: 2mg, 5mg, 10mg",tablet,"IM, IV, Oral, Rectal",rectal,egypt_nervous_system_formulary_2025.pdf,21,,pending,needs manual exact device verification
+Diazepam,Oral Syrup: 2mg/5ml,oral_syrup,"IM, IV, Oral, Rectal",rectal,egypt_nervous_system_formulary_2025.pdf,21,,pending,needs manual exact device verification
+Diazepam,Rectal Suppositories: 10 mg,suppository,"IM, IV, Oral, Rectal",rectal,egypt_nervous_system_formulary_2025.pdf,21,,pending,needs manual exact device verification
+Carbamazepine,Oral suspension: 100 mg/5ml,oral_suspension,Oral,oral_liquid,egypt_nervous_system_formulary_2025.pdf,27,,pending,needs manual exact device verification
+Oxcarbazepine,Oral suspension: 300 mg/5ml (100ml),oral_suspension,Oral,oral_liquid,egypt_nervous_system_formulary_2025.pdf,34,,pending,needs manual exact device verification
+Phenytoin,"Capsule: 50mg, 100mg",capsule,"Oral, IM, IV, Topical",injection,egypt_nervous_system_formulary_2025.pdf,47,,pending,needs manual exact device verification
+Phenytoin,Suspension: 30 mg/5ml,oral_suspension,"Oral, IM, IV, Topical",oral_liquid,egypt_nervous_system_formulary_2025.pdf,47,,pending,needs manual exact device verification
+Phenytoin,Topical cream: 2 gm/100g,cream,"Oral, IM, IV, Topical",injection,egypt_nervous_system_formulary_2025.pdf,47,,pending,needs manual exact device verification
+Phenytoin,Topical Spray: 40 mg/150ml,topical_spray,"Oral, IM, IV, Topical",injection,egypt_nervous_system_formulary_2025.pdf,47,,pending,needs manual exact device verification
+Phenytoin,Injection: 50 mg/ml; 250 mg/5ml,injection,"Oral, IM, IV, Topical",injection,egypt_nervous_system_formulary_2025.pdf,47,,pending,needs manual exact device verification
+Ethosuximide,Syrup: 250 mg/5 ml,oral_syrup,Oral,oral_liquid,egypt_nervous_system_formulary_2025.pdf,55,,pending,needs manual exact device verification
+Lacosamide,/Strengths,strengths,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,59,,pending,needs manual exact device verification
+Lacosamide,"Tablet: 50 mg, 100 mg, 200 mg",tablet,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,59,,pending,needs manual exact device verification
+Lacosamide,Oral Solution: 10 mg/ml,oral_solution,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,59,,pending,needs manual exact device verification
+Lacosamide,Solution for I.V. Infusion: 10 mg/ml,iv_infusion,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,59,,pending,needs manual exact device verification
+Levetiracetam,"Film coated tablets: 250mg, 500mg, 750mg, 1000mg",tablet,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,63,,pending,needs manual exact device verification
+Levetiracetam,Orally disintegrating tablets: 500mg,tablet,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,63,,pending,needs manual exact device verification
+Levetiracetam,"Modified release tablets: 500mg, 750mg, 1000mg, 1500mg",tablet,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,63,,pending,needs manual exact device verification
+Levetiracetam,"Syrup: 100mg/ml (100ml, 120ml or 300ml)",oral_syrup,"Oral, IV",oral_liquid,egypt_nervous_system_formulary_2025.pdf,63,,pending,needs manual exact device verification
+Levetiracetam,Injection: 500mg/5ml,injection,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,63,,pending,needs manual exact device verification
+Gabapentin,Oral solution or Syrup: 250 mg/5ml,oral_syrup,Oral,oral_liquid,egypt_nervous_system_formulary_2025.pdf,68,,pending,needs manual exact device verification
+Magnesium Sulfate Heptahydrate,Solution for IM and IV injection or slow IV infusion:  1gm/2ml,iv_infusion,"IM, IV",injection,egypt_nervous_system_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Magnesium Sulfate Heptahydrate,0.5gm/5ml (10%),0_5gm_5ml_10,"IM, IV",injection,egypt_nervous_system_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Magnesium Sulfate Heptahydrate,"Solution for IV injection or infusion: 1gm/10ml, 2.5gm/25ml",iv_infusion,"IM, IV",injection,egypt_nervous_system_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Magnesium Sulfate Heptahydrate,"Solution for IV infusion:  1gm/10ml, 10gm/100ml (10%)",iv_infusion,"IM, IV",injection,egypt_nervous_system_formulary_2025.pdf,74,,pending,needs manual exact device verification
+Valproic acid,"Capsule: 150, 250, 300 mg",capsule,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,83,,pending,needs manual exact device verification
+Valproic acid,Syrup: 250 mg/5ml,oral_syrup,"Oral, IV",oral_liquid,egypt_nervous_system_formulary_2025.pdf,83,,pending,needs manual exact device verification
+Valproic acid,"Modified release tablet: 250, 500 mg",tablet,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,83,,pending,needs manual exact device verification
+Valproic acid,"Oral drops: 200, 300 mg/ml",oral_drops,"Oral, IV",oral_liquid,egypt_nervous_system_formulary_2025.pdf,83,,pending,needs manual exact device verification
+Valproic acid,Solution for IV injection: 500 mg/5ml,injection,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,83,,pending,needs manual exact device verification
+Amantadine,Capsule: 100mg,capsule,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,90,,pending,needs manual exact device verification
+Amantadine,Tablets: 100mg,tablet,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,90,,pending,needs manual exact device verification
+Amantadine,Solution for IV infusion: 200mg/500ml,iv_infusion,"Oral, IV",injection,egypt_nervous_system_formulary_2025.pdf,90,,pending,needs manual exact device verification
+Neostigmine,"Solution for IM, IV and SC injection: 0.5 mg/ml (1 ml), 1 mg/ml (5 ml), 2.5",injection,"IM, IV, SC, Oral",injection,egypt_nervous_system_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Neostigmine,mg/ml (5ml),mg_ml,"IM, IV, SC, Oral",injection,egypt_nervous_system_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Neostigmine,Tablets: 15 mg,tablet,"IM, IV, SC, Oral",injection,egypt_nervous_system_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Cladribine,Tablets: 10 mg,tablet,"Oral, SC, IV",injection,egypt_nervous_system_formulary_2025.pdf,116,,pending,needs manual exact device verification
+Cladribine,Solution for S.C Injection and I.V Infusion: 2 mg/ml,iv_infusion,"Oral, SC, IV",injection,egypt_nervous_system_formulary_2025.pdf,116,,pending,needs manual exact device verification
+Zidovudine,Syrup: 10 mg/ml,oral_syrup,Oral,oral_liquid,egypt_respiratory_formulary_2026.pdf,21,,pending,needs manual exact device verification
+Nevirapine,Suspension: 50mg/5ml,oral_suspension,Oral,oral_liquid,egypt_respiratory_formulary_2026.pdf,33,,pending,needs manual exact device verification
+Cabotegravir,Intramuscular Injection:  Apretude: 600 mg/3 mL (3 mL),injection,Oral/injection,injection,egypt_respiratory_formulary_2026.pdf,40,,pending,needs manual exact device verification
+Rituximab,"Solution for injection: 100 mg/10 mL, 500 mg/50 mL",injection,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,96,,pending,needs manual exact device verification
+Rituximab,Solution for S.C injection:  1400 mg/ 11.7 ml,injection,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,96,,pending,needs manual exact device verification
+Cetuximab,Solution for Infusion: 100mg (5 mg/ml),iv_infusion,IV,injection,egypt_targeted_anticancer_formulary_2025.pdf,104,,pending,needs manual exact device verification
+Pertuzumab,Concentrate Solution for IV Infusion: 420 mg. Solution for subcutaneous,iv_infusion,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Pertuzumab,injection: 1200,injection,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Pertuzumab,mg pertuzumab/600,mg_pertuzumab_600,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Pertuzumab,"mg trastuzumab/Hyaluronidase 30000 units, 600",mg_trastuzumab_hyaluronidase,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Pertuzumab,mg,mg,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Pertuzumab,trastuzumab/Hyaluronidase 20000 units,trastuzumab_hyaluronidase,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,108,,pending,needs manual exact device verification
+Trastuzumab,"Powder for IV Infusion: 150 mg, 440 mg",iv_infusion,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,113,,pending,needs manual exact device verification
+Trastuzumab,Solution for SC injection: 600 mg,injection,"IV, SC",injection,egypt_targeted_anticancer_formulary_2025.pdf,113,,pending,needs manual exact device verification
+Nivolumab,"Solution for IV infusion: 40mg/4 ml, 100mg/ 10ml",iv_infusion,IV,injection,egypt_targeted_anticancer_formulary_2025.pdf,118,,pending,needs manual exact device verification
+Bevacizumab,"Concentrate Solution for Infusion: 100 mg/4mL, 400 mg/16mL",iv_infusion,IV,injection,egypt_targeted_anticancer_formulary_2025.pdf,127,,pending,needs manual exact device verification
+Bortezomib,Powder for solution for SC / IV injection: 3.5 mg,injection,SC / IV,injection,egypt_targeted_anticancer_formulary_2025.pdf,136,,pending,needs manual exact device verification
+Bortezomib,Solution for injection: 3.5 mg,injection,SC / IV,injection,egypt_targeted_anticancer_formulary_2025.pdf,136,,pending,needs manual exact device verification
+Denosumab,"Prefilled syringe for injection: 60 mg, 120mg",injection,SC,injection,egypt_targeted_anticancer_formulary_2025.pdf,145,,pending,needs manual exact device verification
+tablets,"Short term treatment of reflux symptoms (e.g. heart burn ,acid",short_term_treatment_of_reflux_symptoms_e_g_heart_burn_acid,Topical,otic,egypt_otc_drug_list_2026.pdf,1,,pending,needs manual exact device verification
+Symptomatic Gastroesophageal reflux disease in adults ≥ 18,years of age,years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,1,,pending,needs manual exact device verification
+Treatment of symptoms associated with mild reflux disease,"(heartburn, acid regurgitation, pain on swallowing) in adults ≥",heartburn_acid_regurgitation_pain_on_swallowing_in_adults,Topical,otic,egypt_otc_drug_list_2026.pdf,1,,pending,needs manual exact device verification
+Indicated where reduction of gastric acid secretion is required,in non-erosive reflux disease (i.e. heartburn and regurgitation): in adults (18 years of age and over),in_non_erosive_reflux_disease_i_e_heartburn_and_regurgitation,Topical,otic,egypt_otc_drug_list_2026.pdf,2,,pending,needs manual exact device verification
+540 mg /5 ml,As in insert leaflet in adults and children aged 12 years and over Printed box containing brown plastic (PET) bottle of 100 ml or 200,as_in_insert_leaflet_in_adults_and_children_aged_12_years_and_over_printed_box_containing_brown_plastic_pet_bottle_of,Topical,otic,egypt_otc_drug_list_2026.pdf,2,,pending,needs manual exact device verification
+"Symptomatic relief of dyspepsia, heartburn and flatulence in",adults ≥ 18 years of age,adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,3,,pending,needs manual exact device verification
+Oral Suspension in sachet500 mg/213 mg/325 mg,"As in insert leaflet in adults and children 12 years and over: Carton box containing 2, 6, 12, 24 and 36 units dose stick pack style",as_in_insert_leaflet_in_adults_and_children_12_years_and_over,Topical,otic,egypt_otc_drug_list_2026.pdf,3,,pending,needs manual exact device verification
+Treatment of sudden short lived (acute) attacks of diarrhea in,"adults and children aged 12 years and over: Carton box contains (AL/AL) blister of 6 tablets , consisting of a seal",adults_and_children_aged_12_years_and_over,Topical,otic,egypt_otc_drug_list_2026.pdf,3,,pending,needs manual exact device verification
+Short term treatment of constipation whenever stimulant,laxative is required in children aged 4 to 10 years of age: Carton box containing 1 or 2 (opaque milky PVC / PE) rotoplast,laxative_is_required_in_children_aged_4_to_10_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,4,,pending,needs manual exact device verification
+Short term treatment of constipation whenever stimulant,laxative is required in adults and children over 10 years of age: Carton box containing 1 or 2 (opaque milky PVC / LDPE) rotoplast,laxative_is_required_in_adults_and_children_over_10_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,4,,pending,needs manual exact device verification
+60 mg/300 mg,"As in insert leaflet in patients ≥ 18 years of age: Carton box containing 1,2 or 3 (AL/PVC) strips each of 12 soft",as_in_insert_leaflet_in_patients_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,5,,pending,needs manual exact device verification
+Fluticasone Propionate,Nasal Spray: micronized 0.05 mg /100,nasal_spray,Topical,nasal,egypt_otc_drug_list_2026.pdf,7,,pending,needs manual exact device verification
+Mometasone Furoate Monohydrat,Nasal spray: 0.052 mg equivalent to,nasal_spray,Topical,nasal,egypt_otc_drug_list_2026.pdf,7,,pending,needs manual exact device verification
+Symptomatic treatment of allergic rhinitis in adults and,"children 6 years of age and older: Carton box containing 1,2 or 3 (Al/Transparent PVC) strips each of",children_6_years_of_age_and_older,Topical,otic,egypt_otc_drug_list_2026.pdf,8,,pending,needs manual exact device verification
+Levocetirizine Dihydrochloride,Syrup: 5mg/10ml,oral_syrup,Oral,oral_liquid,egypt_otc_drug_list_2026.pdf,8,,pending,needs manual exact device verification
+Levocetirizine Dihydrochloride,Oral drops: 5mg/1ml,oral_drops,Oral,oral_liquid,egypt_otc_drug_list_2026.pdf,8,,pending,needs manual exact device verification
+Symptomatic treatment of allergic rhinitis in adults and,"children 12 years of age and older.: Carton box containing 1 , 2 (Al/Opaque PVC / PVDC ) strip each of",children_12_years_of_age_and_older,Topical,otic,egypt_otc_drug_list_2026.pdf,8,,pending,needs manual exact device verification
+Symptomatic treatment of allergic rhinitis in adults and,"children aged 6 years and above: Carton box containing 1 , 2 or 3 (ALU / ALU) strips each of 10 tablets",children_aged_6_years_and_above,Topical,otic,egypt_otc_drug_list_2026.pdf,8,,pending,needs manual exact device verification
+Symptomatic treatment of allergic rhinitis in adults and,"children aged 6 years and above: Carton box containing 1 ,2 or 3 (AL / Transparent PVC) strips, each",children_aged_6_years_and_above,Topical,otic,egypt_otc_drug_list_2026.pdf,8,,pending,needs manual exact device verification
+Relief of symptoms associated with perennial allergic rhinitis in,"adults and children 12 years of age and over: Carton box containing 1 , 2 or 3 (Al / opaque PVC) strips, each of  10",adults_and_children_12_years_of_age_and_over,Topical,otic,egypt_otc_drug_list_2026.pdf,8,,pending,needs manual exact device verification
+Symptomatic treatment of allergic rhinitis in adults and,"children aged 6 years and over: Carton box contains 1, 2 or 3 (Al/transparent triple layer",children_aged_6_years_and_over,Topical,otic,egypt_otc_drug_list_2026.pdf,8,,pending,needs manual exact device verification
+"Relieve the symptoms of hay fever (sneezing, itchy, runny,",blocked up nose and red and watery eyes) and other forms of,blocked_up_nose_and_red_and_watery_eyes_and_other_forms_of,Topical,ophthalmic,egypt_otc_drug_list_2026.pdf,9,,pending,needs manual exact device verification
+Cetirizine dihydrochloride,Oral drops: 10 mg/ ml,oral_drops,Oral,oral_liquid,egypt_otc_drug_list_2026.pdf,9,,pending,needs manual exact device verification
+5 mg /ml,Relief of nasal and ocular symptoms of Perennial Allergic: Rhinitis in adults and children aged 2 years and above,relief_of_nasal_and_ocular_symptoms_of_perennial_allergic,Topical,nasal,egypt_otc_drug_list_2026.pdf,9,,pending,needs manual exact device verification
+Relief of nasal and ocular symptoms of Perennial Allergic,"Rhinitis in adults and children aged 6 years and above: A carton box containing 2 (Al/Transparent PVC) strips , each of 10",rhinitis_in_adults_and_children_aged_6_years_and_above,Topical,otic,egypt_otc_drug_list_2026.pdf,9,,pending,needs manual exact device verification
+0.05 gm/100 ml,Fast 24 hour and effective relief of multi nasal and non-nasal,fast_24_hour_and_effective_relief_of_multi_nasal_and_non_nasal,Topical,nasal,egypt_otc_drug_list_2026.pdf,9,,pending,needs manual exact device verification
+Relief of symptoms associated with seasonal allergic rhinitis,and allergic rhinitis in adults and children aged 12 years or older: Carton box contains 1 or 2 ( AL / colorless transparent PVDC ) strips,and_allergic_rhinitis_in_adults_and_children_aged_12_years_or_older,Topical,otic,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Relief of symptoms associated with seasonal allergic rhinitis in,"adults and children 12 years of age and older: Carton box contains 1,2 or 3 (AL / Transparent (PVC / PVDC)) strips",adults_and_children_12_years_of_age_and_older,Topical,otic,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Relief of symptoms associated with seasonal allergic rhinitis in,adults and children 12 years and older,adults_and_children_12_years_and_older,Topical,otic,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Relief of symptoms associated with seasonal allergic rhinitis,and allergic rhinitis in adults and children aged 12 years or older: Carton box containing 1 or 2 ( Al / transparent PVC ) strips each of,and_allergic_rhinitis_in_adults_and_children_aged_12_years_or_older,Topical,otic,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Relief of symptoms associated with seasonal allergic rhinitis,and allergic rhinitis in adults and children aged 12 years or,and_allergic_rhinitis_in_adults_and_children_aged_12_years_or,Topical,otic,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Relief of symptoms associated with seasonal allergic rhinitis in,adults and children 12 years of age or older: Carton box containing 1 or 2 (Al / white opaque PVC/PE/PVDC),adults_and_children_12_years_of_age_or_older,Topical,otic,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Relief of symptoms associated with seasonal allergic rhinitis in,adults and children 12 years of age or older: Carton box containing 1 or 2 (Al/Opaque PVC/ PE/PVDC) blisters,adults_and_children_12_years_of_age_or_older,Topical,otic,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Fexofenadine Hydrochloride,Oral suspension: 30  mg /5 ml,oral_suspension,Oral,oral_liquid,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Fexofenadine Hydrochloride,Oral suspension: 30  mg /5 ml Oral,oral_suspension,Oral,oral_liquid,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+30  mg /5 ml,Relief of symptoms of perennial allergic rhinitis from 2 years of,relief_of_symptoms_of_perennial_allergic_rhinitis_from_2_years_of,Topical,otic,egypt_otc_drug_list_2026.pdf,10,,pending,needs manual exact device verification
+Symptomatic treatment of allergic rhinitis in adults and,children over 12 years of age: Carton box contains 2 (Al / transparent colorless PVC) strips each of,children_over_12_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,11,,pending,needs manual exact device verification
+Chlorpheniramine Maleate / Naph Nasal gel,0.5 gm / 0.125 gm / 100 ml As in insert leaflet in adults and children aged 12 years and over Carton box containing printed aluminum tube and aluminum: nozzle not sealed containing 5 gm gel and white HDPE cap with,0_5_gm_0_125_gm_100_ml_as_in_insert_leaflet_in_adults_and_children_aged_12_years_and_over_carton_box_containing_printed_aluminum_tube_and_aluminum,Topical,otic,egypt_otc_drug_list_2026.pdf,11,,pending,needs manual exact device verification
+0.5 mg/ml,As in insert leaflet in adults and children over 12 years of age: Carton box contains white (HDPE) plastic bottle (it’s capacity 40 ml),as_in_insert_leaflet_in_adults_and_children_over_12_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,11,,pending,needs manual exact device verification
+Paracetamol    /Phenylephrine HydPowder for Oral Solution 600 mg /10 mg,"As in insert leaflet in adults and children aged 16 years and over Carton box contains 10 ( paper ,polyethylene , aluminium foil",as_in_insert_leaflet_in_adults_and_children_aged_16_years_and_over_carton_box_contains_10_paper_polyethylene_aluminium_foil,Topical,otic,egypt_otc_drug_list_2026.pdf,11,,pending,needs manual exact device verification
+0.5 mg,Prevention of sore throat in adults and adolescents ≥ 12 years,prevention_of_sore_throat_in_adults_and_adolescents_12_years,Topical,otic,egypt_otc_drug_list_2026.pdf,12,,pending,needs manual exact device verification
+Thyme all herb Liquid Extract (Thymus Vulgaris) 60 mg /BiƩer Fennel Dried Ripe Fruit Liquid Extract (Foeniculum Vulgare) 20 mg,Syrup: 61 mg/20 mg/20 mg/35,oral_syrup,Oral,oral_liquid,egypt_otc_drug_list_2026.pdf,13,,pending,needs manual exact device verification
+Ivy leaves Extract Dry powder,Syrup: 35 mg / 5 ml,oral_syrup,Oral,oral_liquid,egypt_otc_drug_list_2026.pdf,13,,pending,needs manual exact device verification
+Gentian root Gentiana Radix  /Prim Coated Tablets,6 mg/18 mg/18mg/18 mg  Herbal medicine for inflammations of paranasal sinuses,6_mg_18_mg_18mg_18_mg_herbal_medicine_for_inflammations_of_paranasal_sinuses,Topical,nasal,egypt_otc_drug_list_2026.pdf,14,,pending,needs manual exact device verification
+0.1 gm / 1 gm,As in insert leaflet in adults and children aged 12 years of age,as_in_insert_leaflet_in_adults_and_children_aged_12_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,15,,pending,needs manual exact device verification
+2.5 g / 100 g,"As in insert leaflet in adults ≥ 18 years of age: Carton box containing one tube of  15  ,50 ,60 , 100 gm gel and",as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,15,,pending,needs manual exact device verification
+25 mg / 1gm,As in insert leaflet in adults ≥ 18 years of age: Carton box contains Aluminum tube of 15 gm or 40 gm gel with,as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,15,,pending,needs manual exact device verification
+2.5 gm /100 gm,As in insert leaflet in adults ≥ 18 years of age,as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,15,,pending,needs manual exact device verification
+For the relief of mild to moderate pain and pyrexia in adults,and children aged 6 years of age and over: Carton box contains one white (PVC / LDPE ) blisters of 5 rectal,and_children_aged_6_years_of_age_and_over,Topical,otic,egypt_otc_drug_list_2026.pdf,15,,pending,needs manual exact device verification
+As in insert leaflet in children weighing between 14 Kg and 28,"Kg (Approximately 2 to 9 years of age).: Carton box containing 1,2 or 3 (Al/Al) strips,each of 5 suppositories",kg_approximately_2_to_9_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,16,,pending,needs manual exact device verification
+As in insert leaflet in children aged 1 - 5 years (10 - 18 Kg).,Carton box containing one (PVC/PE) strip containing 5 suppositories,suppository,Rectal,rectal,egypt_otc_drug_list_2026.pdf,16,,pending,needs manual exact device verification
+250 mg / 5 ml,As in insert leaflet in adults and children aged 6 years of age,as_in_insert_leaflet_in_adults_and_children_aged_6_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,17,,pending,needs manual exact device verification
+200 mg / 500 mg,"As in insert leaflet in adults ≥ 18 years of age: Carton box containing 1 , 2 or 3 (AL / opaque PVC / PVDC ) blisters",as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,17,,pending,needs manual exact device verification
+500 mg / 25 mg,"As in insert leaflet in adults and children 18 years of age and ove Carton box containing 1 or 2 (AL / Opaque white PVC) strips, each: pf 10 tablets & inner leaflet",as_in_insert_leaflet_in_adults_and_children_18_years_of_age_and_ove_carton_box_containing_1_or_2_al_opaque_white_pvc_strips_each,Topical,otic,egypt_otc_drug_list_2026.pdf,18,,pending,needs manual exact device verification
+500 mg / 12.5 mg,As in insert leaflet in adults and children 12 years of age and,as_in_insert_leaflet_in_adults_and_children_12_years_of_age_and,Topical,otic,egypt_otc_drug_list_2026.pdf,18,,pending,needs manual exact device verification
+Topical Aerosol Solution 10 mg / 1 gm solution,As in insert leaflet in adults and children ≥ 14 years of age.: Carton box contains 120 ml aluminum can that contains 50 gm,as_in_insert_leaflet_in_adults_and_children_14_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,19,,pending,needs manual exact device verification
+Diethylamine Salicylate / Camphor Cream,0.1 gm/0.014 gm/0.025 gm  As in insert leaflet in adults and children over 6 years: Carton box inside it printed aluminum tube of 40 g cream with Al,0_1_gm_0_014_gm_0_025_gm_as_in_insert_leaflet_in_adults_and_children_over_6_years,Topical,otic,egypt_otc_drug_list_2026.pdf,19,,pending,needs manual exact device verification
+40 mg / 100 mg/300 mg,As in insert leaflet in adults and children 12 years of age and,as_in_insert_leaflet_in_adults_and_children_12_years_of_age_and,Topical,otic,egypt_otc_drug_list_2026.pdf,19,,pending,needs manual exact device verification
+Sodium Hyaluronate,Sterile ophthalmic,sterile_ophthalmic,Topical,ophthalmic,egypt_otc_drug_list_2026.pdf,20,,pending,needs manual exact device verification
+0.25 mg / 1 ml,"Relieve redness of the eyes due to minor irritations such as: environmental allergies, dryness and fatigue for adults ≥ 18",relieve_redness_of_the_eyes_due_to_minor_irritations_such_as,Topical,ophthalmic,egypt_otc_drug_list_2026.pdf,20,,pending,needs manual exact device verification
+Short term treatment of jet - lag (not more than 5 days) in,"adults ≥ 18 years: Carton box contains 10 ,20 or 30 Oro-dispersible films ,each is",adults_18_years,Topical,otic,egypt_otc_drug_list_2026.pdf,20,,pending,needs manual exact device verification
+10 mg /1 gm,As in Insert Leaflet  in adults and Children ≥ 12 years of age: Carton box containing Al tube containing 15 gm topical cream with,as_in_insert_leaflet_in_adults_and_children_12_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,21,,pending,needs manual exact device verification
+1 gm / 100 ml,As in insert leaflet in adults and children ≥ 16 years of age,as_in_insert_leaflet_in_adults_and_children_16_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,21,,pending,needs manual exact device verification
+20 mg / 1 gm,As in insert leaflet in adults ≥ 18 years of age: Carton box containing printed aluminum tube containing 40 gm,as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,21,,pending,needs manual exact device verification
+0.1 gm / 100 g,As in insert leaflet in patients ≥ 12 years of age,as_in_insert_leaflet_in_patients_12_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,22,,pending,needs manual exact device verification
+1 mg / 1 gm,As in insert leaflet in patients ≥ 12 years of age: Carton box contains an aluminum tube containing 30 g topical gel,as_in_insert_leaflet_in_patients_12_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,23,,pending,needs manual exact device verification
+0.75 mg,"As in insert leaflet in adults ≥ 18 years of age: Carton box containing 1 , 2 or 3 (Al / Transparent PVC ) blisters",as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,23,,pending,needs manual exact device verification
+1.5 mg,As in insert leaflet in adults ≥ 18 years of age: Carton box contains one (Al / colorless transparent PVC) strip of 1,as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,23,,pending,needs manual exact device verification
+Vitamin D3 (Cholecalciferol),Oral drops: 2800 I.U. /1 ml,oral_drops,Oral,oral_liquid,egypt_otc_drug_list_2026.pdf,24,,pending,needs manual exact device verification
+1 mg / Spray,As in insert leaflet in adults ≥ 18 years of age: PET bottle containing 13.2 ml of solution .one bottle contains 150,as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,25,,pending,needs manual exact device verification
+100 mg ( as 3000 CEIP unit) Adjuvant Treatment and prophylaxis of edema in adults ≥ 18,years in otorhinolaryngology situations:,years_in_otorhinolaryngology_situations,Topical,otic,egypt_otc_drug_list_2026.pdf,25,,pending,needs manual exact device verification
+Native Gymnema Leaves Powder EHard Gelatin Capsules,"100 mg / 175 mg /150 mcg As in insert leaflet in adults ≥ 18 years of age: Carton box containing 1 , 2 , 3 or 6 (Al / Transparent PVC ) strips",100_mg_175_mg_150_mcg_as_in_insert_leaflet_in_adults_18_years_of_age,Topical,otic,egypt_otc_drug_list_2026.pdf,25,,pending,needs manual exact device verification

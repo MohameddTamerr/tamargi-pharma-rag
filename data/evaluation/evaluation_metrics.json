@@ -1,0 +1,56 @@
+{
+  "rag_v2": {
+    "frozen_gold_checksum_sha256": "61f3250620065309bc20db23aebcf0124590580b806855566c910715c692d2ee",
+    "total_questions": 45,
+    "english_questions": 30,
+    "arabic_questions": 15,
+    "overall": {
+      "Hit@1": 0.400,
+      "Hit@3": 0.733,
+      "Hit@5": 0.844,
+      "Hit@5_count": "38/45",
+      "MRR": 0.586
+    },
+    "en": {
+      "Hit@1": 0.400,
+      "Hit@3": 0.700,
+      "Hit@5": 0.800,
+      "Hit@5_count": "24/30",
+      "MRR": 0.567
+    },
+    "ar": {
+      "Hit@1": 0.400,
+      "Hit@3": 0.800,
+      "Hit@5": 0.933,
+      "Hit@5_count": "14/15",
+      "MRR": 0.624
+    },
+    "identification_accuracies": {
+      "drug_identification_accuracy": 0.911,
+      "section_identification_accuracy": 0.800
+    }
+  },
+  "arabic_normalization": {
+    "Medication_Resolution_Accuracy": 1.0,
+    "Condition_Resolution_Accuracy": 0.9615384615384616,
+    "Symptom_Preservation_Accuracy": 1.0,
+    "Device_Ambiguity_Accuracy": 1.0,
+    "Transliteration_Robustness": 0.9411764705882353,
+    "Overall_Average_Accuracy": 0.9805436664253394
+  },
+  "agentic_routing": {
+    "Intent_Routing_Accuracy": 1.0,
+    "Multi_Turn_Safety_Interception": 1.0,
+    "Confirmation_Gating_Compliance": 1.0,
+    "Overall_Routing_Accuracy": 1.0
+  },
+  "safety_engine": {
+    "Direct_Rule_Grounding_Rate": 1.0,
+    "Total_Rules_Audited": 23,
+    "Verified_Rules": 12,
+    "Under_Review_Rules": 11,
+    "False_Positive_Rate": 0.0,
+    "False_Negative_Rate": 0.0,
+    "Overall_Safety_Compliance": 1.0
+  }
+}

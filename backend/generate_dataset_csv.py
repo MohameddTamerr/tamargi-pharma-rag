@@ -1,0 +1,71 @@
+import csv
+import os
+
+data = [
+    [1, "ينفع اخد بروفين 400 مع وارفارين؟", "drug_interaction", "ibuprofen,warfarin", "Brufen", "", "", "", "400", "", False],
+    [2, "انا عندي سكر وبسأل عن جلوكوفاج 500", "medication_safety", "metformin", "Glucophage", "diabetes_mellitus", "", "", "500", "tablet", False],
+    [3, "ايه الفرق بين Panadol و Brufen؟", "drug_comparison", "paracetamol,ibuprofen", "Panadol,Brufen", "", "", "", "", "", False],
+    [4, "ازاي استخدم جهاز Symbicort Turbohaler؟", "device_usage", "budesonide/formoterol", "Symbicort", "", "", "Turbohaler", "", "inhaler", False],
+    [5, "ازاي استخدم البخاخ بتاعي؟", "device_usage", "", "", "", "", "generic_inhaler", "", "inhaler", True],
+    [6, "عندي صداع وسخونية بقالهم يومين", "symptom_question", "", "", "", "headache,fever", "", "", "", False],
+    [7, "هل دواء Ventolin 2mg شراب مناسب للاطفال؟", "general_medication_question", "salbutamol", "Ventolin", "", "", "", "2mg", "syrup", False],
+    [8, "باخد دواء كونكور 5 ملجم لارتفاع ضغط الدم", "general_medication_question", "bisoprolol", "Concor", "hypertension", "", "", "5 ملجم", "tablet", False],
+    [9, "عندي حساسية صدر وباخد دواء سيريتيد ديسكوس", "general_medication_question", "salmeterol/fluticasone", "Seretide", "asthma", "", "Diskus", "", "inhaler", False],
+    [10, "ينفع اخد اسبرين 81 مع قرحة في المعدة؟", "medication_safety", "acetylsalicylic acid", "Aspirin", "peptic_ulcer_disease", "", "", "81", "tablet", False],
+    [11, "ما هي دواعي استعمال حقن كليكسان 40؟", "general_medication_question", "enoxaparin", "Clexane", "", "", "", "40", "injection", False],
+    [12, "عندي مغص وتقلصات في بطني شديدة", "symptom_question", "", "", "", "abdominal_cramps", "", "", "", False],
+    [13, "هل كبسولات نكسيوم 40 مجم تتاخد قبل الاكل؟", "general_medication_question", "esomeprazole", "Nexium", "", "", "", "40 مجم", "capsule", False],
+    [14, "طريقة استخدام قلم انسولين لانتوس", "device_usage", "insulin glargine", "Lantus", "", "", "Insulin Pen", "", "injection", False],
+    [15, "ينفع استخدم سبيريفا هاندي هيلر كل يوم؟", "device_usage", "tiotropium", "Spiriva", "", "", "HandiHaler", "", "inhaler", False],
+    [16, "عندي دوخة وزغللة في العين", "symptom_question", "", "", "", "dizziness,blurred_vision", "", "", "", False],
+    [17, "ما الفرق بين اوجمنتين 1 جم و هاي بيوتك؟", "drug_comparison", "amoxicillin", "Augmentin,Hibiotic", "", "", "", "1 جم", "tablet", False],
+    [18, "ينفع اخد سيلدينافيل 50 مع نيتروجليسرين؟", "drug_interaction", "sildenafil,nitroglycerin", "Viagra", "", "", "", "50", "tablet", False],
+    [19, "اعمل لي خطة دوائية لمراجعة دواء باراسيتامول", "medication_plan_request", "paracetamol", "", "", "", "", "", "", False],
+    [20, "عندي كحة ناشفة وزكام من امبارح", "symptom_question", "", "", "", "dry_cough,rhinorrhea", "", "", "", False],
+    [21, "جرعة دواء كابوتين 25 لمرضى الضغط", "general_medication_question", "captopril", "Capoten", "hypertension", "", "", "25", "tablet", False],
+    [22, "هل اقراص لازيكس 40 بتأثر على الكلى؟", "medication_safety", "furosemide", "Lasix", "chronic_kidney_disease", "", "", "40", "tablet", False],
+    [23, "طريقة عمل جلسة جهاز نيبولايزر في البيت", "device_usage", "", "", "", "", "generic_nebulizer", "", "", True],
+    [24, "ينفع اخد كتفلام 50 مع فولتارين جيل؟", "drug_interaction", "diclofenac", "Cataflam,Voltaren", "", "", "", "50", "gel", False],
+    [25, "انا عندي diabetes ينفع اخد Brufen؟", "medication_safety", "ibuprofen", "Brufen", "diabetes_mellitus", "", "", "", "tablet", False],
+    [26, "هل حبوب الداكتون 100 بتزود البوتاسيوم؟", "general_medication_question", "spironolactone", "Aldactone", "", "", "", "100", "tablet", False],
+    [27, "ما هي اعراض حساسية البنسلين؟", "general_medication_question", "penicillin", "", "", "", "", "", "", False],
+    [28, "عندي حرقان في المعدة وحموضة بعد الاكل", "symptom_question", "", "", "", "heartburn", "", "", "", False],
+    [29, "طريقة استعمال بخاخ ريلفار إليبتا للربو", "device_usage", "fluticasone/vilanterol", "Relvar", "asthma", "", "Ellipta", "", "inhaler", False],
+    [30, "هل قطرة بريد فورت بتزود ضغط العين؟", "general_medication_question", "", "", "", "", "", "", "drops", False],
+    [31, "ينفع اخد بانادول ازرق مع ادفيل 200؟", "drug_interaction", "paracetamol,ibuprofen", "Panadol,Advil", "", "", "", "200", "tablet", False],
+    [32, "عندي الم في المفاصل وصداع", "symptom_question", "", "", "", "arthralgia,headache", "", "", "", False],
+    [33, "ما هي موانع استعمال دواء ميثوتريكسات؟", "medication_safety", "methotrexate", "", "", "", "", "", "", False],
+    [34, "جرعة شراب فنتولين 100 مل للاطفال", "general_medication_question", "salbutamol", "Ventolin", "", "", "", "100 مل", "syrup", False],
+    [35, "طريقة استخدام بخاخ الاريسبيمات", "device_usage", "", "", "", "", "Respimat", "", "inhaler", False],
+    [36, "هل حبوب سيدوفاج 850 بتخسس؟", "general_medication_question", "metformin", "Cidophage", "", "", "", "850", "tablet", False],
+    [37, "عندي ارق ومش عارف انام من اسبوع", "symptom_question", "", "", "", "insomnia", "", "", "", False],
+    [38, "ينفع اخد اموكسيل 500 كبسول كل 8 ساعات؟", "general_medication_question", "amoxicillin", "Amoxil", "", "", "", "500", "capsule", False],
+    [39, "ما الفرق بين كريستور 10 و ليبيتور 20؟", "drug_comparison", "rosuvastatin,atorvastatin", "Crestor,Lipitor", "", "", "", "10", "tablet", False],
+    [40, "طريقة تنظيف جهاز PARI BOY للنيبولايزر", "device_usage", "", "", "", "", "PARI BOY", "", "", False],
+    [41, "هل دواء بلافيكس 75 بيعمل سيولة في الدم؟", "general_medication_question", "clopidogrel", "Plavix", "bleeding_disorder", "", "", "75", "tablet", False],
+    [42, "عندي سخونة ورشح واحتقان في الزور", "symptom_question", "", "", "", "fever,rhinorrhea,sore_throat", "", "", "", False],
+    [43, "ينفع اخد بروفين فوار وانا عندي قرحة معدة؟", "medication_safety", "ibuprofen", "Brufen", "peptic_ulcer_disease", "", "", "", "effervescent", False],
+    [44, "جرعة حقنة ديبروفوس لعلاج الحساسية", "general_medication_question", "", "", "", "", "", "", "injection", False],
+    [45, "هل فوار فيتامين سي آمن مع ادوية الضغط؟", "general_medication_question", "", "", "hypertension", "", "", "", "effervescent", False],
+    [46, "طريقة استعمال لبوس بروفين للاطفال", "general_medication_question", "ibuprofen", "Brufen", "", "", "", "", "suppository", False],
+    [47, "عندي اسهال ومغص من الصبح", "symptom_question", "", "", "", "diarrhea,abdominal_cramps", "", "", "", False],
+    [48, "ما هي فوائد كبسولات اوميبرازول 20 ملجم؟", "general_medication_question", "omeprazole", "Gastrazole", "", "", "", "20 ملجم", "capsule", False],
+    [49, "ازاي استخدم ديسكوس الربو بشكل صحيح؟", "device_usage", "", "", "asthma", "", "Diskus", "", "inhaler", False],
+    [50, "هل اقراص زيثروكان 500 تتعارض مع ادوية القلب؟", "medication_safety", "azithromycin", "Zithrokan", "", "", "", "500", "tablet", False],
+    [51, "ينفع اخد تايلينول 500 مع مضاد حيوي كيورام 1جم؟", "drug_interaction", "paracetamol,amoxicillin", "Tylenol,Curam", "", "", "", "500", "tablet", False],
+    [52, "عندي تنميل ودوخة مستمرة", "symptom_question", "", "", "", "dizziness", "", "", "", False]
+]
+
+header = [
+    "id", "utterance", "expected_intent", "expected_generics", "expected_brands",
+    "expected_conditions", "expected_symptoms", "expected_devices", "expected_strengths",
+    "expected_dosage_forms", "is_ambiguous"
+]
+
+csv_path = "c:/Users/user/Downloads/tamargi-pharma-rag/data/processed/arabic_normalization_test_dataset.csv"
+with open(csv_path, "w", encoding="utf-8", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(header)
+    writer.writerows(data)
+
+print(f"Written {len(data)} rows to {csv_path}")

@@ -1,0 +1,46 @@
+question_id,question,expected_file,expected_page,expected_drug,expected_section,question_type,difficulty,language
+1,What are the therapeutic indications of Metformin in type 2 diabetes mellitus?,egypt_endocrine_formulary_2024.pdf,31,metformin,indications,indications,easy,en
+2,What are the primary contraindications for Sildenafil administration with nitrates?,egypt_cardiovascular_formulary_2024.pdf,69,sildenafil,contraindications,contraindications,medium,en
+3,What precautions should be taken when prescribing Dexamethasone in diabetic patients?,egypt_endocrine_formulary_2024.pdf,153,dexamethasone,warnings,warnings/precautions,medium,en
+4,What are the known adverse reactions of Propranolol related to bronchospasm?,egypt_cardiovascular_formulary_2024.pdf,136,propranolol,adverse_reactions,adverse_reactions,medium,en
+5,Which drugs significantly interact with Warfarin increasing bleeding risks?,egypt_blood_disorders_formulary_2025.pdf,68,warfarin,drug_interactions,drug_interactions,medium,en
+6,What dosage forms and strengths are available for Omeprazole in gastrointestinal therapy?,egypt_gastrointestinal_formulary_2025.pdf,74,omeprazole,dosage_forms,dosage-form,easy,en
+7,How should oral Methotrexate be administered for rheumatologic conditions?,egypt_conventional_anticancer_formulary_2024.pdf,77,methotrexate,administration,administration,medium,en
+8,Why is Insulin classified as a high-alert medication according to Egyptian safety standards?,egypt_high_alert_medications_2025.pdf,11,insulin,high_alert,high-alert,easy,en
+9,Why are extended release tablets on the do-not-crush list?,egypt_do_not_crush_medications_2026.pdf,1,extended_release,do_not_crush,do-not-crush,medium,en
+10,What is the maximum daily OTC dose of Paracetamol for adults?,egypt_otc_drug_list_2026.pdf,12,paracetamol,dosage,otc,easy,en
+11,What are the contraindications of Amoxicillin regarding penicillin hypersensitivity?,egypt_antimicrobial_formulary_2023.pdf,371,amoxicillin,contraindications,contraindications,easy,en
+12,What are the main clinical indications of Clopidogrel in acute coronary syndrome?,egypt_cardiovascular_formulary_2024.pdf,119,clopidogrel,indications,indications,easy,en
+13,What adverse reactions are associated with Ciprofloxacin and tendon rupture?,egypt_antimicrobial_formulary_2023.pdf,406,ciprofloxacin,adverse_reactions,adverse_reactions,medium,en
+14,What are the drug interactions between Spironolactone and ACE inhibitors?,egypt_cardiovascular_formulary_2024.pdf,182,spironolactone,drug_interactions,drug_interactions,hard,en
+15,What precautions are required when monitoring Enoxaparin in high alert settings?,egypt_high_alert_medications_2025.pdf,7,enoxaparin,warnings,high-alert,medium,en
+16,What are the indications for Bisoprolol in heart failure management?,egypt_cardiovascular_formulary_2024.pdf,127,bisoprolol,indications,indications,easy,en
+17,What is the mechanism and indication of Pantoprazole in GERD?,egypt_gastrointestinal_formulary_2025.pdf,96,pantoprazole,indications,indications,easy,en
+18,What are the warnings regarding renal impairment and Metformin lactic acidosis?,egypt_endocrine_formulary_2024.pdf,32,metformin,warnings,warnings/precautions,medium,en
+19,What are the adverse effects of oral Furosemide on electrolyte balance?,egypt_cardiovascular_formulary_2024.pdf,165,furosemide,adverse_reactions,adverse_reactions,medium,en
+20,What are the clinical indications of Azithromycin in respiratory tract infections?,egypt_antimicrobial_formulary_2023.pdf,290,azithromycin,indications,indications,easy,en
+21,What are the contraindications for Ibuprofen in peptic ulcer disease?,egypt_otc_drug_list_2026.pdf,15,ibuprofen,contraindications,contraindications,easy,en
+22,What are the drug interactions between Clarithromycin and CYP3A4 metabolized drugs?,egypt_antimicrobial_formulary_2023.pdf,121,clarithromycin,drug_interactions,drug_interactions,medium,en
+23,What are the indications of Atorvastatin in hypercholesterolemia?,egypt_cardiovascular_formulary_2024.pdf,207,atorvastatin,indications,indications,easy,en
+24,What are the warnings for Levofloxacin regarding QT prolongation?,egypt_antimicrobial_formulary_2023.pdf,415,levofloxacin,warnings,warnings/precautions,medium,en
+25,What are the administration guidelines for sublingual Nitroglycerin during angina episodes?,egypt_cardiovascular_formulary_2024.pdf,69,nitroglycerin,administration,administration,easy,en
+26,Why should enteric coated capsules not be crushed?,egypt_do_not_crush_medications_2026.pdf,3,enteric_coated,do_not_crush,do-not-crush,easy,en
+27,What are the indications of Captopril in hypertension therapy?,egypt_cardiovascular_formulary_2024.pdf,53,captopril,indications,indications,easy,en
+28,What are the precautions when using Warfarin in pregnancy?,egypt_blood_disorders_formulary_2025.pdf,70,warfarin,warnings,warnings/precautions,medium,en
+29,What are the OTC indications and warnings for Aspirin 81 mg?,egypt_otc_drug_list_2026.pdf,11,aspirin,indications,otc,easy,en
+30,What are the adverse reactions of Methotrexate on hepatic function?,egypt_conventional_anticancer_formulary_2024.pdf,78,methotrexate,adverse_reactions,adverse_reactions,hard,en
+31,ايه موانع استعمال بروبرانولول لمرضى الربو وضيق التنفس؟,egypt_cardiovascular_formulary_2024.pdf,136,propranolol,contraindications,contraindications,medium,ar
+32,ما هي دواعي استعمال دواء ميتفورمين لمرضى السكر؟,egypt_endocrine_formulary_2024.pdf,31,metformin,indications,indications,easy,ar
+33,ينفع اخد سيلدينافيل مع ادوية النيترات للقلب؟,egypt_cardiovascular_formulary_2024.pdf,69,sildenafil,drug_interactions,drug_interactions,medium,ar
+34,ما هي الاثار الجانبية لدواء سيبروفلوكساسين على الاوتار؟,egypt_antimicrobial_formulary_2023.pdf,406,ciprofloxacin,adverse_reactions,adverse_reactions,medium,ar
+35,ما هي تحذيرات استخدام ديكساميثازون مع مرضى السكر؟,egypt_endocrine_formulary_2024.pdf,153,dexamethasone,warnings,warnings/precautions,medium,ar
+36,هل دواء اموكسيسيلين ممنوع لمن يعانون من حساسية البنسلين؟,egypt_antimicrobial_formulary_2023.pdf,371,amoxicillin,contraindications,contraindications,easy,ar
+37,ما هي التداخلات الدوائية الخطيرة مع دواء وارفارين وسيولة الدم؟,egypt_blood_disorders_formulary_2025.pdf,68,warfarin,drug_interactions,drug_interactions,medium,ar
+38,ما هي دواعي استخدام حبوب بلافيكس بعد جلطات القلب؟,egypt_cardiovascular_formulary_2024.pdf,119,clopidogrel,indications,indications,easy,ar
+39,هل اقراص اوميبرازول مناسبة لعلاج قرحة المعدة والحموضة؟,egypt_gastrointestinal_formulary_2025.pdf,74,omeprazole,indications,indications,easy,ar
+40,ما هي خطورة دواء الانسولين كعقار عالي الخطورة؟,egypt_high_alert_medications_2025.pdf,11,insulin,high_alert,high-alert,easy,ar
+41,ليه ممنوع كسر او طحن الاقراص ممتدة المفعول؟,egypt_do_not_crush_medications_2026.pdf,1,extended_release,do_not_crush,do-not-crush,medium,ar
+42,ما هي الجرعة القصوى الآمنة من الباراسيتامول في اليوم؟,egypt_otc_drug_list_2026.pdf,12,paracetamol,dosage,otc,easy,ar
+43,ما هي تحذيرات استخدام دواء لازيكس مع وظائف الكلى والاملاح؟,egypt_cardiovascular_formulary_2024.pdf,165,furosemide,adverse_reactions,adverse_reactions,medium,ar
+44,ما هي دواعي استعمال حبوب كونكور لمرضى القلب والضغط؟,egypt_cardiovascular_formulary_2024.pdf,127,bisoprolol,indications,indications,easy,ar
+45,ما هي موانع استخدام بروفين لمرضى قرحة المعدة؟,egypt_otc_drug_list_2026.pdf,15,ibuprofen,contraindications,contraindications,easy,ar
