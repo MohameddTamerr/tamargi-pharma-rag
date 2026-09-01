@@ -13,6 +13,7 @@ import {
   Type
 } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
+import { useTheme } from "@/lib/theme-context";
 
 interface NavbarProps {
   onToggleSidebar?: () => void;
@@ -20,14 +21,7 @@ interface NavbarProps {
 
 export default function Navbar({ onToggleSidebar }: NavbarProps) {
   const { user, fontSize, setFontSize, toggleSidebar } = useAuth();
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    if (typeof document !== "undefined") {
-      document.documentElement.classList.toggle("dark");
-    }
-  };
+  const { isDark, toggleTheme } = useTheme();
 
   const cycleFontSize = () => {
     if (fontSize === "normal") setFontSize("large");
@@ -108,14 +102,14 @@ export default function Navbar({ onToggleSidebar }: NavbarProps) {
           <span className="hidden sm:inline">الملف الطبي</span>
         </Link>
 
-        {/* Dark Mode Toggle */}
+        {/* Dark / Light Mode Toggle */}
         <button
-          onClick={toggleDarkMode}
+          onClick={toggleTheme}
           className="p-2 rounded-xl text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
-          title="تبديل الوضع الليلي"
-          aria-label="تبديل الوضع الليلي"
+          title={isDark ? "التبديل إلى الوضع الفاتح" : "التبديل إلى الوضع الليلي"}
+          aria-label={isDark ? "التبديل إلى الوضع الفاتح" : "التبديل إلى الوضع الليلي"}
         >
-          {isDarkMode ? <Sun className="w-5 h-5 text-amber-400" /> : <Moon className="w-5 h-5" />}
+          {isDark ? <Sun className="w-5 h-5 text-amber-400" /> : <Moon className="w-5 h-5" />}
         </button>
 
       </div>
