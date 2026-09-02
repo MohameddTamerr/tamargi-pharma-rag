@@ -153,18 +153,22 @@ flowchart TD
     Gemini --> FinalResponse[Cited Response with Page Provenance]
     FinalResponse --> Frontend
 ```
-## Retrieval Evaluation
+## Final RAG V2 Retrieval Evaluation
 
-The retrieval pipeline was evaluated on a fixed gold dataset of **45 clinical questions** using **Recall@5** and **Mean Reciprocal Rank (MRR)**.
+The final RAG V2 pipeline was evaluated on a frozen gold dataset of **45 clinical questions**, including **30 English** and **15 Arabic** queries.
 
-| Retrieval Method | Recall@5 | MRR |
-|---|---:|---:|
-| Dense Retrieval (Multilingual-E5) | 35.6% | 25.4% |
-| BM25 | 46.7% | 29.9% |
-| Hybrid Retrieval (Dense + BM25 with RRF) | 40.0% | 30.2% |
-| Hybrid + Cross-Encoder Reranking | **44.4%** | **35.0%** |
+| Metric | Final RAG V2 Result |
+|---|---:|
+| Hit@1 | 40.0% |
+| Hit@3 | 73.3% |
+| Hit@5 | **84.4%** |
+| MRR | **58.6%** |
+| English Hit@5 | 80.0% |
+| Arabic Hit@5 | **93.3%** |
 
-The results show that combining hybrid retrieval with Cross-Encoder reranking achieved the strongest overall ranking performance, reaching the highest **MRR of 35.0%**. BM25 achieved a slightly higher Recall@5 in this specific benchmark, while the reranked hybrid pipeline provided better overall ranking quality.
+The final RAG V2 pipeline combines medication resolution, clinical section detection, drug-level scope identification, Dense and BM25 retrieval, Reciprocal Rank Fusion (RRF), Cross-Encoder reranking, and evidence filtering.
+
+The system achieved **84.4% Hit@5**, meaning that the expected clinical evidence was retrieved within the top five results for **38 out of 45** evaluation questions.
 ---
 
 ## 6. RAG V2 Retrieval Pipeline
