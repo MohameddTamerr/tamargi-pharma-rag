@@ -153,28 +153,18 @@ flowchart TD
     Gemini --> FinalResponse[Cited Response with Page Provenance]
     FinalResponse --> Frontend
 ```
-## Evaluation
+## Retrieval Evaluation
 
-Tamargi is evaluated across the retrieval and generation stages to measure how reliably the system retrieves relevant pharmaceutical evidence and produces grounded responses.
-
-### Retrieval Evaluation
-
-The retrieval pipeline is evaluated using metrics such as:
-
-- Recall@K
-- Mean Reciprocal Rank (MRR)
-- Precision@K
-
-The evaluation compares different retrieval configurations:
+The retrieval pipeline was evaluated on a fixed gold dataset of **45 clinical questions** using **Recall@5** and **Mean Reciprocal Rank (MRR)**.
 
 | Retrieval Method | Recall@5 | MRR |
 |---|---:|---:|
-| Dense Retrieval | TODO | TODO |
-| BM25 | TODO | TODO |
-| Hybrid Retrieval | TODO | TODO |
-| Hybrid + Cross-Encoder Reranking | TODO | TODO |
+| Dense Retrieval (Multilingual-E5) | 35.6% | 25.4% |
+| BM25 | 46.7% | 29.9% |
+| Hybrid Retrieval (Dense + BM25 with RRF) | 40.0% | 30.2% |
+| Hybrid + Cross-Encoder Reranking | **44.4%** | **35.0%** |
 
-> Evaluation results will be added after completing the formal benchmark. No unverified performance metrics are reported.
+The results show that combining hybrid retrieval with Cross-Encoder reranking achieved the strongest overall ranking performance, reaching the highest **MRR of 35.0%**. BM25 achieved a slightly higher Recall@5 in this specific benchmark, while the reranked hybrid pipeline provided better overall ranking quality.
 ---
 
 ## 6. RAG V2 Retrieval Pipeline
